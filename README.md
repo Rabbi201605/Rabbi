@@ -11,7 +11,10 @@ Welcome! I am a Statistics graduate from **Pabna University of Science and Techn
 
 ## Featured Project
 ### [Drug Addiction in Bangladesh — Statistical Analysis](Projects/drug-addiction-bangladesh/)
-A documented research project examining social, family, and behavioral factors associated with drug addiction, based on a survey dataset. The repository includes a reproducible exploratory-analysis starter script. Dataset-specific analysis outputs will be added after the source data and its reuse conditions are verified.
+A documented research project examining social, family, and behavioral factors associated with drug addiction, based on a survey dataset. The repository includes a reproducible exploratory-analysis starter script. The repository includes an exploratory-analysis script and a chi-square association script. Dataset-specific analysis outputs will be added after the source data and its reuse conditions are verified.
+
+### [Healthcare Data Analysis and Power BI Dashboard](Projects/healthcare-dashboard/)
+*In progress.* A project that cleans a public healthcare dataset with Python and presents it in a Power BI dashboard. The data-preparation script is ready; the dataset, analysis, and dashboard are still to be added.
 
 ## Portfolio Navigation
 | Section | Description |

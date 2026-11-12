@@ -12,8 +12,13 @@ For each project, I aim to include:
 6. Visualizations and key findings
 7. Limitations and conclusion
 
+## Projects
+| Project | Status |
+|---|---|
+| [Drug Addiction in Bangladesh](drug-addiction-bangladesh/) | Documentation and analysis scripts ready; dataset and results pending |
+| [Healthcare Data Analysis and Power BI Dashboard](healthcare-dashboard/) | Data-preparation script ready; dataset, analysis, and dashboard pending |
+
 ## Planned projects
-- Drug Addiction in Bangladesh: A Statistical Analysis of Social, Family and Behavioral Determinants
 - Community Health Services: Patient Survey Analysis
 - Student Performance Data Analysis
 

@@ -42,9 +42,12 @@ drug-addiction-bangladesh/
 ├── data/
 │   ├── raw/          # Place permitted source data here (not committed)
 │   └── processed/    # Generated files (not committed)
+├── docs/
+│   └── codebook_template.md
 ├── outputs/          # Generated summaries and figures (not committed)
 ├── src/
-│   └── eda.py
+│   ├── eda.py
+│   └── association_tests.py
 ├── requirements.txt
 └── README.md
 ```
@@ -58,6 +61,19 @@ python src/eda.py --input data/raw/drug_addiction_bangladesh.csv --output output
 ```
 
 The script produces a data overview, missing-value summary, descriptive statistics, categorical frequency tables, and numeric correlation output when applicable. It does not assume the meaning of coded columns.
+
+## Test Associations with the Outcome
+After completing the codebook (`docs/codebook_template.md`), run chi-square tests of the outcome column against the other variables. Replace `<outcome_column>` with the actual column name:
+
+```bash
+python src/association_tests.py --input data/raw/drug_addiction_bangladesh.csv --outcome <outcome_column> --output outputs
+```
+
+The output (`outputs/chi_square_results.csv`) lists the chi-square statistic, degrees of freedom, p-value, Cramér's V, and a warning when expected cell counts are too small. Results are not adjusted for multiple comparisons.
+
+## Status
+- Done: project documentation, reproducible EDA script, chi-square script, codebook template
+- Pending: placing the permitted dataset in `data/raw/`, completing the codebook, running the analysis, and writing up verified findings
 
 ## Important Ethical and Methodological Notes
 - This is observational survey data; association does not establish causation.

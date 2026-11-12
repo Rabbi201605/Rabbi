@@ -1,31 +1,34 @@
 # Rabbi | Data Analytics Portfolio
 
-Welcome to my GitHub portfolio. I am a Statistics graduate from **Pabna University of Science and Technology (PUST), Bangladesh**, with an interest in data analytics, statistical analysis, and data-driven problem-solving.
+Welcome! I am a Statistics graduate from **Pabna University of Science and Technology (PUST), Bangladesh**. I am interested in data analytics, statistical analysis, and evidence-based problem-solving.
 
 ## About Me
-- **Academic background:** B.Sc. in Statistics, PUST
+- **Education:** B.Sc. in Statistics, PUST
 - **CGPA:** 3.00/4.00
-- **Tools and technologies:** Python, R, Excel, and SPSS
-- **Areas of interest:** Data cleaning, exploratory data analysis (EDA), statistical analysis, data visualization, and reporting
-- **Career interests:** Data Analyst, Business Intelligence, and related analytical roles
+- **Tools studied / used:** Python, R, Excel, and SPSS
+- **Focus areas:** Data cleaning, exploratory data analysis (EDA), statistical testing, regression, visualization, and reporting
+- **Career interests:** Data Analyst, MIS, Business Intelligence, and analytical roles
 
-## Portfolio Structure
-| Folder | Contents |
+## Featured Project
+### [Drug Addiction in Bangladesh — Statistical Analysis](Projects/drug-addiction-bangladesh/)
+A documented research project examining social, family, and behavioral factors associated with drug addiction, based on a survey dataset. The repository includes a reproducible exploratory-analysis starter script. Dataset-specific analysis outputs will be added after the source data and its reuse conditions are verified.
+
+## Portfolio Navigation
+| Section | Description |
 |---|---|
-| [Python](Python/) | Python practice, data cleaning, analysis, and visualization |
-| [Statistics](Statistics/) | Statistical methods, tests, and analysis |
-| [Excel](Excel/) | Spreadsheet analysis, formulas, and dashboards |
-| [Projects](Projects/) | End-to-end data analysis projects |
-| [Datasets](Datasets/) | Notes and links for datasets used in projects |
+| [Python](Python/) | Python learning and data analysis |
+| [Statistics](Statistics/) | Statistical methods and applied analysis |
+| [Excel](Excel/) | Spreadsheet analysis and dashboards |
+| [Projects](Projects/) | End-to-end analytical projects |
+| [Datasets](Datasets/) | Dataset documentation and source notes |
 
-## Featured Project Ideas
-1. **Drug Addiction in Bangladesh** — statistical analysis of social, family, and behavioral factors using a survey dataset.
-2. **Community Health Services** — exploratory analysis of patient survey data.
-3. **Student Performance Analysis** — descriptive statistics and visualization of academic performance.
-
-> Project ideas are listed here as planned portfolio work. Each project will be marked as completed only after its files and analysis are added.
+## Project Principles
+- Clearly identify dataset sources and usage permissions.
+- Keep personal or confidential information out of public repositories.
+- Explain methods, assumptions, limitations, and findings.
+- Do not describe planned or unverified work as completed.
 
 ## Contact
 - **GitHub:** [@Rabbi201605](https://github.com/Rabbi201605)
 
-Thank you for visiting my portfolio!
+Thanks for visiting!

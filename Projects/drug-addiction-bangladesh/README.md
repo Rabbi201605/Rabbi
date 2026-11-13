@@ -25,6 +25,19 @@ The reported original dataset contained **1,426 respondents and 26 coded variabl
 - `src/statistical_analysis.py`: reproducible synthetic statistical analysis pipeline
 - `outputs/`: analysis notes and generated outputs
 
+## Original Dataset Source and Recovery
+
+The earlier thesis notes identify the source as Mostafa Mohiuddin Jalal Protik, **Drug Addiction in Bangladesh – Reasons**:
+https://www.kaggle.com/protikmostafa/drug-addiction-in-bangladesh-reasons
+
+The Kaggle page could not be independently opened in this session, so the original CSV has not yet been recovered or verified. If the page is accessible in your Kaggle account, download the dataset and place the permitted CSV at `data/raw/drug_addiction_bangladesh.csv`. Keep the original file unchanged and record its filename, download date, license, and SHA-256 checksum. Do not substitute the synthetic practice file.
+
+If you use the Kaggle CLI after configuring your own Kaggle API credentials:
+```bash
+kaggle datasets download -d protikmostafa/drug-addiction-in-bangladesh-reasons -p data/raw
+```
+Then extract the archive and inspect the actual filename and columns before running the original-data workflow.
+
 ## Original Dataset Workflow
 1. Obtain the original dataset from its source and record its license / terms.
 2. Place a permitted copy at `data/raw/drug_addiction_bangladesh.csv`.

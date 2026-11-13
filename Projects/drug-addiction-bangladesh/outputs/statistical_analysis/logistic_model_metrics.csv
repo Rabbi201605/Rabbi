@@ -1,0 +1,2 @@
+n_complete,n_train,n_test,accuracy,precision,recall,roc_auc,confusion_matrix_tn_fp_fn_tp
+1426,1069,357,0.5910364145658263,0.4727272727272727,0.37142857142857144,0.6115536537195523,"[159, 58, 88, 52]"

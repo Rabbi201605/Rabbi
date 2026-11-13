@@ -79,3 +79,15 @@ These figures are historical notes from the earlier analysis and have **not** be
 - Do not upload identifiable, confidential, or restricted respondent-level data.
 - Interpret coded variables using the authentic original codebook.
 - Report sample limitations, missingness, and model assumptions.
+
+
+## Latest Synthetic Analysis Outputs
+
+A successful GitHub Actions run has generated the current practice analysis. The reproducible report and key tables are committed here:
+- [Statistical analysis report](outputs/statistical_analysis/statistical_analysis_report.md)
+- [Categorical association tests](outputs/statistical_analysis/categorical_association_tests.csv)
+- [Age group comparison](outputs/statistical_analysis/age_group_comparison.csv)
+- [Logistic model metrics](outputs/statistical_analysis/logistic_model_metrics.csv)
+- [Outcome distribution](outputs/statistical_analysis/outcome_distribution.csv)
+
+The full run, including charts and additional descriptive outputs, is available as the `synthetic-statistical-analysis` artifact in [GitHub Actions](https://github.com/Rabbi201605/Rabbi/actions). These are simulated practice outputs only.

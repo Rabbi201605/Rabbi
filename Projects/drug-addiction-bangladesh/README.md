@@ -1,32 +1,52 @@
 # Drug Addiction in Bangladesh: A Statistical Analysis
 
 ## Project Overview
-This research project examines social, family, and behavioral factors associated with drug addiction in Bangladesh. The analysis is based on a secondary survey dataset attributed to Mostafa Mohiuddin Jalal Protik and titled **"Drug addiction in Bangladesh – Reasons"**.
+This research project examines social, family, and behavioral factors associated with drug addiction in Bangladesh. The original academic work was based on a secondary survey dataset attributed to Mostafa Mohiuddin Jalal Protik and titled **"Drug addiction in Bangladesh – Reasons"**.
 
-The reported dataset contains **1,426 respondents and 26 coded variables**. Before publishing any dataset or reproducing results, verify the original source, its current availability, and its license or permission for reuse.
+The reported original dataset contained **1,426 respondents and 26 coded variables**. Verify the original source, current availability, and license or permission before reuse.
 
 ## Research Questions
-1. How are demographic and educational characteristics distributed in the dataset?
+1. How are demographic and educational characteristics distributed?
 2. Which social, family, and behavioral factors are associated with reported drug-taking status?
-3. What patterns appear in the relationships among the coded variables?
+3. What patterns appear among coded variables?
 4. What can statistical tests and regression models tell us, and what are their limitations?
 
-## Tools
+## Tools and Methods
 - Python for data inspection, cleaning, and exploratory analysis
 - SPSS / Excel for statistical analysis and cross-checking
-- Statistical methods: descriptive statistics, chi-square tests, t-tests, ANOVA, correlation, and regression
+- Descriptive statistics, chi-square tests, t-tests, ANOVA, correlation, and regression
 
-## Analysis Workflow
-1. Obtain the dataset from its original source and record its license / terms.
+## Repository Contents
+- `data/raw/`: location for a permitted copy of the original dataset (not committed)
+- `data/synthetic_drug_addiction_bangladesh.csv`: separate synthetic practice dataset
+- `data/data_dictionary.csv`: descriptions of the synthetic dataset variables
+- `src/eda.py`: general-purpose EDA script for the original source data
+- `src/eda_synthetic.py`: EDA script for the synthetic practice dataset
+- `outputs/`: analysis notes and generated outputs
+
+## Original Dataset Workflow
+1. Obtain the original dataset from its source and record its license / terms.
 2. Place a permitted copy at `data/raw/drug_addiction_bangladesh.csv`.
 3. Inspect column names, data types, missing values, duplicates, and coding.
-4. Document the codebook before interpreting coded variables.
-5. Run exploratory analysis using the Python script in `src/eda.py`.
-6. Conduct appropriate inferential analyses after checking assumptions.
-7. Report effect sizes, uncertainty, limitations, and reproducible findings.
+4. Complete the original codebook before interpreting coded variables.
+5. Run:
+   ```bash
+   python src/eda.py --input data/raw/drug_addiction_bangladesh.csv --output outputs
+   ```
+6. Conduct inferential analyses after checking assumptions and report effect sizes, uncertainty, and limitations.
+
+## Synthetic Practice Dataset
+**IMPORTANT: The synthetic CSV is simulated data, not observations from real Bangladesh respondents.** It is provided only for practising Python, Excel, SPSS, descriptive statistics, cross-tabulations, and introductory modelling. Its frequencies and statistical outputs are not estimates of real-world prevalence and must not be presented as empirical thesis findings.
+
+To run its dedicated script:
+```bash
+python -m pip install -r requirements.txt
+python src/eda_synthetic.py
+```
+Random seed used for the synthetic generator: `20261112`.
 
 ## Previously Reported Analysis Notes
-The original academic analysis included chi-square tests, ANOVA, t-tests, correlation analysis, OLS, binary logistic regression, multicollinearity checks, and factor-analysis diagnostics. Examples of previously recorded chi-square results include:
+The original academic analysis included chi-square tests, ANOVA, t-tests, correlation analysis, OLS, binary logistic regression, multicollinearity checks, and factor-analysis diagnostics. Previously recorded chi-square notes include:
 - Smoking status: chi-square = 456.520, p approximately 7.38 × 10⁻¹⁰⁰, Cramér's V = 0.566
 - Family relationship: chi-square = 247.952
 - Withdrawal symptoms: chi-square = 92.594
@@ -34,50 +54,12 @@ The original academic analysis included chi-square tests, ANOVA, t-tests, correl
 - Living with a drug user: chi-square = 32.001
 - Gender: chi-square = 22.719
 
-These are notes from the earlier analysis, not independently reproduced in this repository yet. They should not be treated as verified outputs until the dataset, coding, test tables, and analysis script are checked and rerun.
+These figures are historical notes from the earlier analysis and have **not** been independently reproduced here. Do not cite them as verified results until the original dataset, coding, test tables, and analysis script have been checked and rerun.
 
-## Repository Structure
-```
-drug-addiction-bangladesh/
-├── data/
-│   ├── raw/          # Place permitted source data here (not committed)
-│   └── processed/    # Generated files (not committed)
-├── docs/
-│   └── codebook_template.md
-├── outputs/          # Generated summaries and figures (not committed)
-├── src/
-│   ├── eda.py
-│   └── association_tests.py
-├── requirements.txt
-└── README.md
-```
-
-## Run the Exploratory Analysis
-From this project directory:
-
-```bash
-python -m pip install -r requirements.txt
-python src/eda.py --input data/raw/drug_addiction_bangladesh.csv --output outputs
-```
-
-The script produces a data overview, missing-value summary, descriptive statistics, categorical frequency tables, and numeric correlation output when applicable. It does not assume the meaning of coded columns.
-
-## Test Associations with the Outcome
-After completing the codebook (`docs/codebook_template.md`), run chi-square tests of the outcome column against the other variables. Replace `<outcome_column>` with the actual column name:
-
-```bash
-python src/association_tests.py --input data/raw/drug_addiction_bangladesh.csv --outcome <outcome_column> --output outputs
-```
-
-The output (`outputs/chi_square_results.csv`) lists the chi-square statistic, degrees of freedom, p-value, Cramér's V, and a warning when expected cell counts are too small. Results are not adjusted for multiple comparisons.
-
-## Status
-- Done: project documentation, reproducible EDA script, chi-square script, codebook template
-- Pending: placing the permitted dataset in `data/raw/`, completing the codebook, running the analysis, and writing up verified findings
-
-## Important Ethical and Methodological Notes
-- This is observational survey data; association does not establish causation.
-- Do not infer sensitive personal characteristics from coded values.
+## Academic Integrity and Ethics
+- Synthetic records must never be represented as real survey responses.
+- Do not mix synthetic results with original thesis findings.
+- Association does not establish causation.
 - Do not upload identifiable, confidential, or restricted respondent-level data.
-- Interpret every coded variable using the original codebook.
+- Interpret coded variables using the authentic original codebook.
 - Report sample limitations, missingness, and model assumptions.

@@ -1,0 +1,31 @@
+name: Synthetic project analysis
+
+on:
+  push:
+    paths:
+      - "Projects/drug-addiction-bangladesh/**"
+      - ".github/workflows/synthetic-analysis.yml"
+  workflow_dispatch:
+
+jobs:
+  run-synthetic-analysis:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Projects/drug-addiction-bangladesh
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run analysis
+        run: python src/statistical_analysis.py
+      - name: Upload generated outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: synthetic-statistical-analysis
+          path: Projects/drug-addiction-bangladesh/outputs/statistical_analysis/

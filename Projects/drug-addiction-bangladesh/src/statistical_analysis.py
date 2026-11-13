@@ -4,6 +4,7 @@ import argparse
 from pathlib import Path
 import numpy as np
 import pandas as pd
+from pandas.api.types import is_string_dtype
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -73,7 +74,7 @@ def main():
 
     # Bivariate categorical associations. Exclude IDs and post-outcome fields.
     cat_cols = [c for c in df.columns if c not in POST_OUTCOME | {ID, Y}
-                and (df[c].dtype == "object" or c in {"gender"})]
+                and is_string_dtype(df[c])]
     tests = []
     for col in cat_cols:
         tab = pd.crosstab(df[col], df[Y])

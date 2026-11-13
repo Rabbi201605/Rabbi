@@ -21,7 +21,8 @@ The reported original dataset contained **1,426 respondents and 26 coded variabl
 - `data/synthetic_drug_addiction_bangladesh.csv`: separate synthetic practice dataset
 - `data/data_dictionary.csv`: descriptions of the synthetic dataset variables
 - `src/eda.py`: general-purpose EDA script for the original source data
-- `src/eda_synthetic.py`: EDA script for the synthetic practice dataset
+- `src/eda_synthetic.py`: basic EDA script for the synthetic practice dataset
+- `src/statistical_analysis.py`: reproducible synthetic statistical analysis pipeline
 - `outputs/`: analysis notes and generated outputs
 
 ## Original Dataset Workflow
@@ -38,11 +39,13 @@ The reported original dataset contained **1,426 respondents and 26 coded variabl
 ## Synthetic Practice Dataset
 **IMPORTANT: The synthetic CSV is simulated data, not observations from real Bangladesh respondents.** It is provided only for practising Python, Excel, SPSS, descriptive statistics, cross-tabulations, and introductory modelling. Its frequencies and statistical outputs are not estimates of real-world prevalence and must not be presented as empirical thesis findings.
 
-To run its dedicated script:
+To run its dedicated scripts:
 ```bash
 python -m pip install -r requirements.txt
 python src/eda_synthetic.py
+python src/statistical_analysis.py
 ```
+The statistical script creates data-quality checks, descriptive tables, chi-square tests, effect sizes, Holm-adjusted p-values, age-group tests, logistic-model metrics, charts, and a Markdown report in `outputs/statistical_analysis/`. All results are simulated practice results only.
 Random seed used for the synthetic generator: `20261112`.
 
 ## Previously Reported Analysis Notes

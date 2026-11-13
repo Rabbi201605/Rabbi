@@ -19,6 +19,7 @@ N_ROWS, N_COLS = 1426, 26
 Y = "ever_taken_drug"
 ID = "respondent_id"
 POST_OUTCOME = {"age_of_first_use", "drug_frequency", "withdrawal_symptoms", "treatment_history"}
+NON_ANALYTIC = {"survey_response_quality"}
 PREDICTORS = [
     "age", "gender", "education_level", "employment_status", "residence",
     "family_type", "family_relationship", "parental_supervision", "peer_pressure",
@@ -73,7 +74,7 @@ def main():
     plt.close(fig)
 
     # Bivariate categorical associations. Exclude IDs and post-outcome fields.
-    cat_cols = [c for c in df.columns if c not in POST_OUTCOME | {ID, Y}
+    cat_cols = [c for c in df.columns if c not in POST_OUTCOME | NON_ANALYTIC | {ID, Y}
                 and is_string_dtype(df[c])]
     tests = []
     for col in cat_cols:
@@ -97,6 +98,15 @@ def main():
         tdf.loc[order, "p_holm"] = adj
         tdf = tdf.sort_values("p_value")
     tdf.to_csv(out / "categorical_association_tests.csv", index=False)
+    # Effect-size chart for the strongest categorical associations.
+    if not tdf.empty:
+        plotdf = tdf.head(10).sort_values("cramers_v")
+        fig, ax = plt.subplots(figsize=(8, 5))
+        ax.barh(plotdf["variable"], plotdf["cramers_v"])
+        ax.set(title="Cramers V — synthetic categorical associations", xlabel="Cramers V", ylabel="Variable")
+        fig.tight_layout()
+        fig.savefig(out / "categorical_effect_sizes.png", dpi=160)
+        plt.close(fig)
 
     # Age: Welch's t-test and Mann-Whitney U are both reported.
     age_result = {}
@@ -164,7 +174,11 @@ def main():
     ]
     for _, r in tdf.head(10).iterrows():
         lines.append(f"| {r['variable']} | {r['chi2']:.3f} | {int(r['df'])} | {r['p_value']:.3g} | {r['cramers_v']:.3f} | {r['p_holm']:.3g} |")
-    lines += ["", "## Logistic model holdout metrics", ""]
+    significant = tdf[tdf["p_holm"] < 0.05]["variable"].tolist() if not tdf.empty else []
+    lines += ["", "Variables with Holm-adjusted p < 0.05 in this synthetic dataset: " +
+              (", ".join(significant) if significant else "none") + ".",
+              "This is a description of the simulation only, not a claim about real people.",
+              "", "## Logistic model holdout metrics", ""]
     lines += [f"- {k}: {v}" for k, v in metrics.items()] if metrics else ["Model not fitted: insufficient complete data."]
     lines += [
         "", "## Limitations",

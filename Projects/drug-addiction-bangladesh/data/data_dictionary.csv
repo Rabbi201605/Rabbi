@@ -1,0 +1,26 @@
+respondent_id,Synthetic respondent identifier,Text
+age,Simulated age in years,Integer
+gender,Simulated gender category,Categorical
+education_level,Simulated highest education category,Categorical
+employment_status,Simulated employment category,Categorical
+residence,Simulated urban/rural residence,Categorical
+family_type,Simulated family type,Categorical
+family_relationship,Simulated perceived family relationship,Categorical
+parental_supervision,Simulated supervision level,Categorical
+peer_pressure,Simulated peer pressure level,Categorical
+stress_level,Simulated stress level,Categorical
+depression_symptoms,Simulated symptom category; not a diagnosis,Categorical
+smoking_status,Simulated smoking status,Categorical
+alcohol_use,Simulated alcohol use category,Categorical
+living_with_drug_user,Simulated household exposure category,Categorical
+awareness_level,Simulated awareness category,Categorical
+access_to_drugs,Simulated access category,Categorical
+ever_taken_drug,Simulated binary outcome: 0=No, 1=Yes,Binary
+age_of_first_use,Simulated age at first use; blank for never-users,Numeric
+drug_frequency,Simulated frequency category,Categorical
+withdrawal_symptoms,Simulated response; N/A for never-users,Categorical
+treatment_history,Simulated treatment history; N/A for never-users,Categorical
+family_support,Simulated family support category,Categorical
+social_media_influence,Simulated social media influence category,Categorical
+monthly_income_group,Simulated monthly income category,Categorical
+survey_response_quality,Simulated quality flag; not validated survey data,Categorical

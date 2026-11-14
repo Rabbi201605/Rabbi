@@ -1,0 +1,105 @@
+respondent_id,column,old_value,new_value,rule
+SYN0002,education_level,Undergraduate,Secondary,education too high for age
+SYN0003,education_level,Undergraduate,Secondary,education too high for age
+SYN0019,education_level,Higher secondary,Secondary,education too high for age
+SYN0019,monthly_income_group,Middle,No income,student under 16 has no income
+SYN0021,education_level,Undergraduate,Higher secondary,education too high for age
+SYN0030,education_level,Postgraduate,Undergraduate,education too high for age
+SYN0047,education_level,Undergraduate,Secondary,education too high for age
+SYN0059,education_level,Higher secondary,Primary,education too high for age
+SYN0060,education_level,Postgraduate,Secondary,education too high for age
+SYN0079,education_level,Undergraduate,Higher secondary,education too high for age
+SYN0181,education_level,Undergraduate,Higher secondary,education too high for age
+SYN0189,employment_status,Employed,Student,employment not plausible under 16
+SYN0189,monthly_income_group,Low,No income,student under 16 has no income
+SYN0202,employment_status,Employed,Student,employment not plausible under 16
+SYN0202,monthly_income_group,Middle,No income,student under 16 has no income
+SYN0216,education_level,Postgraduate,Higher secondary,education too high for age
+SYN0267,education_level,Postgraduate,Higher secondary,education too high for age
+SYN0267,monthly_income_group,High,Low,high income not plausible under 18
+SYN0275,education_level,Undergraduate,Secondary,education too high for age
+SYN0342,education_level,Higher secondary,Primary,education too high for age
+SYN0342,employment_status,Employed,Student,employment not plausible under 16
+SYN0342,monthly_income_group,Low,No income,student under 16 has no income
+SYN0370,education_level,Undergraduate,Higher secondary,education too high for age
+SYN0376,education_level,Undergraduate,Secondary,education too high for age
+SYN0377,education_level,Undergraduate,Secondary,education too high for age
+SYN0377,monthly_income_group,Low,No income,student under 16 has no income
+SYN0386,education_level,Undergraduate,Secondary,education too high for age
+SYN0432,education_level,Undergraduate,Higher secondary,education too high for age
+SYN0434,education_level,Postgraduate,Higher secondary,education too high for age
+SYN0436,education_level,Postgraduate,Undergraduate,education too high for age
+SYN0460,education_level,Postgraduate,Undergraduate,education too high for age
+SYN0464,education_level,Undergraduate,Higher secondary,education too high for age
+SYN0508,education_level,Postgraduate,Higher secondary,education too high for age
+SYN0516,education_level,Undergraduate,Secondary,education too high for age
+SYN0522,education_level,Postgraduate,Higher secondary,education too high for age
+SYN0528,education_level,Postgraduate,Undergraduate,education too high for age
+SYN0531,education_level,Postgraduate,Undergraduate,education too high for age
+SYN0538,education_level,Higher secondary,Primary,education too high for age
+SYN0558,education_level,Postgraduate,Undergraduate,education too high for age
+SYN0561,education_level,Postgraduate,Higher secondary,education too high for age
+SYN0564,education_level,Undergraduate,Primary,education too high for age
+SYN0564,employment_status,Employed,Student,employment not plausible under 16
+SYN0565,employment_status,Employed,Student,employment not plausible under 16
+SYN0565,monthly_income_group,Middle,No income,student under 16 has no income
+SYN0604,education_level,Undergraduate,Secondary,education too high for age
+SYN0604,employment_status,Self-employed,Student,employment not plausible under 16
+SYN0611,education_level,Undergraduate,Higher secondary,education too high for age
+SYN0611,monthly_income_group,High,Low,high income not plausible under 18
+SYN0677,education_level,Postgraduate,Secondary,education too high for age
+SYN0680,education_level,Undergraduate,Higher secondary,education too high for age
+SYN0698,education_level,Postgraduate,Secondary,education too high for age
+SYN0712,education_level,Postgraduate,Undergraduate,education too high for age
+SYN0720,education_level,Postgraduate,Undergraduate,education too high for age
+SYN0765,education_level,Undergraduate,Higher secondary,education too high for age
+SYN0792,education_level,Postgraduate,Undergraduate,education too high for age
+SYN0810,education_level,Postgraduate,Higher secondary,education too high for age
+SYN0813,education_level,Postgraduate,Undergraduate,education too high for age
+SYN0819,education_level,Postgraduate,Higher secondary,education too high for age
+SYN0856,employment_status,Employed,Student,employment not plausible under 16
+SYN0875,education_level,Postgraduate,Undergraduate,education too high for age
+SYN0877,employment_status,Self-employed,Student,employment not plausible under 16
+SYN0877,monthly_income_group,Low,No income,student under 16 has no income
+SYN0906,education_level,Higher secondary,Secondary,education too high for age
+SYN0937,education_level,Undergraduate,Secondary,education too high for age
+SYN0941,education_level,Postgraduate,Higher secondary,education too high for age
+SYN0953,employment_status,Employed,Student,employment not plausible under 16
+SYN0953,monthly_income_group,Low,No income,student under 16 has no income
+SYN0978,education_level,Postgraduate,Higher secondary,education too high for age
+SYN0984,education_level,Undergraduate,Secondary,education too high for age
+SYN0984,monthly_income_group,High,Low,high income not plausible under 18
+SYN0993,education_level,Undergraduate,Secondary,education too high for age
+SYN0993,employment_status,Employed,Student,employment not plausible under 16
+SYN0993,monthly_income_group,Middle,No income,student under 16 has no income
+SYN0999,education_level,Postgraduate,Undergraduate,education too high for age
+SYN1014,employment_status,Employed,Student,employment not plausible under 16
+SYN1014,monthly_income_group,Low,No income,student under 16 has no income
+SYN1022,education_level,Higher secondary,Primary,education too high for age
+SYN1022,employment_status,Employed,Student,employment not plausible under 16
+SYN1022,monthly_income_group,Low,No income,student under 16 has no income
+SYN1030,education_level,Higher secondary,Secondary,education too high for age
+SYN1030,monthly_income_group,Middle,No income,student under 16 has no income
+SYN1035,education_level,Postgraduate,Higher secondary,education too high for age
+SYN1099,education_level,Postgraduate,Higher secondary,education too high for age
+SYN1121,education_level,Undergraduate,Higher secondary,education too high for age
+SYN1126,education_level,Undergraduate,Secondary,education too high for age
+SYN1155,education_level,Postgraduate,Higher secondary,education too high for age
+SYN1163,education_level,Undergraduate,Higher secondary,education too high for age
+SYN1201,education_level,Undergraduate,Higher secondary,education too high for age
+SYN1238,education_level,Postgraduate,Higher secondary,education too high for age
+SYN1265,education_level,Postgraduate,Secondary,education too high for age
+SYN1267,education_level,Postgraduate,Higher secondary,education too high for age
+SYN1269,education_level,Undergraduate,Primary,education too high for age
+SYN1269,employment_status,Employed,Student,employment not plausible under 16
+SYN1269,monthly_income_group,High,No income,student under 16 has no income
+SYN1290,education_level,Postgraduate,Undergraduate,education too high for age
+SYN1322,education_level,Undergraduate,Secondary,education too high for age
+SYN1322,employment_status,Self-employed,Student,employment not plausible under 16
+SYN1322,monthly_income_group,Low,No income,student under 16 has no income
+SYN1367,employment_status,Employed,Student,employment not plausible under 16
+SYN1367,monthly_income_group,Low,No income,student under 16 has no income
+SYN1371,education_level,Undergraduate,Secondary,education too high for age
+SYN1380,monthly_income_group,Low,No income,student under 16 has no income
+SYN1400,education_level,Postgraduate,Undergraduate,education too high for age
+SYN1423,education_level,Postgraduate,Higher secondary,education too high for age

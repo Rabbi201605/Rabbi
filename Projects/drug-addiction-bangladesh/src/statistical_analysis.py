@@ -179,19 +179,46 @@ def main():
               (", ".join(significant) if significant else "none") + ".",
               "This is a description of the simulation only, not a claim about real people.",
               "", "## Logistic model holdout metrics", ""]
-    lines += [f"- {k}: {v}" for k, v in metrics.items()] if metrics else ["Model not fitted: insufficient complete data."]
+    if metrics:
+        tn, fp, fn, tp = metrics["confusion_matrix_tn_fp_fn_tp"]
+        lines += [
+            f"- Complete records: {metrics['n_complete']:,}",
+            f"- Training records: {metrics['n_train']:,}",
+            f"- Test records: {metrics['n_test']:,}",
+            f"- Accuracy: {metrics['accuracy']:.3f}",
+            f"- Precision: {metrics['precision']:.3f}",
+            f"- Recall: {metrics['recall']:.3f}",
+            f"- ROC-AUC: {metrics['roc_auc']:.3f}",
+            f"- Confusion matrix (TN, FP, FN, TP): {tn}, {fp}, {fn}, {tp}",
+        ]
+    else:
+        lines += ["Model not fitted: insufficient complete data."]
+    if age_result:
+        lines += [
+            "", "## Age comparison",
+            f"- No group: n={age_result['no_n']}, mean age={age_result['no_mean']:.2f}, median={age_result['no_median']:.0f}",
+            f"- Yes group: n={age_result['yes_n']}, mean age={age_result['yes_mean']:.2f}, median={age_result['yes_median']:.0f}",
+            f"- Welch t-test p={age_result['welch_p']:.3g}",
+            f"- Mann–Whitney U p={age_result['mann_whitney_p']:.3g}",
+        ]
+    if tdf.empty:
+        cell_note = "- No categorical tests were run."
+    elif (tdf["expected_cells_below_5_pct"] > 20).any():
+        cell_note = "- Some tables have more than 20% of expected counts below 5; interpret those chi-square tests with caution."
+    else:
+        cell_note = "- Chi-square expected counts were adequate for all tested tables."
     lines += [
         "", "## Limitations",
         "- Simulated data cannot establish facts about Bangladesh or its population.",
         "- Association is not causation; p-values do not measure practical importance.",
-        "- Check expected cell counts before relying on chi-square approximations.",
+        cell_note,
         "- A random holdout is not external validation.",
         "- Logistic coefficients are predictive associations, not causal effects.",
         "- Recover the original dataset and its codebook before reproducing thesis findings.",
         "", "## Reproducibility",
         "Run from this project folder: python src/statistical_analysis.py"
     ]
-    (out / "statistical_analysis_report.md").write_text("\n".join(lines), encoding="utf-8")
+    (out / "statistical_analysis_report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"Completed. Results saved to {out}. SYNTHETIC DATA ONLY.")
 
 if __name__ == "__main__":

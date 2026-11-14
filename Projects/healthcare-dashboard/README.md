@@ -1,59 +1,70 @@
 # Healthcare Data Analysis and Power BI Dashboard
 
 ## Project Overview
-A portfolio project that cleans and explores a public healthcare dataset with Python and presents the results in a Power BI dashboard.
+A portfolio project that cleans and analyses a healthcare admissions dataset with Python and prepares it for a Power BI dashboard.
 
 ## Status
-**In progress.** The data-preparation script and a synthetic practice dataset are ready. The analysis and Power BI dashboard have not been built yet, so no findings are reported here.
+- **Done:** data cleaning script, Python analysis (department costs, readmission, satisfaction, trends), charts, and a findings report.
+- **Not done:** the Power BI dashboard itself (it must be built in Power BI Desktop) and analysis of a real public dataset.
 
 ## Dataset
 This project currently uses a **synthetic (simulated) dataset**, not real patient data. See [Datasets/synthetic-healthcare](../../Datasets/synthetic-healthcare/) for the data dictionary and generator.
 - Rows / columns: 2,010 x 13 (includes 10 deliberate duplicates and some missing values)
-- Any result from it describes the simulation only and must not be presented as a real healthcare finding.
+- Every result describes the simulation only and must not be presented as a real healthcare finding.
 
-To use a real public dataset instead (for example from Kaggle), record its source and license, then place the file at `data/raw/healthcare.csv`.
+To use a real public dataset instead (for example from Kaggle), record its source and license, place the file at `data/raw/healthcare.csv`, check that it has the columns listed in `src/analyze.py`, and run the analysis with `--no-synthetic`.
 
-## Planned Workflow
-1. Download the dataset and record its source and license.
-2. Run `src/prepare_data.py` to standardise column names, trim text, parse dates, and remove exact duplicates.
-3. Review missing values and decide how to handle them; document each decision here.
-4. Explore the data in Python (distributions, group comparisons, trends over time).
-5. Load `data/processed/healthcare_clean.csv` into Power BI and build the dashboard.
-6. Export dashboard screenshots to `outputs/` and add the key findings and limitations below.
-
-## Run the Data Preparation
+## Run It
 ```bash
 python -m pip install -r requirements.txt
 python src/prepare_data.py --input ../../Datasets/synthetic-healthcare/synthetic_healthcare_patients.csv --output data/processed
+python src/analyze.py
 ```
 
-This writes `data/processed/healthcare_clean.csv` and `data/processed/cleaning_log.csv`, which records every change made.
+- `prepare_data.py` standardises column names, trims text, parses dates, removes exact duplicates, and writes `data/processed/healthcare_clean.csv` plus a `cleaning_log.csv` of every change.
+- `analyze.py` writes summary tables, three charts, and `outputs/findings.md`. Every number in the report is produced by the script.
+
+## Results (synthetic data)
+Full report: [outputs/findings.md](outputs/findings.md)
+
+![Mean cost by department](outputs/cost_by_department.png)
+
+Headline results from the simulation (see the report for tests and limitations):
+- Mean cost ranges from about 15,400 BDT (Pediatrics) to about 93,300 BDT (Surgery).
+- Length of stay and cost are strongly correlated (Spearman rho = 0.80).
+- 30-day readmission rises with age group (about 5-6% under 45, about 9-11% from 45), a small effect (Cramér's V = 0.078).
+- Longer stays go with slightly lower satisfaction scores (rho = -0.13).
+
+These patterns were built into the simulation, so they show that the analysis code works, not anything about real healthcare.
 
 ## Repository Structure
 ```
 healthcare-dashboard/
 ├── data/
-│   ├── raw/          # Place the downloaded dataset here (not committed)
+│   ├── raw/          # Place a downloaded dataset here (not committed)
 │   └── processed/    # Cleaned data and cleaning log (not committed)
-├── outputs/          # Dashboard screenshots and figures
+├── outputs/          # Findings report, summary tables, charts
 ├── src/
-│   └── prepare_data.py
+│   ├── prepare_data.py
+│   └── analyze.py
 ├── requirements.txt
 └── README.md
 ```
 
-## Dashboard Plan
+## Power BI Dashboard Plan (not yet built)
+Load `data/processed/healthcare_clean.csv` into Power BI Desktop and build:
+
 | Page | Purpose |
 |---|---|
-| Overview | Headline counts and key totals |
-| Patient demographics | Age and gender distributions |
-| Clinical / cost view | Comparisons across the dataset's main measures |
-| Trends | Changes over time, if the data includes dates |
+| Overview | Admissions, mean length of stay, mean cost, readmission rate |
+| Patient demographics | Age group, gender, and division distributions |
+| Cost and stay | Cost and length of stay by department and diagnosis |
+| Trends | Monthly admissions over time |
 
-Final page contents depend on the columns available in the dataset.
-
-## Findings
-_To be added after the analysis is run and verified._
+When the dashboard exists, add screenshots to `outputs/` and link them here.
 
 ## Limitations
-_To be added. Consider data source quality, missing values, and whether the data is synthetic._
+- Simulated data: relationships were designed in, so results cannot be generalised.
+- Observational data; associations are not causal.
+- Several tests were run without multiple-comparison correction.
+- Missing `insurance_type` and `satisfaction_score` values were left missing and excluded only from the tests that use them.

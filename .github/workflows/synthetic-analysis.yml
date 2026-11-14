@@ -3,7 +3,8 @@ name: Synthetic project analysis
 on:
   push:
     paths:
-      - "Projects/drug-addiction-bangladesh/**"
+      - "Projects/**"
+      - "Datasets/**"
       - ".github/workflows/synthetic-analysis.yml"
   workflow_dispatch:
 
@@ -29,3 +30,27 @@ jobs:
         with:
           name: synthetic-statistical-analysis
           path: Projects/drug-addiction-bangladesh/outputs/statistical_analysis/
+
+  run-healthcare-analysis:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Projects/healthcare-dashboard
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Clean data
+        run: python src/prepare_data.py --input ../../Datasets/synthetic-healthcare/synthetic_healthcare_patients.csv --output data/processed
+      - name: Run analysis
+        run: python src/analyze.py --output generated_outputs
+      - name: Upload generated outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: healthcare-analysis
+          path: Projects/healthcare-dashboard/generated_outputs/

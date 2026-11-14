@@ -22,12 +22,10 @@ Thumbs.db
 .env
 .env.*
 
-# Local datasets and generated outputs
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-outputs/*
-!outputs/.gitkeep
+# Raw and processed data in any project folder (patterns without "**/" only match at the repo root)
+**/data/raw/*
+!**/data/raw/.gitkeep
+**/data/processed/*
+!**/data/processed/.gitkeep
 
 # Keep large, private, or licensed datasets out of Git unless redistribution is permitted.

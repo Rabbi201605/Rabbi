@@ -15,8 +15,8 @@ For each project, I aim to include:
 ## Projects
 | Project | Status |
 |---|---|
-| [Drug Addiction in Bangladesh](drug-addiction-bangladesh/) | Documentation and analysis scripts ready; dataset and results pending |
-| [Healthcare Data Analysis and Power BI Dashboard](healthcare-dashboard/) | Data-preparation script ready; dataset, analysis, and dashboard pending |
+| [Drug Addiction in Bangladesh](drug-addiction-bangladesh/) | Analysis complete on a synthetic practice dataset; original Kaggle data not yet recovered |
+| [Healthcare Data Analysis and Power BI Dashboard](healthcare-dashboard/) | Python analysis complete on a synthetic dataset; Power BI dashboard not yet built |
 
 ## Planned projects
 - Community Health Services: Patient Survey Analysis

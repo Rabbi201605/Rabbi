@@ -1,0 +1,7 @@
+department,patients,mean_los_days,mean_cost_bdt,median_cost_bdt,readmission_rate_pct
+Surgery,313,7.4,93277.0,84550.0,5.4
+Orthopedics,245,7.6,63701.8,60900.0,6.9
+Cardiology,297,6.6,61648.3,58200.0,12.8
+Obstetrics,274,3.9,24005.3,21750.0,5.8
+General Medicine,600,5.3,22054.2,20600.0,7.0
+Pediatrics,271,4.1,15436.9,13650.0,7.0

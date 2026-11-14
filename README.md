@@ -14,7 +14,7 @@ Welcome! I am a Statistics graduate from **Pabna University of Science and Techn
 A reproducible portfolio project based on the structure of an earlier Statistics thesis. It includes a clearly labelled synthetic practice dataset, a data dictionary, Python EDA and statistical-analysis scripts, and a GitHub Actions workflow that runs the analysis automatically. **Synthetic outputs are for practice only and are not evidence about Bangladesh.** The original Kaggle dataset is documented separately and has not yet been recovered or verified.
 
 ### [Healthcare Data Analysis and Power BI Dashboard](Projects/healthcare-dashboard/)
-*In progress.* A project that cleans a public healthcare dataset with Python and presents it in a Power BI dashboard. The data-preparation script is ready; the dataset, analysis, and dashboard are still to be added.
+A project that cleans and analyses a **synthetic** hospital-admissions dataset with Python: department costs, length of stay, 30-day readmission, patient satisfaction and trends, with charts and an auto-generated findings report. The Power BI dashboard is still to be built, and the results describe a simulation, not real healthcare.
 
 ## Portfolio Navigation
 | Section | Description |

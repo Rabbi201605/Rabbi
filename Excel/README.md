@@ -1,13 +1,10 @@
 # Excel
 
-This folder is for spreadsheet-based data analysis and reporting.
+**No Excel work has been added yet.**
 
-## Planned topics
-- Data cleaning
-- Sorting and filtering
-- Formulas and functions
-- Lookup functions
-- PivotTables and PivotCharts
-- Charts and dashboards
+Planned, to be added only when completed:
+- Cleaning and PivotTables on the [synthetic healthcare dataset](../Datasets/synthetic-healthcare/)
+- Lookup formulas and charts
+- A one-page summary dashboard
 
-Practice files and completed examples will be added here as they are developed.
+Excel and SPSS are listed as skills, so completed workbooks will be added here with the dataset used and the steps taken.

@@ -23,6 +23,10 @@ The reported original dataset contained **1,426 respondents and 26 coded variabl
 - `src/eda.py`: general-purpose EDA script for the original source data
 - `src/eda_synthetic.py`: basic EDA script for the synthetic practice dataset
 - `src/statistical_analysis.py`: reproducible synthetic statistical analysis pipeline
+- `src/repair_synthetic_consistency.py`: rule-based fix for impossible age/education/employment combinations in the synthetic data
+- `docs/synthetic_data_repair_log.csv`: every value changed by that script (79 respondents, 104 values)
+- `docs/codebook_template.md`: codebook template for the original dataset
+- `src/association_tests.py`: chi-square and Cramér's V for any CSV and outcome column
 - `outputs/`: analysis notes and generated outputs
 
 ## Original Dataset Source and Recovery
@@ -89,5 +93,8 @@ A successful GitHub Actions run has generated the current practice analysis. The
 - [Age group comparison](outputs/statistical_analysis/age_group_comparison.csv)
 - [Logistic model metrics](outputs/statistical_analysis/logistic_model_metrics.csv)
 - [Outcome distribution](outputs/statistical_analysis/outcome_distribution.csv)
+- Charts: [outcome distribution](outputs/statistical_analysis/outcome_distribution.png) and [Cramér's V effect sizes](outputs/statistical_analysis/categorical_effect_sizes.png)
+
+The committed report is exactly what `python src/statistical_analysis.py` produces on the current synthetic CSV.
 
 The full run, including charts and additional descriptive outputs, is available as the `synthetic-statistical-analysis` artifact in [GitHub Actions](https://github.com/Rabbi201605/Rabbi/actions). These are simulated practice outputs only.

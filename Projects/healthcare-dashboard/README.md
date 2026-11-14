@@ -4,14 +4,14 @@
 A portfolio project that cleans and explores a public healthcare dataset with Python and presents the results in a Power BI dashboard.
 
 ## Status
-**In progress.** The data-preparation script is ready. The dataset, analysis, and dashboard have not been added yet, so no findings are reported here.
+**In progress.** The data-preparation script and a synthetic practice dataset are ready. The analysis and Power BI dashboard have not been built yet, so no findings are reported here.
 
 ## Dataset
-- Source: _to be added (public Kaggle healthcare dataset)_
-- License / terms of use: _to be verified before the data is shared_
-- Rows / columns: _to be filled after loading_
+This project currently uses a **synthetic (simulated) dataset**, not real patient data. See [Datasets/synthetic-healthcare](../../Datasets/synthetic-healthcare/) for the data dictionary and generator.
+- Rows / columns: 2,010 x 13 (includes 10 deliberate duplicates and some missing values)
+- Any result from it describes the simulation only and must not be presented as a real healthcare finding.
 
-The raw file is not committed. Download it from the original source and place it at `data/raw/healthcare.csv`.
+To use a real public dataset instead (for example from Kaggle), record its source and license, then place the file at `data/raw/healthcare.csv`.
 
 ## Planned Workflow
 1. Download the dataset and record its source and license.
@@ -24,7 +24,7 @@ The raw file is not committed. Download it from the original source and place it
 ## Run the Data Preparation
 ```bash
 python -m pip install -r requirements.txt
-python src/prepare_data.py --input data/raw/healthcare.csv --output data/processed
+python src/prepare_data.py --input ../../Datasets/synthetic-healthcare/synthetic_healthcare_patients.csv --output data/processed
 ```
 
 This writes `data/processed/healthcare_clean.csv` and `data/processed/cleaning_log.csv`, which records every change made.

@@ -1,0 +1,2011 @@
+patient_id,admission_date,discharge_date,age,gender,division,department,diagnosis_category,insurance_type,length_of_stay_days,total_cost_bdt,readmitted_30d,satisfaction_score
+P100000,2024-06-27,2024-07-02,32,Female,Dhaka,Obstetrics,Pregnancy complication,Government scheme,5,43100,No,
+P100001,2023-07-08,2023-07-15,47,Female,Khulna,Cardiology,Diabetes-related,Uninsured,7,48350,No,4
+P100002,2023-03-28,2023-04-02,1,Male,Rangpur,Surgery,Injury,Uninsured,5,47150,No,4
+P100003,2023-05-16,2023-05-25,12,Male,Rajshahi,Pediatrics,Infection,Uninsured,9,41700,No,3
+P100004,2024-02-27,2024-03-03,6,Female,Mymensingh,General Medicine,Diabetes-related,Government scheme,5,20150,No,4
+P100005,2023-10-24,2023-11-08,70,Female,Dhaka,Surgery,Injury,Employer,15,152200,No,3
+P100006,2024-06-23,2024-06-26,27,Female,Mymensingh,Obstetrics,Childbirth,Uninsured,3,20650,No,3
+P100007,2024-08-10,2024-08-16,36,Female,Mymensingh,Obstetrics,Pregnancy complication,Private,6,32250,No,3
+P100008,2024-02-12,2024-02-18,26,Male,Dhaka,General Medicine,Respiratory,Private,6,19450,No,4
+P100009,2023-03-18,2023-03-27,80,Male,Chattogram,Orthopedics,Fracture,Employer,9,58000,No,3
+P100010,2023-01-03,2023-01-10,75,Male,Khulna,Cardiology,Cardiac,Uninsured,7,68250,No,5
+P100011,2023-06-16,2023-06-24,42,Female,Rangpur,Surgery,Injury,Uninsured,8,101050,No,4
+P100012,2023-07-26,2023-07-31,3,Female,Dhaka,Pediatrics,Infection,Uninsured,5,25550,No,4
+P100013,2023-02-23,2023-02-25,25,Female,Chattogram,Obstetrics,Pregnancy complication,Uninsured,2,11150,No,4
+P100014,2024-07-22,2024-07-29,56,Male,Sylhet,Cardiology,Diabetes-related,Uninsured,7,58350,Yes,4
+P100015,2023-09-25,2023-10-02,46,Male,Chattogram,General Medicine,Infection,Uninsured,7,40150,No,3
+P100016,2024-06-26,2024-07-02,80,Male,Khulna,Orthopedics,Joint disorder,Uninsured,6,61400,No,5
+P100017,2023-06-02,2023-06-07,50,Male,Rajshahi,General Medicine,Diabetes-related,Employer,5,20750,No,5
+P100018,2023-01-08,2023-01-13,39,Female,Mymensingh,Obstetrics,Childbirth,Uninsured,5,20300,No,
+P100019,2023-04-10,2023-04-11,10,Female,Dhaka,Pediatrics,Respiratory,Uninsured,1,2850,No,5
+P100020,2023-12-10,2023-12-12,36,Female,Mymensingh,Obstetrics,Childbirth,Government scheme,2,9200,No,3
+P100021,2023-12-17,2023-12-24,41,Male,Rajshahi,Cardiology,Hypertension-related,Uninsured,7,63600,No,2
+P100022,2023-11-16,2023-11-21,57,Female,Rangpur,Surgery,Hernia,Government scheme,5,52850,No,3
+P100023,2024-12-01,2024-12-06,36,Male,Dhaka,Surgery,Gastrointestinal,Government scheme,5,89550,No,4
+P100024,2024-04-21,2024-04-26,40,Female,Khulna,Obstetrics,Childbirth,Uninsured,5,20250,No,4
+P100025,2024-06-18,2024-06-22,1,Male,Rangpur,General Medicine,Gastrointestinal,Uninsured,4,11950,No,4
+P100026,2023-04-02,2023-04-10,28,Male,Sylhet,Orthopedics,Fracture,Uninsured,8,68050,No,1
+P100027,2023-12-06,2023-12-11,21,Male,Dhaka,General Medicine,Diabetes-related,Uninsured,5,22800,No,4
+P100028,2024-03-29,2024-04-03,52,Female,Rajshahi,General Medicine,Diabetes-related,Private,5,10450,No,3
+P100029,2024-03-02,2024-03-05,6,Male,Dhaka,Pediatrics,Respiratory,Uninsured,3,6800,No,
+P100030,2024-11-22,2024-11-26,21,Female,Dhaka,Obstetrics,Childbirth,Uninsured,4,22450,No,5
+P100031,2023-12-14,2023-12-20,45,Female,Barishal,Surgery,Gastrointestinal,Uninsured,6,101050,No,3
+P100032,2023-09-29,2023-10-05,85,Male,Mymensingh,Cardiology,Hypertension-related,Uninsured,6,86550,No,3
+P100033,2024-11-20,2024-11-24,40,Male,Khulna,Cardiology,Diabetes-related,Uninsured,4,32450,No,4
+P100034,2023-09-04,2023-09-10,57,Male,Dhaka,Orthopedics,Joint disorder,Uninsured,6,46000,No,5
+P100035,2024-02-21,2024-02-25,48,Male,Dhaka,General Medicine,Respiratory,Uninsured,4,13000,No,4
+P100036,2023-01-21,2023-01-27,27,Female,Chattogram,General Medicine,Diabetes-related,Government scheme,6,28100,No,5
+P100037,2023-05-01,2023-05-08,58,Female,Dhaka,Orthopedics,Joint disorder,Employer,7,82050,No,3
+P100038,2023-02-11,2023-02-17,10,Male,Rangpur,General Medicine,Gastrointestinal,Government scheme,6,32850,No,3
+P100039,2023-11-02,2023-11-05,2,Male,Dhaka,Pediatrics,Gastrointestinal,Uninsured,3,10400,No,3
+P100040,2024-11-11,2024-11-19,48,Male,Dhaka,Cardiology,Diabetes-related,Uninsured,8,58400,No,2
+P100041,2023-02-22,2023-03-01,41,Female,Barishal,Obstetrics,Childbirth,Private,7,42100,No,4
+P100042,2024-12-13,2024-12-16,10,Female,Dhaka,Pediatrics,Respiratory,Private,3,14850,No,3
+P100043,2024-09-26,2024-10-04,57,Male,Chattogram,Cardiology,Cardiac,Employer,8,65150,Yes,2
+P100044,2023-01-05,2023-01-08,32,Female,Rajshahi,Obstetrics,Pregnancy complication,Uninsured,3,11450,No,4
+P100045,2023-01-12,2023-01-19,25,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,7,38400,No,5
+P100046,2024-10-19,2024-10-26,57,Male,Rajshahi,Cardiology,Diabetes-related,Uninsured,7,58750,No,5
+P100047,2024-03-03,2024-03-07,41,Male,Rajshahi,General Medicine,Infection,Employer,4,10150,No,5
+P100048,2023-05-07,2023-05-13,2,Male,Khulna,Pediatrics,Infection,Private,6,22250,No,3
+P100049,2024-11-27,2024-11-29,30,Male,Dhaka,General Medicine,Respiratory,Employer,2,9100,No,
+P100050,2024-02-14,2024-02-20,44,Male,Chattogram,General Medicine,Respiratory,Government scheme,6,38200,No,4
+P100051,2024-04-08,2024-04-14,48,Male,Khulna,General Medicine,Diabetes-related,Employer,6,17200,No,3
+P100052,2024-05-10,2024-05-11,27,Female,Dhaka,Obstetrics,Childbirth,Uninsured,1,7200,No,4
+P100053,2023-05-28,2023-05-29,11,Female,Dhaka,Pediatrics,Infection,Employer,1,4450,No,3
+P100054,2023-09-20,2023-09-25,3,Male,Chattogram,Pediatrics,Gastrointestinal,Employer,5,19950,No,3
+P100055,2023-04-04,2023-04-07,41,Female,Dhaka,Obstetrics,Childbirth,Government scheme,3,14000,No,4
+P100056,2024-01-22,2024-01-28,47,Female,Dhaka,Orthopedics,Fracture,Employer,6,36800,No,
+P100057,2024-12-21,2024-12-24,56,Female,Mymensingh,Orthopedics,Joint disorder,Uninsured,3,24600,Yes,5
+P100058,2024-04-03,2024-04-08,29,Male,Rajshahi,General Medicine,Infection,Government scheme,5,20450,No,4
+P100059,2024-05-20,2024-05-24,87,Female,Rajshahi,General Medicine,Gastrointestinal,Private,4,13900,Yes,4
+P100060,2023-05-22,2023-05-24,3,Male,Dhaka,Pediatrics,Infection,Government scheme,2,9650,No,4
+P100061,2024-01-31,2024-02-07,79,Male,Dhaka,Orthopedics,Joint disorder,Government scheme,7,50650,No,2
+P100062,2024-12-26,2025-01-01,55,Female,Sylhet,Orthopedics,Joint disorder,Government scheme,6,29900,No,3
+P100063,2023-03-06,2023-03-09,39,Female,Barishal,Obstetrics,Pregnancy complication,Uninsured,3,17000,No,3
+P100064,2023-05-29,2023-06-03,0,Female,Mymensingh,Pediatrics,Infection,Government scheme,5,19750,Yes,4
+P100065,2024-06-09,2024-06-15,39,Male,Dhaka,Orthopedics,Fracture,Employer,6,52300,No,5
+P100066,2023-01-08,2023-01-15,51,Female,Dhaka,Orthopedics,Fracture,Private,7,60900,No,4
+P100067,2023-05-31,2023-06-02,60,Male,Barishal,Cardiology,Diabetes-related,Uninsured,2,26150,No,5
+P100068,2024-11-20,2024-11-25,73,Female,Chattogram,General Medicine,Infection,Employer,5,15150,No,4
+P100069,2023-01-14,2023-01-17,61,Male,Dhaka,Cardiology,Cardiac,Government scheme,3,24300,No,3
+P100070,2023-11-10,2023-11-16,69,Male,Chattogram,General Medicine,Diabetes-related,Uninsured,6,35300,No,4
+P100071,2023-08-29,2023-09-04,66,Female,Dhaka,Cardiology,Diabetes-related,Private,6,33000,Yes,3
+P100072,2023-10-18,2023-10-26,74,Female,Rangpur,Surgery,Gastrointestinal,Private,8,94700,No,4
+P100073,2023-07-08,2023-07-15,40,Female,Rangpur,General Medicine,Respiratory,Private,7,38050,No,3
+P100074,2023-07-21,2023-07-24,89,Male,Khulna,General Medicine,Gastrointestinal,Uninsured,3,16250,No,4
+P100075,2024-07-09,2024-07-10,32,Male,Chattogram,General Medicine,Respiratory,Uninsured,1,4700,No,5
+P100076,2023-01-19,2023-01-28,26,Female,Sylhet,General Medicine,Diabetes-related,Employer,9,42750,No,3
+P100077,2023-04-05,2023-04-10,11,Female,Khulna,Pediatrics,Infection,Employer,5,13500,No,5
+P100078,2023-07-13,2023-07-21,41,Male,Sylhet,Orthopedics,Fracture,Uninsured,8,90200,No,3
+P100079,2024-08-26,2024-08-31,21,Female,Rajshahi,Obstetrics,Childbirth,Employer,5,22200,No,4
+P100080,2023-10-15,2023-10-21,10,Female,Mymensingh,Pediatrics,Infection,Uninsured,6,15800,No,4
+P100081,2023-01-26,2023-01-31,69,Male,Chattogram,Cardiology,Hypertension-related,Uninsured,5,49600,No,5
+P100082,2024-01-15,2024-01-19,25,Female,Khulna,Obstetrics,Childbirth,Government scheme,4,21200,No,3
+P100083,2024-04-02,2024-04-08,66,Female,Rangpur,General Medicine,Diabetes-related,Uninsured,6,25250,No,2
+P100084,2023-12-01,2023-12-03,55,Female,Rangpur,General Medicine,Gastrointestinal,Uninsured,2,8900,No,5
+P100085,2023-03-06,2023-03-12,81,Female,Mymensingh,General Medicine,Gastrointestinal,Employer,6,37450,No,3
+P100086,2024-10-03,2024-10-07,18,Female,Chattogram,Obstetrics,Pregnancy complication,Uninsured,4,26750,No,4
+P100087,2024-09-18,2024-09-24,36,Female,Barishal,Orthopedics,Fracture,Uninsured,6,41100,No,3
+P100088,2024-10-27,2024-10-30,36,Female,Chattogram,General Medicine,Diabetes-related,Uninsured,3,14200,No,5
+P100089,2024-12-04,2024-12-12,51,Female,Khulna,Orthopedics,Joint disorder,Private,8,52000,No,4
+P100090,2023-08-20,2023-08-26,2,Female,Dhaka,General Medicine,Respiratory,Private,6,30150,No,4
+P100091,2023-11-04,2023-11-05,1,Male,Chattogram,Pediatrics,Respiratory,Uninsured,1,3550,Yes,3
+P100092,2024-12-01,2024-12-07,54,Male,Mymensingh,Cardiology,Cardiac,Uninsured,6,59700,No,4
+P100093,2023-11-25,2023-12-04,68,Male,Rangpur,Cardiology,Cardiac,Uninsured,9,51900,No,3
+P100094,2024-09-23,2024-09-28,91,Female,Rajshahi,Cardiology,Cardiac,Private,5,25650,No,3
+P100095,2024-04-17,2024-04-21,9,Female,Dhaka,Pediatrics,Infection,Employer,4,9600,No,3
+P100096,2024-11-08,2024-11-11,53,Female,Chattogram,Cardiology,Cardiac,Uninsured,3,41750,No,4
+P100097,2023-01-08,2023-01-12,33,Male,Dhaka,General Medicine,Infection,Employer,4,12000,No,5
+P100098,2024-05-30,2024-06-02,44,Female,Dhaka,General Medicine,Respiratory,Employer,3,14400,No,4
+P100099,2024-08-07,2024-08-14,61,Male,Rangpur,Surgery,Gastrointestinal,Uninsured,7,71550,No,3
+P100100,2023-05-25,2023-06-08,30,Male,Rajshahi,Surgery,Injury,Uninsured,14,158200,Yes,4
+P100101,2024-06-20,2024-06-24,6,Female,Dhaka,Pediatrics,Respiratory,Private,4,13850,No,4
+P100102,2023-05-23,2023-05-28,63,Male,Barishal,General Medicine,Gastrointestinal,Employer,5,30150,No,4
+P100103,2024-10-22,2024-10-31,49,Male,Dhaka,Surgery,Injury,Uninsured,9,125000,No,4
+P100104,2024-10-25,2024-10-30,28,Female,Chattogram,Obstetrics,Childbirth,Uninsured,5,33050,No,3
+P100105,2023-01-03,2023-01-06,5,Male,Dhaka,Pediatrics,Infection,Private,3,14500,No,4
+P100106,2024-01-06,2024-01-12,50,Male,Dhaka,Cardiology,Hypertension-related,Government scheme,6,46100,Yes,2
+P100107,2023-10-07,2023-10-14,1,Female,Rajshahi,General Medicine,Infection,Uninsured,7,36550,No,4
+P100108,2024-10-12,2024-10-19,17,Female,Barishal,General Medicine,Infection,Uninsured,7,35100,No,3
+P100109,2023-08-22,2023-09-04,72,Male,Rajshahi,Surgery,Injury,Uninsured,13,194850,No,5
+P100110,2024-06-09,2024-06-19,63,Male,Rangpur,Orthopedics,Joint disorder,Employer,10,76950,No,1
+P100111,2023-03-27,2023-04-01,26,Male,Mymensingh,General Medicine,Gastrointestinal,Private,5,17950,No,5
+P100112,2023-06-05,2023-06-12,55,Male,Rangpur,Cardiology,Cardiac,Uninsured,7,50700,No,2
+P100113,2024-12-20,2024-12-26,13,Female,Mymensingh,Pediatrics,Gastrointestinal,Employer,6,17150,No,3
+P100114,2023-10-08,2023-10-13,42,Male,Mymensingh,General Medicine,Respiratory,Uninsured,5,15900,Yes,4
+P100115,2024-07-13,2024-07-18,56,Male,Rangpur,Surgery,Hernia,Employer,5,65750,No,4
+P100116,2024-12-07,2024-12-12,23,Female,Chattogram,Obstetrics,Pregnancy complication,Uninsured,5,28350,No,4
+P100117,2024-12-05,2024-12-07,2,Male,Dhaka,Pediatrics,Respiratory,Uninsured,2,7800,No,5
+P100118,2023-01-15,2023-01-16,46,Male,Barishal,Cardiology,Hypertension-related,Uninsured,1,10150,No,3
+P100119,2023-06-19,2023-06-24,10,Male,Rangpur,Pediatrics,Respiratory,Uninsured,5,13450,No,4
+P100120,2024-06-05,2024-06-08,11,Female,Rangpur,Pediatrics,Respiratory,Government scheme,3,8000,No,4
+P100121,2024-11-07,2024-11-12,4,Female,Khulna,Pediatrics,Respiratory,Uninsured,5,16550,No,3
+P100122,2024-12-15,2024-12-21,53,Female,Rangpur,General Medicine,Respiratory,Uninsured,6,19750,No,2
+P100123,2024-06-09,2024-06-13,40,Male,Barishal,Cardiology,Diabetes-related,Government scheme,4,28900,No,4
+P100124,2023-03-18,2023-03-22,49,Female,Khulna,General Medicine,Diabetes-related,Uninsured,4,24450,No,4
+P100125,2024-06-26,2024-07-06,73,Female,Dhaka,Orthopedics,Fracture,Uninsured,10,54550,No,5
+P100126,2023-07-18,2023-07-29,64,Male,Rajshahi,Cardiology,Cardiac,Uninsured,11,164150,No,2
+P100127,2024-08-13,2024-08-19,44,Male,Dhaka,General Medicine,Gastrointestinal,Employer,6,25800,No,3
+P100128,2024-02-04,2024-02-11,40,Female,Dhaka,General Medicine,Infection,Private,7,35850,No,5
+P100129,2023-05-15,2023-05-22,9,Male,Rajshahi,Pediatrics,Gastrointestinal,Employer,7,30450,No,4
+P100130,2024-09-07,2024-09-12,25,Male,Dhaka,General Medicine,Diabetes-related,Government scheme,5,23350,No,4
+P100131,2024-12-22,2025-01-02,40,Female,Mymensingh,Surgery,Gastrointestinal,Uninsured,11,200000,No,4
+P100132,2024-01-05,2024-01-07,0,Female,Rajshahi,Pediatrics,Gastrointestinal,Uninsured,2,5350,No,4
+P100133,2024-08-16,2024-08-23,56,Female,Barishal,Cardiology,Diabetes-related,Private,7,60600,Yes,5
+P100134,2023-02-13,2023-02-17,6,Female,Dhaka,Pediatrics,Gastrointestinal,Uninsured,4,11300,No,4
+P100135,2023-07-17,2023-07-23,24,Female,Rangpur,General Medicine,Infection,Employer,6,15700,No,3
+P100136,2023-04-03,2023-04-09,32,Female,Rajshahi,Surgery,Injury,Uninsured,6,61050,No,4
+P100137,2023-07-27,2023-08-04,60,Male,Rajshahi,Orthopedics,Fracture,Uninsured,8,102200,No,3
+P100138,2023-10-02,2023-10-05,41,Female,Khulna,Obstetrics,Childbirth,Private,3,17250,No,4
+P100139,2023-11-11,2023-11-16,51,Female,Rajshahi,General Medicine,Infection,Uninsured,5,32850,No,4
+P100140,2023-08-24,2023-08-30,65,Female,Rajshahi,Orthopedics,Joint disorder,Private,6,80850,No,3
+P100141,2024-02-02,2024-02-10,70,Female,Sylhet,Orthopedics,Joint disorder,Government scheme,8,135300,No,3
+P100142,2023-06-10,2023-06-18,70,Male,Rangpur,Surgery,Injury,Government scheme,8,154600,No,4
+P100143,2023-09-11,2023-09-15,4,Male,Chattogram,Pediatrics,Infection,Employer,4,25250,Yes,3
+P100144,2024-09-05,2024-09-13,71,Male,Mymensingh,Orthopedics,Fracture,Uninsured,8,69400,No,5
+P100145,2024-02-15,2024-02-21,23,Male,Chattogram,General Medicine,Respiratory,Uninsured,6,25400,No,3
+P100146,2023-01-20,2023-02-02,45,Male,Dhaka,Cardiology,Diabetes-related,Employer,13,125950,No,3
+P100147,2023-08-28,2023-09-03,56,Female,Chattogram,Orthopedics,Joint disorder,Uninsured,6,48000,No,5
+P100148,2024-08-28,2024-09-07,51,Female,Chattogram,Cardiology,Hypertension-related,Uninsured,10,93450,No,2
+P100149,2023-05-12,2023-05-15,19,Male,Chattogram,General Medicine,Diabetes-related,Uninsured,3,14500,No,4
+P100150,2024-11-03,2024-11-04,20,Female,Rangpur,Obstetrics,Childbirth,Government scheme,1,5350,No,5
+P100151,2023-08-04,2023-08-09,32,Female,Rajshahi,Surgery,Gastrointestinal,Private,5,42500,No,4
+P100152,2024-04-04,2024-04-08,28,Female,Mymensingh,General Medicine,Infection,Uninsured,4,17500,No,5
+P100153,2023-12-13,2023-12-19,53,Female,Dhaka,Orthopedics,Joint disorder,Uninsured,6,40350,No,4
+P100154,2024-04-01,2024-04-08,65,Male,Khulna,General Medicine,Infection,Uninsured,7,24150,No,4
+P100155,2024-08-05,2024-08-07,6,Male,Dhaka,Pediatrics,Infection,Uninsured,2,6750,No,4
+P100156,2023-04-19,2023-04-26,45,Female,Rajshahi,General Medicine,Gastrointestinal,Uninsured,7,25500,Yes,2
+P100157,2023-09-15,2023-09-20,8,Male,Chattogram,Pediatrics,Respiratory,Government scheme,5,23100,No,4
+P100158,2024-02-19,2024-02-23,38,Female,Barishal,Obstetrics,Childbirth,Employer,4,23000,No,4
+P100159,2023-07-10,2023-07-14,31,Female,Sylhet,Obstetrics,Pregnancy complication,Government scheme,4,32100,No,4
+P100160,2023-10-01,2023-10-03,36,Male,Dhaka,General Medicine,Diabetes-related,Employer,2,8400,No,5
+P100161,2024-10-08,2024-10-15,42,Male,Dhaka,Surgery,Injury,Employer,7,82150,No,4
+P100162,2023-06-17,2023-06-24,47,Female,Chattogram,General Medicine,Diabetes-related,Government scheme,7,29150,No,4
+P100163,2023-05-19,2023-05-25,50,Male,Dhaka,General Medicine,Diabetes-related,Private,6,17400,No,5
+P100164,2024-03-01,2024-03-10,87,Female,Barishal,Orthopedics,Fracture,Government scheme,9,78350,No,4
+P100165,2023-03-14,2023-03-18,46,Female,Rajshahi,Cardiology,Hypertension-related,Private,4,44500,No,4
+P100166,2023-01-01,2023-01-07,19,Female,Rangpur,Obstetrics,Childbirth,Uninsured,6,46100,No,4
+P100167,2024-09-26,2024-10-02,24,Female,Mymensingh,Obstetrics,Pregnancy complication,Uninsured,6,25650,No,4
+P100168,2023-07-21,2023-07-30,60,Female,Chattogram,Cardiology,Hypertension-related,Private,9,55400,Yes,4
+P100169,2023-03-29,2023-04-05,10,Female,Mymensingh,Surgery,Appendicitis,Employer,7,73450,No,4
+P100170,2024-04-23,2024-04-26,57,Male,Sylhet,General Medicine,Respiratory,Private,3,16950,No,4
+P100171,2023-12-18,2023-12-31,75,Male,Dhaka,Orthopedics,Fracture,Uninsured,13,109900,No,3
+P100172,2023-11-29,2023-12-02,24,Female,Rangpur,General Medicine,Infection,Private,3,9900,No,4
+P100173,2023-11-17,2023-11-27,41,Male,Rajshahi,Surgery,Injury,Government scheme,10,83450,Yes,5
+P100174,2023-04-17,2023-04-23,7,Male,Barishal,General Medicine,Gastrointestinal,Government scheme,6,20250,No,4
+P100175,2024-09-18,2024-09-19,16,Male,Barishal,General Medicine,Infection,Uninsured,1,3300,No,5
+P100176,2023-01-01,2023-01-06,72,Male,Rangpur,Cardiology,Hypertension-related,Uninsured,5,56850,No,4
+P100177,2023-12-19,2023-12-23,32,Female,Sylhet,Surgery,Hernia,Uninsured,4,61850,No,4
+P100178,2023-07-17,2023-07-24,19,Male,Rangpur,Surgery,Injury,Employer,7,64600,No,4
+P100179,2024-04-13,2024-04-14,37,Female,Chattogram,Obstetrics,Childbirth,Uninsured,1,7250,No,4
+P100180,2024-02-05,2024-02-16,46,Female,Mymensingh,Surgery,Gastrointestinal,Employer,11,155300,No,2
+P100181,2023-10-08,2023-10-17,31,Male,Khulna,Surgery,Hernia,Uninsured,9,80400,No,4
+P100182,2024-01-26,2024-02-01,51,Male,Sylhet,Orthopedics,Fracture,Employer,6,47000,No,5
+P100183,2023-06-15,2023-06-26,68,Female,Rangpur,Cardiology,Diabetes-related,Uninsured,11,107800,No,4
+P100184,2023-04-06,2023-04-09,36,Female,Dhaka,Obstetrics,Childbirth,Government scheme,3,18750,No,4
+P100185,2024-10-22,2024-10-28,14,Female,Chattogram,Pediatrics,Infection,Government scheme,6,13700,No,4
+P100186,2024-03-23,2024-03-29,45,Male,Rangpur,Cardiology,Diabetes-related,Government scheme,6,55800,No,5
+P100187,2024-04-22,2024-04-25,45,Male,Mymensingh,General Medicine,Respiratory,Government scheme,3,14050,No,
+P100188,2024-12-30,2025-01-02,19,Female,Sylhet,Obstetrics,Childbirth,Uninsured,3,26700,No,4
+P100189,2024-10-22,2024-10-29,66,Female,Rajshahi,General Medicine,Respiratory,Uninsured,7,23700,No,2
+P100190,2024-03-02,2024-03-08,28,Male,Dhaka,Surgery,Injury,Uninsured,6,62800,No,3
+P100191,2024-08-01,2024-08-06,60,Male,Rajshahi,General Medicine,Respiratory,Private,5,19000,No,4
+P100192,2024-01-21,2024-01-30,26,Female,Chattogram,General Medicine,Infection,Private,9,38700,No,5
+P100193,2023-06-23,2023-06-26,35,Female,Rangpur,Obstetrics,Pregnancy complication,Uninsured,3,18450,No,5
+P100194,2024-03-30,2024-04-07,78,Female,Rajshahi,General Medicine,Diabetes-related,Government scheme,8,37200,No,2
+P100195,2024-10-28,2024-10-31,19,Male,Chattogram,General Medicine,Gastrointestinal,Uninsured,3,9050,No,3
+P100196,2024-10-04,2024-10-07,4,Female,Rajshahi,Pediatrics,Respiratory,Uninsured,3,11600,No,4
+P100197,2024-01-04,2024-01-09,28,Male,Mymensingh,Surgery,Appendicitis,Uninsured,5,49850,No,3
+P100198,2024-11-21,2024-11-29,82,Female,Khulna,General Medicine,Gastrointestinal,Government scheme,8,30850,No,5
+P100199,2023-05-25,2023-05-29,66,Male,Dhaka,Cardiology,Hypertension-related,Uninsured,4,55200,No,2
+P100200,2023-01-30,2023-02-01,41,Female,Rajshahi,Obstetrics,Childbirth,Employer,2,8450,No,4
+P100201,2023-10-22,2023-11-01,21,Female,Rajshahi,Surgery,Gastrointestinal,Private,10,111900,No,4
+P100202,2023-05-30,2023-06-02,50,Male,Chattogram,Orthopedics,Joint disorder,Private,3,17450,No,4
+P100203,2024-11-30,2024-12-03,57,Male,Sylhet,General Medicine,Gastrointestinal,Uninsured,3,12450,No,3
+P100204,2023-03-26,2023-04-07,63,Male,Dhaka,General Medicine,Respiratory,Government scheme,12,62400,No,2
+P100205,2024-01-26,2024-02-04,40,Female,Rajshahi,General Medicine,Gastrointestinal,Employer,9,37550,Yes,4
+P100206,2024-07-17,2024-07-24,42,Female,Rajshahi,General Medicine,Infection,Uninsured,7,27200,No,4
+P100207,2023-03-22,2023-03-27,9,Female,Rajshahi,Pediatrics,Respiratory,Uninsured,5,24400,No,5
+P100208,2023-02-03,2023-02-11,44,Male,Rajshahi,General Medicine,Diabetes-related,Uninsured,8,34750,No,3
+P100209,2024-02-09,2024-02-21,39,Female,Barishal,Orthopedics,Fracture,Uninsured,12,117850,No,4
+P100210,2024-10-20,2024-10-25,14,Male,Dhaka,Pediatrics,Infection,Uninsured,5,20950,No,4
+P100211,2023-01-12,2023-01-17,12,Female,Chattogram,Pediatrics,Infection,Government scheme,5,8550,No,5
+P100212,2023-01-16,2023-01-20,46,Male,Sylhet,General Medicine,Diabetes-related,Uninsured,4,15700,No,4
+P100213,2024-11-06,2024-11-10,22,Female,Rangpur,Obstetrics,Pregnancy complication,Government scheme,4,18350,No,2
+P100214,2024-03-15,2024-03-19,14,Female,Dhaka,Pediatrics,Respiratory,Uninsured,4,11400,No,4
+P100215,2024-05-27,2024-05-30,19,Female,Dhaka,Obstetrics,Childbirth,Private,3,26000,Yes,4
+P100216,2023-07-21,2023-07-31,74,Male,Mymensingh,General Medicine,Diabetes-related,Employer,10,36400,No,4
+P100217,2023-08-17,2023-08-20,57,Male,Dhaka,General Medicine,Respiratory,Uninsured,3,19250,No,3
+P100218,2023-12-10,2023-12-13,47,Female,Mymensingh,Surgery,Appendicitis,Uninsured,3,25300,No,4
+P100219,2023-06-06,2023-06-22,68,Male,Rangpur,Cardiology,Cardiac,Uninsured,16,109850,No,4
+P100220,2023-11-19,2023-11-20,48,Male,Dhaka,Cardiology,Diabetes-related,Uninsured,1,10900,No,4
+P100221,2024-11-27,2024-12-01,55,Female,Dhaka,Orthopedics,Fracture,Government scheme,4,29400,No,4
+P100222,2024-06-30,2024-07-05,3,Female,Mymensingh,Pediatrics,Respiratory,Employer,5,18900,No,5
+P100223,2024-09-26,2024-10-02,17,Female,Dhaka,Surgery,Injury,Government scheme,6,70000,No,3
+P100224,2023-12-29,2024-01-02,48,Female,Rajshahi,General Medicine,Respiratory,Employer,4,15450,No,5
+P100225,2024-07-28,2024-07-31,45,Male,Dhaka,Surgery,Hernia,Uninsured,3,33350,No,5
+P100226,2023-11-04,2023-11-07,55,Male,Khulna,General Medicine,Respiratory,Uninsured,3,12550,No,4
+P100227,2024-03-26,2024-04-04,65,Female,Rangpur,Orthopedics,Joint disorder,Uninsured,9,84550,No,4
+P100228,2024-06-17,2024-06-22,8,Male,Khulna,Pediatrics,Infection,Private,5,26200,No,4
+P100229,2024-08-25,2024-08-30,46,Male,Dhaka,General Medicine,Respiratory,Uninsured,5,19000,No,4
+P100230,2024-11-06,2024-11-10,53,Male,Khulna,General Medicine,Respiratory,Uninsured,4,14500,No,3
+P100231,2023-03-19,2023-03-23,57,Female,Khulna,Cardiology,Hypertension-related,Employer,4,31600,Yes,4
+P100232,2024-08-02,2024-08-05,50,Female,Dhaka,Surgery,Hernia,Uninsured,3,52000,No,4
+P100233,2024-06-02,2024-06-09,12,Male,Sylhet,Pediatrics,Gastrointestinal,Uninsured,7,29100,No,3
+P100234,2024-06-21,2024-06-29,49,Male,Khulna,Surgery,Hernia,Uninsured,8,59700,No,3
+P100235,2023-01-11,2023-01-19,40,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,8,29550,No,2
+P100236,2023-12-23,2024-01-01,67,Female,Mymensingh,Orthopedics,Fracture,Uninsured,9,58500,No,4
+P100237,2024-12-02,2024-12-05,38,Female,Rajshahi,Obstetrics,Pregnancy complication,Uninsured,3,19050,No,3
+P100238,2024-10-19,2024-10-20,43,Female,Dhaka,General Medicine,Respiratory,Uninsured,1,3950,No,2
+P100239,2023-06-18,2023-06-22,29,Male,Dhaka,General Medicine,Gastrointestinal,Government scheme,4,18200,No,4
+P100240,2023-12-22,2023-12-24,28,Female,Chattogram,Obstetrics,Pregnancy complication,Uninsured,2,11500,No,4
+P100241,2024-09-22,2024-09-26,23,Female,Chattogram,Obstetrics,Childbirth,Government scheme,4,34050,No,5
+P100242,2024-11-10,2024-11-19,19,Female,Chattogram,General Medicine,Diabetes-related,Government scheme,9,43650,No,3
+P100243,2023-08-30,2023-09-05,75,Male,Sylhet,Orthopedics,Joint disorder,,6,48950,Yes,4
+P100244,2024-08-09,2024-08-14,1,Male,Khulna,Pediatrics,Gastrointestinal,Employer,5,23300,Yes,5
+P100245,2024-09-01,2024-09-08,63,Male,Dhaka,Surgery,Appendicitis,Uninsured,7,55600,No,3
+P100246,2023-04-20,2023-04-23,14,Male,Barishal,Pediatrics,Gastrointestinal,Uninsured,3,10300,No,
+P100247,2023-01-24,2023-02-04,85,Male,Barishal,Cardiology,Diabetes-related,Uninsured,11,102450,No,5
+P100248,2023-02-04,2023-02-13,55,Female,Rajshahi,Cardiology,Hypertension-related,Uninsured,9,94150,Yes,4
+P100249,2023-04-17,2023-04-27,95,Male,Mymensingh,Cardiology,Hypertension-related,Government scheme,10,58600,No,4
+P100250,2024-06-24,2024-06-29,11,Male,Chattogram,Pediatrics,Gastrointestinal,Private,5,16400,No,3
+P100251,2023-10-12,2023-10-14,37,Male,Dhaka,Surgery,Gastrointestinal,Uninsured,2,26550,No,5
+P100252,2024-05-15,2024-05-23,61,Female,Dhaka,Orthopedics,Fracture,Uninsured,8,72100,No,4
+P100253,2023-03-07,2023-03-11,34,Male,Chattogram,General Medicine,Respiratory,Employer,4,21500,No,2
+P100254,2024-03-15,2024-03-23,49,Male,Rajshahi,General Medicine,Gastrointestinal,Uninsured,8,38700,Yes,3
+P100255,2024-06-27,2024-07-03,30,Female,Dhaka,Obstetrics,Childbirth,Uninsured,6,35450,No,3
+P100256,2024-12-13,2024-12-18,37,Female,Rajshahi,Obstetrics,Childbirth,Employer,5,35500,No,4
+P100257,2023-08-22,2023-08-28,39,Male,Rangpur,General Medicine,Gastrointestinal,Government scheme,6,22800,No,3
+P100258,2024-02-03,2024-02-09,77,Female,Sylhet,General Medicine,Diabetes-related,Uninsured,6,24900,No,4
+P100259,2023-12-19,2023-12-21,2,Male,Barishal,Pediatrics,Respiratory,Uninsured,2,8550,No,4
+P100260,2023-09-11,2023-09-15,47,Male,Khulna,General Medicine,Diabetes-related,Private,4,15800,Yes,3
+P100261,2024-04-12,2024-04-13,21,Female,Sylhet,Obstetrics,Pregnancy complication,Uninsured,1,6550,No,3
+P100262,2024-02-17,2024-02-22,45,Male,Rajshahi,Cardiology,Hypertension-related,Employer,5,57200,No,4
+P100263,2024-08-31,2024-09-05,50,Female,Chattogram,General Medicine,Respiratory,Government scheme,5,23900,No,5
+P100264,2023-01-21,2023-02-01,39,Female,Chattogram,Surgery,Injury,Private,11,179700,No,3
+P100265,2023-06-11,2023-06-19,29,Female,Dhaka,General Medicine,Infection,Private,8,57250,No,3
+P100266,2024-02-27,2024-03-02,26,Male,Rajshahi,General Medicine,Diabetes-related,Employer,4,19050,No,5
+P100267,2024-02-23,2024-02-29,95,Female,Rajshahi,General Medicine,Infection,Uninsured,6,21400,No,4
+P100268,2024-10-20,2024-10-27,36,Male,Dhaka,General Medicine,Infection,Uninsured,7,31800,No,4
+P100269,2024-05-07,2024-05-14,12,Female,Dhaka,General Medicine,Gastrointestinal,Government scheme,7,31500,No,3
+P100270,2023-01-04,2023-01-07,28,Female,Sylhet,General Medicine,Respiratory,Uninsured,3,14000,No,4
+P100271,2023-12-24,2023-12-29,40,Female,Dhaka,General Medicine,Respiratory,Private,5,29050,No,5
+P100272,2024-09-09,2024-09-13,52,Female,Chattogram,General Medicine,Gastrointestinal,Uninsured,4,10500,No,4
+P100273,2024-09-29,2024-10-05,3,Male,Dhaka,Pediatrics,Gastrointestinal,Uninsured,6,30650,No,5
+P100274,2024-08-08,2024-08-15,4,Male,Dhaka,Pediatrics,Gastrointestinal,Uninsured,7,38900,No,4
+P100275,2023-12-15,2023-12-20,67,Female,Sylhet,Cardiology,Diabetes-related,Government scheme,5,51850,Yes,3
+P100276,2023-03-19,2023-03-25,48,Male,Dhaka,Cardiology,Cardiac,Uninsured,6,62600,No,3
+P100277,2023-06-05,2023-06-11,62,Female,Chattogram,Orthopedics,Joint disorder,Uninsured,6,45200,No,3
+P100278,2024-09-10,2024-09-19,24,Female,Mymensingh,Surgery,Hernia,Uninsured,9,108150,No,4
+P100279,2023-09-06,2023-09-16,29,Female,Rajshahi,Surgery,Gastrointestinal,Uninsured,10,142900,Yes,5
+P100280,2024-07-11,2024-07-14,23,Male,Khulna,General Medicine,Infection,Private,3,14050,No,4
+P100281,2023-01-27,2023-02-01,18,Female,Khulna,General Medicine,Gastrointestinal,Employer,5,23950,No,
+P100282,2023-12-25,2023-12-28,63,Male,Dhaka,General Medicine,Gastrointestinal,Government scheme,3,14050,No,3
+P100283,2024-11-24,2024-11-30,55,Male,Chattogram,General Medicine,Infection,Private,6,30050,No,
+P100284,2023-06-29,2023-07-05,4,Male,Chattogram,Pediatrics,Gastrointestinal,Uninsured,6,25550,No,3
+P100285,2023-01-23,2023-01-26,58,Female,Dhaka,Cardiology,Diabetes-related,Employer,3,20900,No,
+P100286,2023-07-30,2023-08-08,57,Female,Dhaka,General Medicine,Respiratory,Employer,9,44350,No,5
+P100287,2023-02-16,2023-02-21,33,Female,Khulna,Cardiology,Cardiac,Government scheme,5,71600,No,4
+P100288,2024-03-22,2024-03-29,70,Female,Dhaka,Orthopedics,Joint disorder,Uninsured,7,55650,No,4
+P100289,2023-05-20,2023-05-22,45,Male,Dhaka,General Medicine,Respiratory,Uninsured,2,11650,No,4
+P100290,2023-06-29,2023-07-01,37,Female,Khulna,Obstetrics,Childbirth,Uninsured,2,9550,No,5
+P100291,2024-03-05,2024-03-11,54,Female,Rajshahi,General Medicine,Infection,Uninsured,6,23800,No,4
+P100292,2023-08-26,2023-09-03,49,Male,Khulna,Surgery,Injury,Uninsured,8,81800,Yes,3
+P100293,2024-04-19,2024-04-26,22,Male,Dhaka,General Medicine,Diabetes-related,Employer,7,39550,Yes,3
+P100294,2024-11-10,2024-11-16,20,Female,Barishal,Obstetrics,Childbirth,Uninsured,6,54250,No,4
+P100295,2024-11-10,2024-11-13,27,Female,Rangpur,Surgery,Gastrointestinal,Uninsured,3,35100,No,4
+P100296,2024-06-16,2024-06-23,53,Male,Rajshahi,Surgery,Appendicitis,Employer,7,112550,No,4
+P100297,2024-12-08,2024-12-13,20,Female,Rangpur,Obstetrics,Childbirth,Employer,5,45300,No,4
+P100298,2024-06-21,2024-06-22,22,Female,Chattogram,Obstetrics,Childbirth,Uninsured,1,5950,No,4
+P100299,2023-02-19,2023-02-21,0,Male,Dhaka,Pediatrics,Infection,Uninsured,2,7250,No,4
+P100300,2024-11-28,2024-12-04,18,Female,Chattogram,Obstetrics,Childbirth,Government scheme,6,43250,No,3
+P100301,2024-02-18,2024-02-20,22,Female,Rajshahi,General Medicine,Gastrointestinal,Employer,2,6500,No,5
+P100302,2023-01-05,2023-01-13,47,Male,Rangpur,Orthopedics,Joint disorder,Private,8,65800,No,3
+P100303,2024-03-28,2024-04-07,52,Male,Chattogram,Orthopedics,Joint disorder,Uninsured,10,136700,No,4
+P100304,2023-06-28,2023-07-02,14,Female,Chattogram,Surgery,Hernia,Private,4,42350,No,2
+P100305,2024-01-26,2024-02-02,38,Female,Rangpur,Orthopedics,Fracture,Government scheme,7,69350,No,4
+P100306,2024-04-25,2024-05-02,46,Female,Dhaka,Cardiology,Diabetes-related,Uninsured,7,71800,Yes,3
+P100307,2023-01-21,2023-01-27,1,Female,Khulna,Pediatrics,Respiratory,Uninsured,6,20150,No,3
+P100308,2023-11-16,2023-11-18,43,Female,Chattogram,General Medicine,Respiratory,Employer,2,8450,No,5
+P100309,2023-02-10,2023-02-14,18,Female,Mymensingh,General Medicine,Infection,Government scheme,4,24800,No,4
+P100310,2023-03-24,2023-03-31,56,Female,Dhaka,Orthopedics,Joint disorder,Uninsured,7,64300,No,5
+P100311,2023-06-04,2023-06-16,72,Female,Barishal,Cardiology,Cardiac,Government scheme,12,128950,No,4
+P100312,2024-07-24,2024-07-28,15,Male,Rajshahi,General Medicine,Gastrointestinal,Private,4,23850,No,5
+P100313,2023-10-29,2023-11-02,55,Male,Mymensingh,Cardiology,Hypertension-related,Uninsured,4,33500,No,4
+P100314,2023-02-04,2023-02-09,72,Female,Mymensingh,Cardiology,Cardiac,Uninsured,5,34650,No,5
+P100315,2024-06-29,2024-07-05,52,Male,Sylhet,Cardiology,Diabetes-related,Uninsured,6,84000,No,5
+P100316,2024-02-02,2024-02-05,49,Female,Dhaka,Cardiology,Cardiac,Employer,3,27950,No,4
+P100317,2023-04-14,2023-04-19,2,Male,Rajshahi,Pediatrics,Respiratory,Uninsured,5,21900,No,4
+P100318,2024-02-15,2024-02-22,35,Female,Rangpur,General Medicine,Infection,Government scheme,7,23150,No,4
+P100319,2023-07-01,2023-07-05,64,Male,Khulna,Surgery,Injury,Uninsured,4,52900,No,4
+P100320,2024-04-09,2024-04-17,50,Female,Rangpur,Surgery,Hernia,Employer,8,72950,No,4
+P100321,2024-11-22,2024-12-01,53,Male,Sylhet,Orthopedics,Joint disorder,Employer,9,73150,No,4
+P100322,2023-08-19,2023-08-27,64,Male,Chattogram,Cardiology,Diabetes-related,Employer,8,61250,No,5
+P100323,2024-06-28,2024-07-02,62,Male,Dhaka,Orthopedics,Joint disorder,Employer,4,25700,No,3
+P100324,2023-01-18,2023-01-22,29,Female,Chattogram,Obstetrics,Childbirth,Uninsured,4,22250,No,5
+P100325,2023-10-25,2023-10-29,1,Male,Barishal,Pediatrics,Infection,Uninsured,4,7900,No,4
+P100326,2024-10-10,2024-10-18,20,Female,Rajshahi,Obstetrics,Childbirth,Uninsured,8,35900,No,5
+P100327,2023-02-24,2023-03-09,50,Male,Dhaka,Orthopedics,Joint disorder,Private,13,126450,No,3
+P100328,2024-11-09,2024-11-15,12,Male,Sylhet,Pediatrics,Infection,Uninsured,6,22900,No,4
+P100329,2023-03-10,2023-03-17,40,Female,Dhaka,General Medicine,Respiratory,Uninsured,7,21400,Yes,4
+P100330,2023-12-18,2023-12-21,33,Female,Chattogram,Obstetrics,Childbirth,Uninsured,3,20650,No,2
+P100331,2023-05-13,2023-05-18,56,Male,Rajshahi,General Medicine,Diabetes-related,Government scheme,5,16050,No,5
+P100332,2023-01-16,2023-01-22,0,Female,Rajshahi,Pediatrics,Gastrointestinal,Uninsured,6,25150,No,3
+P100333,2023-09-12,2023-09-17,62,Female,Dhaka,Surgery,Hernia,Uninsured,5,58300,No,4
+P100334,2024-02-29,2024-03-03,51,Female,Sylhet,General Medicine,Diabetes-related,,3,11050,No,3
+P100335,2024-06-11,2024-06-15,1,Male,Rangpur,Pediatrics,Respiratory,Uninsured,4,13700,No,3
+P100336,2023-08-19,2023-08-24,15,Female,Barishal,General Medicine,Gastrointestinal,Employer,5,37950,No,4
+P100337,2023-12-26,2023-12-28,35,Female,Mymensingh,Obstetrics,Pregnancy complication,Private,2,9950,No,3
+P100338,2023-05-14,2023-05-21,86,Female,Dhaka,General Medicine,Respiratory,Government scheme,7,29650,No,3
+P100339,2024-06-16,2024-06-29,62,Female,Dhaka,Surgery,Injury,Uninsured,13,189650,No,4
+P100340,2023-05-04,2023-05-15,70,Male,Dhaka,General Medicine,Gastrointestinal,Uninsured,11,34600,No,2
+P100341,2024-09-20,2024-09-26,43,Male,Barishal,Surgery,Hernia,Government scheme,6,48350,No,4
+P100342,2023-05-11,2023-05-14,31,Female,Dhaka,Obstetrics,Childbirth,Uninsured,3,15500,No,4
+P100343,2024-04-29,2024-05-02,14,Male,Mymensingh,Pediatrics,Respiratory,Government scheme,3,12700,No,2
+P100344,2023-08-30,2023-09-03,29,Female,Khulna,Obstetrics,Pregnancy complication,Employer,4,22050,No,3
+P100345,2024-12-28,2025-01-02,38,Female,Rangpur,Obstetrics,Pregnancy complication,Uninsured,5,28300,No,4
+P100346,2023-07-24,2023-08-01,47,Male,Chattogram,Surgery,Appendicitis,Government scheme,8,120550,No,3
+P100347,2024-11-23,2024-11-25,30,Male,Sylhet,General Medicine,Gastrointestinal,Uninsured,2,6550,No,4
+P100348,2024-09-02,2024-09-07,7,Female,Rajshahi,Pediatrics,Respiratory,Uninsured,5,17100,No,4
+P100349,2023-12-08,2023-12-12,23,Male,Rajshahi,General Medicine,Gastrointestinal,Uninsured,4,10950,No,3
+P100350,2023-12-28,2023-12-30,6,Female,Sylhet,Pediatrics,Gastrointestinal,Private,2,7600,No,4
+P100351,2023-09-16,2023-09-20,54,Female,Dhaka,General Medicine,Gastrointestinal,Employer,4,16950,No,5
+P100352,2023-11-09,2023-11-17,37,Female,Rangpur,Orthopedics,Joint disorder,Uninsured,8,78100,No,3
+P100353,2023-12-07,2023-12-14,3,Male,Barishal,Pediatrics,Respiratory,Government scheme,7,18400,Yes,4
+P100354,2023-04-17,2023-04-28,51,Male,Sylhet,Orthopedics,Fracture,Uninsured,11,83900,No,5
+P100355,2023-08-24,2023-08-30,79,Female,Dhaka,Orthopedics,Fracture,Uninsured,6,34850,No,3
+P100356,2024-10-01,2024-10-04,25,Female,Dhaka,Obstetrics,Pregnancy complication,Private,3,16950,No,4
+P100357,2024-12-15,2024-12-20,19,Female,Dhaka,Obstetrics,Childbirth,Government scheme,5,43450,No,3
+P100358,2023-02-10,2023-02-16,70,Female,Khulna,Orthopedics,Fracture,Government scheme,6,44300,No,4
+P100359,2024-06-18,2024-06-23,12,Female,Dhaka,Pediatrics,Infection,Employer,5,12450,No,4
+P100360,2023-06-24,2023-07-03,52,Male,Mymensingh,Surgery,Injury,Uninsured,9,91100,No,2
+P100361,2024-04-22,2024-04-29,63,Female,Mymensingh,General Medicine,Respiratory,Uninsured,7,18700,No,3
+P100362,2024-03-29,2024-04-02,56,Male,Dhaka,General Medicine,Gastrointestinal,Uninsured,4,11550,No,4
+P100363,2024-10-03,2024-10-11,60,Female,Barishal,General Medicine,Gastrointestinal,Government scheme,8,37850,No,4
+P100364,2024-05-27,2024-05-31,14,Female,Dhaka,Pediatrics,Respiratory,Uninsured,4,9750,No,3
+P100365,2024-08-24,2024-09-02,41,Female,Chattogram,Cardiology,Cardiac,Uninsured,9,87600,No,3
+P100366,2024-08-07,2024-08-11,38,Female,Dhaka,Obstetrics,Pregnancy complication,Government scheme,4,24150,No,4
+P100367,2024-04-17,2024-04-20,1,Male,Rangpur,Pediatrics,Infection,Uninsured,3,9200,No,4
+P100368,2023-10-27,2023-11-03,46,Female,Rangpur,Cardiology,Cardiac,Private,7,66700,No,4
+P100369,2023-09-04,2023-09-11,47,Female,Dhaka,Surgery,Hernia,Employer,7,66450,No,4
+P100370,2023-09-11,2023-09-13,25,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,2,14800,No,3
+P100371,2023-09-19,2023-09-24,51,Male,Rajshahi,General Medicine,Gastrointestinal,Uninsured,5,16800,No,5
+P100372,2023-07-30,2023-08-08,62,Male,Rajshahi,Cardiology,Cardiac,Employer,9,73550,No,3
+P100373,2023-08-15,2023-08-18,46,Female,Dhaka,Cardiology,Cardiac,Government scheme,3,23800,No,5
+P100374,2024-02-19,2024-02-23,15,Male,Rangpur,General Medicine,Respiratory,Uninsured,4,19000,No,5
+P100375,2023-07-17,2023-07-21,59,Female,Mymensingh,General Medicine,Respiratory,Government scheme,4,18350,Yes,5
+P100376,2023-09-12,2023-09-15,45,Male,Chattogram,Surgery,Appendicitis,Uninsured,3,18700,No,4
+P100377,2024-06-01,2024-06-09,74,Male,Rangpur,Cardiology,Hypertension-related,Government scheme,8,76700,Yes,5
+P100378,2023-08-28,2023-09-01,57,Male,Barishal,Cardiology,Diabetes-related,Private,4,23250,No,4
+P100379,2023-03-19,2023-03-22,18,Female,Khulna,Obstetrics,Pregnancy complication,Uninsured,3,16550,No,4
+P100380,2023-01-13,2023-01-19,38,Female,Rangpur,Orthopedics,Fracture,Government scheme,6,46700,No,4
+P100381,2024-07-12,2024-07-23,61,Male,Rajshahi,Surgery,Gastrointestinal,Uninsured,11,120900,No,3
+P100382,2024-11-23,2024-11-29,29,Female,Rajshahi,Obstetrics,Pregnancy complication,Employer,6,40800,No,5
+P100383,2024-05-13,2024-05-27,62,Female,Dhaka,Orthopedics,Joint disorder,Government scheme,14,134100,No,3
+P100384,2023-02-14,2023-02-17,48,Male,Barishal,Cardiology,Hypertension-related,Employer,3,22250,No,5
+P100385,2024-02-16,2024-02-23,74,Female,Dhaka,Surgery,Gastrointestinal,Uninsured,7,68600,No,5
+P100386,2023-07-17,2023-07-19,4,Male,Dhaka,Pediatrics,Infection,Uninsured,2,6950,No,4
+P100387,2023-08-23,2023-08-30,24,Male,Rajshahi,Surgery,Hernia,Uninsured,7,57100,No,3
+P100388,2024-11-03,2024-11-09,35,Male,Chattogram,General Medicine,Gastrointestinal,Uninsured,6,21300,Yes,4
+P100389,2024-08-24,2024-08-31,44,Female,Dhaka,Surgery,Injury,Uninsured,7,117650,No,1
+P100390,2024-06-20,2024-06-23,12,Male,Dhaka,Pediatrics,Infection,Private,3,7200,No,4
+P100391,2024-01-01,2024-01-06,48,Female,Rangpur,General Medicine,Infection,Uninsured,5,18350,No,5
+P100392,2024-02-27,2024-03-01,4,Male,Khulna,Pediatrics,Respiratory,Employer,3,9050,No,4
+P100393,2024-10-30,2024-10-31,2,Male,Chattogram,Pediatrics,Gastrointestinal,Uninsured,1,5800,No,3
+P100394,2024-04-27,2024-05-01,32,Female,Rangpur,General Medicine,Respiratory,Uninsured,4,14000,No,4
+P100395,2024-02-27,2024-03-17,63,Female,Rangpur,Orthopedics,Fracture,Government scheme,19,134800,Yes,4
+P100396,2023-03-12,2023-03-14,26,Female,Dhaka,Obstetrics,Childbirth,Uninsured,2,9250,No,4
+P100397,2024-12-28,2025-01-01,1,Male,Rajshahi,General Medicine,Respiratory,Government scheme,4,16050,No,5
+P100398,2024-08-13,2024-08-20,57,Male,Chattogram,Orthopedics,Fracture,Government scheme,7,59900,No,3
+P100399,2023-09-24,2023-10-03,53,Female,Rajshahi,Cardiology,Hypertension-related,Government scheme,9,64900,No,4
+P100400,2023-07-02,2023-07-08,46,Male,Barishal,Cardiology,Cardiac,Private,6,69150,No,3
+P100401,2024-12-07,2024-12-18,63,Male,Dhaka,Surgery,Injury,Government scheme,11,141250,No,5
+P100402,2024-11-29,2024-12-02,39,Female,Rajshahi,Obstetrics,Childbirth,Employer,3,22250,No,4
+P100403,2023-11-03,2023-11-07,38,Female,Chattogram,General Medicine,Infection,Uninsured,4,14750,No,5
+P100404,2023-06-18,2023-06-28,34,Male,Rajshahi,Surgery,Appendicitis,Uninsured,10,127500,No,3
+P100405,2024-08-05,2024-08-18,3,Female,Dhaka,Surgery,Hernia,Government scheme,13,147900,No,5
+P100406,2024-04-01,2024-04-06,19,Male,Rangpur,General Medicine,Infection,Uninsured,5,28800,No,4
+P100407,2024-10-19,2024-10-23,36,Female,Rajshahi,Obstetrics,Childbirth,Uninsured,4,24700,No,5
+P100408,2024-02-03,2024-02-09,61,Male,Dhaka,General Medicine,Diabetes-related,Private,6,24050,No,3
+P100409,2024-02-07,2024-02-13,1,Male,Sylhet,Surgery,Appendicitis,Uninsured,6,64200,No,4
+P100410,2023-04-15,2023-04-20,4,Male,Dhaka,Pediatrics,Infection,Uninsured,5,15400,No,3
+P100411,2024-03-16,2024-03-18,5,Female,Khulna,Pediatrics,Respiratory,Government scheme,2,7450,No,4
+P100412,2023-09-22,2023-09-25,34,Male,Rajshahi,General Medicine,Infection,Uninsured,3,14750,No,3
+P100413,2023-05-30,2023-06-07,76,Female,Dhaka,Surgery,Injury,Uninsured,8,80900,No,4
+P100414,2024-07-24,2024-07-29,57,Male,Dhaka,General Medicine,Respiratory,Government scheme,5,20650,No,5
+P100415,2023-09-10,2023-09-16,30,Male,Dhaka,General Medicine,Respiratory,Government scheme,6,25150,No,
+P100416,2023-06-05,2023-06-14,68,Male,Sylhet,General Medicine,Respiratory,Private,9,39350,No,3
+P100417,2024-12-02,2024-12-07,22,Female,Barishal,Obstetrics,Pregnancy complication,Uninsured,5,19600,No,2
+P100418,2024-12-03,2024-12-13,62,Female,Dhaka,General Medicine,Infection,Uninsured,10,31750,No,
+P100419,2023-12-28,2024-01-02,14,Male,Dhaka,Surgery,Appendicitis,Government scheme,5,42650,No,5
+P100420,2023-08-04,2023-08-07,5,Female,Rangpur,Pediatrics,Infection,Uninsured,3,10600,No,3
+P100421,2023-04-29,2023-05-05,63,Female,Dhaka,General Medicine,Respiratory,Employer,6,19150,No,5
+P100422,2024-04-02,2024-04-10,33,Female,Chattogram,General Medicine,Gastrointestinal,Government scheme,8,28250,No,4
+P100423,2024-03-21,2024-03-25,21,Male,Barishal,General Medicine,Gastrointestinal,Uninsured,4,11850,Yes,2
+P100424,2024-03-27,2024-03-30,4,Male,Dhaka,Pediatrics,Respiratory,Private,3,9500,No,2
+P100425,2024-07-14,2024-07-19,33,Female,Mymensingh,Obstetrics,Childbirth,Employer,5,22650,No,5
+P100426,2023-12-10,2023-12-15,47,Male,Dhaka,General Medicine,Diabetes-related,Employer,5,24150,No,4
+P100427,2024-05-13,2024-05-19,26,Female,Rangpur,Obstetrics,Childbirth,Private,6,40600,Yes,5
+P100428,2024-04-23,2024-04-26,53,Female,Chattogram,General Medicine,Diabetes-related,Uninsured,3,12450,No,3
+P100429,2024-08-03,2024-08-08,28,Female,Dhaka,Obstetrics,Pregnancy complication,Private,5,27800,No,4
+P100430,2024-06-26,2024-07-06,30,Female,Chattogram,Surgery,Appendicitis,Private,10,72100,No,4
+P100431,2023-01-27,2023-01-29,38,Female,Mymensingh,Obstetrics,Pregnancy complication,Private,2,10700,No,4
+P100432,2024-03-27,2024-03-31,12,Female,Rajshahi,Pediatrics,Gastrointestinal,Uninsured,4,11550,No,4
+P100433,2024-12-13,2024-12-16,18,Female,Dhaka,Obstetrics,Childbirth,Employer,3,19150,No,4
+P100434,2024-02-13,2024-02-21,40,Female,Mymensingh,General Medicine,Gastrointestinal,Uninsured,8,37350,No,4
+P100435,2024-01-22,2024-01-29,33,Female,Dhaka,General Medicine,Infection,Uninsured,7,30350,No,4
+P100436,2024-03-18,2024-03-23,45,Female,Dhaka,General Medicine,Gastrointestinal,Uninsured,5,27450,No,4
+P100437,2024-02-13,2024-02-24,65,Female,Dhaka,Orthopedics,Joint disorder,Uninsured,11,76350,No,5
+P100438,2023-10-21,2023-10-23,21,Female,Rangpur,Obstetrics,Childbirth,Uninsured,2,10300,No,3
+P100439,2024-12-26,2025-01-01,7,Male,Dhaka,Pediatrics,Respiratory,Uninsured,6,27200,No,
+P100440,2023-02-21,2023-02-26,60,Male,Dhaka,Surgery,Hernia,Uninsured,5,62550,No,5
+P100441,2024-08-17,2024-08-26,61,Male,Mymensingh,General Medicine,Gastrointestinal,Uninsured,9,33850,No,3
+P100442,2023-04-27,2023-05-01,28,Female,Khulna,Obstetrics,Childbirth,Uninsured,4,38100,No,4
+P100443,2023-05-31,2023-06-07,95,Male,Chattogram,General Medicine,Infection,Uninsured,7,32350,No,3
+P100444,2024-03-18,2024-03-26,52,Female,Khulna,General Medicine,Diabetes-related,Uninsured,8,30500,No,3
+P100445,2024-04-10,2024-04-15,9,Male,Dhaka,Pediatrics,Infection,Uninsured,5,14750,No,3
+P100446,2024-11-07,2024-11-15,56,Male,Rajshahi,Surgery,Hernia,Uninsured,8,133750,No,3
+P100447,2023-08-03,2023-08-04,8,Male,Chattogram,Pediatrics,Respiratory,Government scheme,1,3700,No,4
+P100448,2023-01-19,2023-01-24,21,Female,Khulna,General Medicine,Respiratory,Uninsured,5,20100,No,4
+P100449,2023-07-06,2023-07-10,14,Female,Sylhet,Pediatrics,Respiratory,Private,4,16600,No,4
+P100450,2024-02-02,2024-02-08,31,Female,Chattogram,General Medicine,Infection,Uninsured,6,29900,No,3
+P100451,2023-09-18,2023-09-24,54,Male,Dhaka,Surgery,Appendicitis,Uninsured,6,82600,No,5
+P100452,2023-07-04,2023-07-10,8,Male,Chattogram,Pediatrics,Gastrointestinal,Uninsured,6,26200,No,3
+P100453,2024-10-29,2024-11-03,38,Female,Sylhet,General Medicine,Diabetes-related,Uninsured,5,22400,No,2
+P100454,2024-02-15,2024-02-22,44,Female,Sylhet,General Medicine,Infection,Private,7,32150,No,4
+P100455,2024-05-05,2024-05-11,63,Male,Sylhet,General Medicine,Diabetes-related,Government scheme,6,20000,No,5
+P100456,2024-07-01,2024-07-10,59,Female,Mymensingh,Surgery,Appendicitis,Private,9,169800,Yes,3
+P100457,2023-10-26,2023-10-28,55,Male,Rangpur,Orthopedics,Fracture,Uninsured,2,11750,No,
+P100458,2024-06-20,2024-06-27,23,Female,Mymensingh,Obstetrics,Pregnancy complication,Uninsured,7,45400,No,3
+P100459,2024-12-04,2024-12-07,11,Female,Khulna,Pediatrics,Infection,Employer,3,7500,No,5
+P100460,2024-06-13,2024-06-17,12,Male,Dhaka,Pediatrics,Gastrointestinal,Uninsured,4,13650,No,5
+P100461,2023-08-05,2023-08-10,57,Male,Khulna,General Medicine,Diabetes-related,Uninsured,5,17350,No,4
+P100462,2024-07-22,2024-07-27,9,Female,Dhaka,Surgery,Hernia,Uninsured,5,62050,No,4
+P100463,2023-06-22,2023-07-01,53,Female,Dhaka,Cardiology,Cardiac,Employer,9,88200,Yes,4
+P100464,2023-02-23,2023-02-26,13,Male,Chattogram,Pediatrics,Respiratory,Employer,3,8250,No,5
+P100465,2023-11-21,2023-11-27,7,Male,Chattogram,Pediatrics,Infection,Uninsured,6,20850,No,4
+P100466,2024-01-07,2024-01-10,9,Female,Barishal,Pediatrics,Infection,Uninsured,3,14900,No,5
+P100467,2023-12-09,2023-12-21,57,Female,Chattogram,Surgery,Gastrointestinal,Government scheme,12,103750,No,4
+P100468,2023-07-11,2023-07-19,60,Female,Dhaka,General Medicine,Infection,Uninsured,8,25850,No,3
+P100469,2023-07-19,2023-07-31,61,Female,Mymensingh,Orthopedics,Joint disorder,Uninsured,12,119050,No,3
+P100470,2024-11-03,2024-11-07,66,Male,Khulna,Cardiology,Cardiac,Uninsured,4,36700,No,4
+P100471,2023-08-01,2023-08-10,58,Female,Dhaka,Orthopedics,Joint disorder,Uninsured,9,74750,No,2
+P100472,2024-07-25,2024-07-31,28,Male,Dhaka,General Medicine,Diabetes-related,Uninsured,6,31000,No,3
+P100473,2023-07-08,2023-07-14,36,Male,Dhaka,General Medicine,Respiratory,Private,6,19700,No,3
+P100474,2023-03-20,2023-03-24,42,Female,Rangpur,General Medicine,Respiratory,Government scheme,4,14050,No,4
+P100475,2023-02-16,2023-02-28,57,Male,Dhaka,Cardiology,Cardiac,Private,12,91950,No,5
+P100476,2023-06-27,2023-07-03,31,Female,Mymensingh,Cardiology,Hypertension-related,Uninsured,6,49500,No,4
+P100477,2024-09-06,2024-09-10,11,Male,Dhaka,Pediatrics,Respiratory,Uninsured,4,19550,No,2
+P100478,2023-11-29,2023-12-02,9,Female,Sylhet,Pediatrics,Respiratory,Employer,3,6850,No,3
+P100479,2024-05-22,2024-05-29,58,Female,Dhaka,Cardiology,Hypertension-related,Uninsured,7,46750,No,4
+P100480,2024-12-03,2024-12-12,54,Male,Rajshahi,Cardiology,Diabetes-related,Uninsured,9,57550,No,4
+P100481,2023-02-05,2023-02-08,37,Male,Chattogram,General Medicine,Respiratory,Uninsured,3,17050,No,
+P100482,2023-03-22,2023-03-23,7,Female,Chattogram,Pediatrics,Infection,Uninsured,1,3000,No,5
+P100483,2024-11-02,2024-11-09,42,Male,Mymensingh,Cardiology,Diabetes-related,Uninsured,7,58050,No,
+P100484,2024-02-19,2024-02-27,9,Male,Barishal,General Medicine,Infection,Uninsured,8,21350,No,4
+P100485,2024-03-27,2024-04-01,53,Male,Dhaka,Cardiology,Cardiac,Private,5,42150,No,5
+P100486,2023-09-07,2023-09-18,68,Female,Sylhet,Orthopedics,Fracture,Uninsured,11,109300,No,3
+P100487,2024-08-26,2024-08-31,75,Male,Dhaka,General Medicine,Respiratory,,5,21300,No,5
+P100488,2024-04-16,2024-04-19,4,Female,Mymensingh,Pediatrics,Gastrointestinal,Private,3,10200,No,4
+P100489,2023-07-08,2023-07-11,68,Male,Chattogram,Orthopedics,Joint disorder,Uninsured,3,16250,No,
+P100490,2024-04-18,2024-04-25,7,Male,Dhaka,Pediatrics,Respiratory,Government scheme,7,22550,No,4
+P100491,2023-01-03,2023-01-09,5,Male,Dhaka,Pediatrics,Gastrointestinal,Employer,6,21800,No,5
+P100492,2023-06-25,2023-06-30,4,Female,Dhaka,Pediatrics,Gastrointestinal,Uninsured,5,13650,No,3
+P100493,2023-05-29,2023-06-08,61,Male,Mymensingh,Cardiology,Diabetes-related,Private,10,106000,No,5
+P100494,2024-07-27,2024-08-02,33,Female,Chattogram,Obstetrics,Childbirth,Private,6,44900,No,2
+P100495,2024-06-20,2024-06-27,60,Female,Dhaka,Orthopedics,Fracture,Private,7,49050,No,3
+P100496,2023-03-08,2023-03-16,65,Male,Rangpur,Cardiology,Hypertension-related,Uninsured,8,86350,No,4
+P100497,2024-10-23,2024-10-26,10,Male,Dhaka,Pediatrics,Respiratory,Uninsured,3,10200,No,4
+P100498,2024-08-20,2024-08-27,58,Male,Dhaka,Cardiology,Cardiac,Uninsured,7,83900,Yes,3
+P100499,2023-11-14,2023-11-23,63,Male,Khulna,Orthopedics,Fracture,Uninsured,9,119750,No,4
+P100500,2023-06-04,2023-06-07,20,Female,Dhaka,Obstetrics,Childbirth,Uninsured,3,13700,No,3
+P100501,2023-11-03,2023-11-11,58,Female,Rangpur,Surgery,Gastrointestinal,Employer,8,116350,No,3
+P100502,2024-03-06,2024-03-10,25,Female,Rajshahi,Surgery,Injury,Uninsured,4,66500,No,4
+P100503,2024-04-04,2024-04-11,53,Female,Dhaka,Orthopedics,Joint disorder,Uninsured,7,43950,No,3
+P100504,2023-09-11,2023-09-17,20,Male,Rajshahi,Orthopedics,Fracture,Uninsured,6,41550,Yes,4
+P100505,2023-03-16,2023-03-17,28,Female,Dhaka,Obstetrics,Childbirth,Uninsured,1,5200,No,3
+P100506,2024-03-21,2024-03-27,75,Male,Rajshahi,Cardiology,Hypertension-related,Government scheme,6,52250,No,3
+P100507,2024-05-29,2024-06-03,23,Female,Khulna,Obstetrics,Pregnancy complication,Government scheme,5,27450,No,5
+P100508,2023-07-15,2023-07-21,50,Male,Sylhet,Orthopedics,Joint disorder,Uninsured,6,45700,No,5
+P100509,2024-04-11,2024-04-16,21,Female,Rajshahi,General Medicine,Gastrointestinal,Uninsured,5,24650,No,5
+P100510,2024-02-20,2024-02-26,45,Male,Sylhet,General Medicine,Diabetes-related,Uninsured,6,14950,No,4
+P100511,2024-01-01,2024-01-04,28,Female,Dhaka,Obstetrics,Childbirth,Employer,3,14100,No,3
+P100512,2023-01-06,2023-01-10,1,Male,Mymensingh,General Medicine,Respiratory,Uninsured,4,18900,Yes,4
+P100513,2023-08-13,2023-08-20,46,Female,Dhaka,General Medicine,Gastrointestinal,Uninsured,7,32150,No,5
+P100514,2023-10-01,2023-10-07,45,Female,Rangpur,Cardiology,Cardiac,Uninsured,6,41450,No,2
+P100515,2024-08-31,2024-09-03,51,Female,Rajshahi,General Medicine,Respiratory,Uninsured,3,13800,No,4
+P100516,2024-08-26,2024-08-28,40,Male,Dhaka,Cardiology,Diabetes-related,Uninsured,2,25100,No,5
+P100517,2024-09-29,2024-09-30,18,Female,Chattogram,Obstetrics,Childbirth,Employer,1,5950,No,3
+P100518,2023-12-04,2023-12-09,42,Female,Mymensingh,General Medicine,Gastrointestinal,Uninsured,5,15550,No,4
+P100519,2023-08-27,2023-08-29,21,Female,Rangpur,Obstetrics,Pregnancy complication,Uninsured,2,14950,No,4
+P100520,2023-12-31,2024-01-06,48,Female,Barishal,Surgery,Gastrointestinal,,6,110750,No,3
+P100521,2024-07-31,2024-08-02,59,Female,Chattogram,Cardiology,Cardiac,Uninsured,2,14400,No,4
+P100522,2024-03-29,2024-04-04,36,Female,Khulna,General Medicine,Respiratory,Employer,6,24250,No,3
+P100523,2024-03-14,2024-03-15,5,Female,Dhaka,Pediatrics,Infection,Government scheme,1,4600,No,4
+P100524,2023-11-13,2023-11-15,11,Female,Khulna,General Medicine,Respiratory,Employer,2,8250,No,5
+P100525,2024-05-23,2024-05-28,37,Male,Dhaka,Cardiology,Hypertension-related,Employer,5,29050,No,4
+P100526,2024-09-24,2024-10-02,30,Male,Rangpur,Surgery,Injury,Private,8,107250,No,4
+P100527,2024-05-02,2024-05-11,41,Male,Barishal,Surgery,Gastrointestinal,Private,9,84550,No,4
+P100528,2023-10-22,2023-10-23,18,Female,Chattogram,Obstetrics,Childbirth,Uninsured,1,4350,No,3
+P100529,2024-09-05,2024-09-16,66,Female,Khulna,Cardiology,Cardiac,Private,11,64300,No,4
+P100530,2024-11-19,2024-11-23,0,Male,Chattogram,Pediatrics,Infection,Government scheme,4,18850,No,3
+P100531,2024-08-04,2024-08-06,9,Male,Dhaka,Pediatrics,Gastrointestinal,Private,2,5700,No,5
+P100532,2024-10-02,2024-10-06,44,Female,Dhaka,Cardiology,Cardiac,Uninsured,4,39150,No,5
+P100533,2023-07-13,2023-07-17,11,Female,Dhaka,Pediatrics,Respiratory,Private,4,16200,No,5
+P100534,2023-11-04,2023-11-09,36,Male,Dhaka,General Medicine,Infection,Uninsured,5,20850,No,5
+P100535,2023-07-02,2023-07-11,46,Female,Barishal,General Medicine,Infection,Private,9,38750,No,3
+P100536,2023-09-25,2023-10-04,62,Male,Sylhet,Orthopedics,Fracture,Uninsured,9,79200,No,3
+P100537,2024-06-19,2024-06-29,79,Female,Rajshahi,General Medicine,Gastrointestinal,Uninsured,10,41400,No,3
+P100538,2024-05-08,2024-05-12,28,Female,Mymensingh,General Medicine,Gastrointestinal,Uninsured,4,13250,No,2
+P100539,2023-01-03,2023-01-07,26,Female,Rangpur,Obstetrics,Childbirth,Government scheme,4,19400,No,3
+P100540,2024-07-05,2024-07-24,50,Female,Dhaka,Surgery,Appendicitis,Government scheme,19,222100,No,4
+P100541,2023-05-21,2023-05-28,57,Female,Rajshahi,Orthopedics,Joint disorder,Uninsured,7,54250,No,3
+P100542,2023-05-16,2023-05-19,18,Female,Rangpur,Obstetrics,Pregnancy complication,Uninsured,3,20050,No,3
+P100543,2024-02-01,2024-02-07,31,Female,Dhaka,Surgery,Hernia,Uninsured,6,94850,No,4
+P100544,2023-06-25,2023-07-02,11,Male,Chattogram,General Medicine,Respiratory,Uninsured,7,30500,No,3
+P100545,2024-12-03,2024-12-08,50,Female,Mymensingh,Cardiology,Hypertension-related,Uninsured,5,36750,No,
+P100546,2023-04-17,2023-04-23,42,Female,Sylhet,Cardiology,Hypertension-related,Government scheme,6,31300,No,4
+P100547,2023-04-21,2023-04-26,7,Female,Rangpur,General Medicine,Diabetes-related,Government scheme,5,16500,No,3
+P100548,2024-07-09,2024-07-11,37,Female,Rangpur,Obstetrics,Pregnancy complication,Uninsured,2,8550,No,5
+P100549,2023-07-29,2023-08-04,43,Female,Dhaka,Cardiology,Diabetes-related,Employer,6,45000,No,4
+P100550,2024-06-05,2024-06-12,66,Male,Barishal,Orthopedics,Fracture,Uninsured,7,59500,No,3
+P100551,2024-05-12,2024-05-16,54,Male,Rangpur,General Medicine,Respiratory,Government scheme,4,16350,No,4
+P100552,2023-05-19,2023-05-22,23,Male,Dhaka,General Medicine,Gastrointestinal,Uninsured,3,19100,No,3
+P100553,2024-02-28,2024-03-06,36,Female,Dhaka,Surgery,Gastrointestinal,Government scheme,7,94800,No,3
+P100554,2024-01-27,2024-01-30,4,Female,Dhaka,General Medicine,Gastrointestinal,Uninsured,3,19350,No,5
+P100555,2023-03-11,2023-03-14,32,Male,Sylhet,General Medicine,Infection,Uninsured,3,14350,No,4
+P100556,2024-07-11,2024-07-17,49,Male,Barishal,General Medicine,Infection,Uninsured,6,31500,No,4
+P100557,2024-09-17,2024-09-27,69,Female,Rangpur,Orthopedics,Fracture,Private,10,73150,No,4
+P100558,2024-11-22,2024-11-27,6,Female,Chattogram,Pediatrics,Infection,Employer,5,13400,No,5
+P100559,2023-03-06,2023-03-09,48,Female,Khulna,Orthopedics,Fracture,Private,3,21450,No,3
+P100560,2023-05-11,2023-05-19,63,Male,Dhaka,General Medicine,Diabetes-related,Government scheme,8,31900,Yes,3
+P100561,2024-08-25,2024-08-31,11,Male,Mymensingh,General Medicine,Respiratory,Uninsured,6,20500,No,4
+P100562,2023-08-11,2023-08-15,39,Female,Rajshahi,Obstetrics,Childbirth,Government scheme,4,18700,No,3
+P100563,2024-04-01,2024-04-04,8,Male,Sylhet,Pediatrics,Respiratory,Government scheme,3,11650,No,5
+P100564,2023-09-12,2023-09-14,8,Female,Chattogram,Pediatrics,Infection,Uninsured,2,5450,No,2
+P100565,2023-06-08,2023-06-12,10,Male,Dhaka,Pediatrics,Infection,Uninsured,4,9550,No,4
+P100566,2024-04-01,2024-04-06,22,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,5,22650,No,2
+P100567,2023-05-31,2023-06-03,34,Female,Rangpur,General Medicine,Respiratory,Uninsured,3,11300,No,3
+P100568,2023-04-10,2023-04-17,81,Male,Dhaka,Cardiology,Hypertension-related,Uninsured,7,49200,No,5
+P100569,2024-01-23,2024-02-01,64,Male,Rangpur,Orthopedics,Joint disorder,Government scheme,9,68000,No,5
+P100570,2023-05-22,2023-05-24,57,Female,Dhaka,Cardiology,Diabetes-related,Government scheme,2,20900,No,5
+P100571,2023-05-21,2023-05-29,35,Female,Rajshahi,Obstetrics,Pregnancy complication,Uninsured,8,55400,Yes,2
+P100572,2024-07-23,2024-07-29,27,Male,Dhaka,Orthopedics,Fracture,Employer,6,40700,No,3
+P100573,2024-01-21,2024-01-23,30,Female,Dhaka,Obstetrics,Pregnancy complication,Government scheme,2,8650,No,4
+P100574,2024-01-31,2024-02-11,44,Female,Rajshahi,Surgery,Gastrointestinal,Private,11,114300,No,4
+P100575,2023-04-15,2023-04-18,52,Female,Chattogram,Orthopedics,Joint disorder,Employer,3,28250,No,3
+P100576,2023-04-28,2023-05-05,19,Male,Chattogram,Surgery,Appendicitis,Employer,7,104900,No,3
+P100577,2023-10-13,2023-10-20,9,Male,Khulna,Pediatrics,Gastrointestinal,Uninsured,7,26750,No,3
+P100578,2023-10-11,2023-10-19,43,Male,Chattogram,Surgery,Hernia,Employer,8,129650,No,5
+P100579,2023-11-26,2023-12-02,59,Male,Rajshahi,Cardiology,Cardiac,Uninsured,6,83200,No,3
+P100580,2023-04-09,2023-04-15,71,Male,Khulna,Orthopedics,Joint disorder,Uninsured,6,42550,No,4
+P100581,2024-10-17,2024-10-22,59,Female,Dhaka,Orthopedics,Joint disorder,Uninsured,5,58000,No,4
+P100582,2023-09-22,2023-09-27,66,Male,Chattogram,General Medicine,Infection,Private,5,18750,No,5
+P100583,2024-08-18,2024-08-27,58,Female,Dhaka,Cardiology,Cardiac,Employer,9,104500,No,3
+P100584,2023-10-20,2023-10-30,39,Female,Dhaka,Surgery,Gastrointestinal,Uninsured,10,143250,No,5
+P100585,2023-12-11,2023-12-14,14,Female,Dhaka,Pediatrics,Respiratory,Private,3,6400,No,3
+P100586,2023-03-23,2023-03-29,22,Male,Khulna,General Medicine,Diabetes-related,Uninsured,6,18850,No,5
+P100587,2024-05-08,2024-05-13,95,Male,Dhaka,Cardiology,Hypertension-related,Government scheme,5,33150,Yes,2
+P100588,2023-02-13,2023-02-15,49,Female,Rangpur,General Medicine,Respiratory,Uninsured,2,5100,No,4
+P100589,2024-06-29,2024-07-05,49,Male,Sylhet,General Medicine,Respiratory,Private,6,29900,No,5
+P100590,2024-10-05,2024-10-10,52,Female,Dhaka,Surgery,Injury,Private,5,100650,No,4
+P100591,2023-09-21,2023-10-01,84,Male,Khulna,Cardiology,Diabetes-related,Uninsured,10,84400,No,4
+P100592,2024-10-09,2024-10-19,69,Male,Dhaka,Cardiology,Cardiac,Employer,10,111400,No,3
+P100593,2024-05-25,2024-06-02,10,Female,Dhaka,Pediatrics,Respiratory,Employer,8,40600,No,3
+P100594,2023-01-02,2023-01-08,9,Female,Mymensingh,General Medicine,Infection,Uninsured,6,25300,No,5
+P100595,2023-05-29,2023-06-03,70,Male,Rajshahi,General Medicine,Respiratory,Government scheme,5,19850,No,4
+P100596,2024-04-13,2024-04-17,6,Female,Dhaka,Pediatrics,Infection,Government scheme,4,13150,Yes,5
+P100597,2024-05-27,2024-06-01,13,Male,Rangpur,Pediatrics,Gastrointestinal,Uninsured,5,20000,No,4
+P100598,2023-03-10,2023-03-16,44,Female,Mymensingh,Surgery,Appendicitis,Uninsured,6,89600,No,4
+P100599,2024-05-14,2024-05-20,13,Female,Rajshahi,Pediatrics,Gastrointestinal,Private,6,23550,No,5
+P100600,2024-08-14,2024-08-22,65,Female,Barishal,Orthopedics,Fracture,Private,8,71200,No,4
+P100601,2023-03-09,2023-03-12,32,Female,Sylhet,Obstetrics,Childbirth,Private,3,17750,No,4
+P100602,2024-10-04,2024-10-09,28,Male,Sylhet,Surgery,Appendicitis,Private,5,40300,No,3
+P100603,2024-01-25,2024-01-30,37,Female,Rajshahi,Obstetrics,Childbirth,Government scheme,5,37550,Yes,5
+P100604,2024-03-26,2024-03-30,36,Male,Rangpur,Surgery,Gastrointestinal,Uninsured,4,34800,No,4
+P100605,2023-02-06,2023-02-15,36,Female,Rajshahi,Obstetrics,Childbirth,Uninsured,9,63050,No,3
+P100606,2024-03-23,2024-03-30,80,Male,Dhaka,Surgery,Injury,Uninsured,7,101450,Yes,5
+P100607,2023-11-28,2023-12-04,81,Male,Dhaka,General Medicine,Gastrointestinal,Uninsured,6,18050,No,4
+P100608,2023-09-29,2023-09-30,32,Female,Chattogram,Obstetrics,Pregnancy complication,Government scheme,1,5150,No,4
+P100609,2024-07-23,2024-07-31,58,Male,Dhaka,Cardiology,Hypertension-related,Government scheme,8,122350,Yes,
+P100610,2023-07-02,2023-07-04,52,Male,Dhaka,Orthopedics,Fracture,Uninsured,2,15700,No,5
+P100611,2023-02-13,2023-02-20,5,Male,Rajshahi,Pediatrics,Respiratory,Private,7,18050,No,4
+P100612,2023-12-31,2024-01-09,64,Female,Mymensingh,Surgery,Hernia,Uninsured,9,131950,No,4
+P100613,2024-06-26,2024-07-06,35,Female,Dhaka,Surgery,Appendicitis,Uninsured,10,98900,No,5
+P100614,2023-04-08,2023-04-10,33,Female,Dhaka,General Medicine,Respiratory,Employer,2,4950,Yes,3
+P100615,2024-12-19,2024-12-23,41,Female,Rangpur,Obstetrics,Childbirth,Uninsured,4,27350,No,5
+P100616,2024-05-05,2024-05-09,29,Female,Chattogram,Obstetrics,Childbirth,Government scheme,4,19100,No,4
+P100617,2024-11-12,2024-11-20,50,Female,Sylhet,Cardiology,Cardiac,Uninsured,8,78000,No,4
+P100618,2023-12-10,2023-12-16,41,Female,Rajshahi,General Medicine,Diabetes-related,Uninsured,6,19600,No,5
+P100619,2023-03-31,2023-04-06,10,Female,Khulna,General Medicine,Infection,Private,6,28650,No,4
+P100620,2023-05-10,2023-05-15,18,Female,Dhaka,Obstetrics,Childbirth,Government scheme,5,31400,No,4
+P100621,2024-01-01,2024-01-10,85,Female,Chattogram,Orthopedics,Joint disorder,Private,9,37700,Yes,4
+P100622,2024-03-05,2024-03-10,56,Female,Khulna,Surgery,Injury,Employer,5,66000,No,3
+P100623,2024-06-19,2024-06-26,78,Male,Dhaka,Orthopedics,Joint disorder,Government scheme,7,52100,No,5
+P100624,2024-08-03,2024-08-10,25,Male,Dhaka,Surgery,Gastrointestinal,Private,7,119700,No,4
+P100625,2024-07-10,2024-07-16,61,Male,Chattogram,Cardiology,Cardiac,Uninsured,6,59600,Yes,3
+P100626,2024-03-05,2024-03-08,21,Female,Barishal,Obstetrics,Childbirth,Uninsured,3,21750,No,5
+P100627,2023-01-14,2023-01-21,23,Male,Rajshahi,General Medicine,Diabetes-related,Private,7,23450,No,3
+P100628,2024-01-22,2024-01-30,54,Female,Barishal,Orthopedics,Fracture,Private,8,52550,No,4
+P100629,2024-08-21,2024-08-23,35,Female,Barishal,Obstetrics,Childbirth,Uninsured,2,11900,No,4
+P100630,2024-09-10,2024-09-17,44,Male,Dhaka,Surgery,Appendicitis,Uninsured,7,76750,No,4
+P100631,2024-09-01,2024-09-05,31,Female,Rangpur,Obstetrics,Childbirth,Uninsured,4,33550,No,3
+P100632,2023-01-08,2023-01-09,13,Male,Rangpur,General Medicine,Diabetes-related,Uninsured,1,3850,No,5
+P100633,2023-11-14,2023-11-22,39,Male,Dhaka,Cardiology,Diabetes-related,Uninsured,8,53000,No,4
+P100634,2024-03-26,2024-04-03,14,Male,Rajshahi,General Medicine,Respiratory,Government scheme,8,26000,No,
+P100635,2023-06-30,2023-07-03,51,Female,Chattogram,General Medicine,Gastrointestinal,Government scheme,3,15250,No,5
+P100636,2023-10-27,2023-11-01,14,Female,Rangpur,Pediatrics,Infection,Employer,5,16800,No,3
+P100637,2023-03-13,2023-03-19,14,Male,Chattogram,Pediatrics,Respiratory,Private,6,19850,No,3
+P100638,2023-05-22,2023-05-28,21,Female,Chattogram,Obstetrics,Pregnancy complication,Uninsured,6,46950,No,5
+P100639,2023-01-05,2023-01-12,4,Female,Mymensingh,Surgery,Hernia,Private,7,66850,No,2
+P100640,2024-12-16,2024-12-21,20,Female,Khulna,Obstetrics,Childbirth,Government scheme,5,17150,No,5
+P100641,2024-09-19,2024-09-24,29,Female,Dhaka,Obstetrics,Childbirth,Private,5,24250,No,4
+P100642,2023-10-22,2023-11-03,60,Female,Khulna,General Medicine,Infection,Uninsured,12,51000,No,2
+P100643,2023-01-04,2023-01-09,11,Male,Sylhet,General Medicine,Gastrointestinal,Private,5,18800,No,3
+P100644,2023-09-02,2023-09-07,12,Male,Chattogram,Pediatrics,Gastrointestinal,Uninsured,5,11850,No,2
+P100645,2023-11-13,2023-11-18,35,Male,Rajshahi,Surgery,Appendicitis,Uninsured,5,77350,No,4
+P100646,2023-05-04,2023-05-10,63,Female,Khulna,General Medicine,Diabetes-related,Uninsured,6,25000,No,3
+P100647,2024-04-28,2024-05-10,65,Male,Rajshahi,Orthopedics,Joint disorder,Uninsured,12,105800,No,4
+P100648,2024-12-29,2025-01-04,14,Male,Mymensingh,Pediatrics,Gastrointestinal,Employer,6,23300,No,4
+P100649,2024-09-08,2024-09-14,54,Male,Rajshahi,General Medicine,Gastrointestinal,Uninsured,6,17350,No,3
+P100650,2024-09-16,2024-09-22,28,Male,Khulna,Cardiology,Cardiac,Uninsured,6,58250,No,4
+P100651,2024-08-29,2024-09-04,37,Female,Sylhet,Surgery,Injury,Government scheme,6,90350,No,4
+P100652,2023-02-21,2023-02-24,7,Male,Dhaka,Pediatrics,Gastrointestinal,Employer,3,13950,No,5
+P100653,2024-02-07,2024-02-13,64,Male,Dhaka,General Medicine,Gastrointestinal,Uninsured,6,28750,Yes,3
+P100654,2024-02-18,2024-02-27,42,Male,Mymensingh,Surgery,Hernia,Uninsured,9,122800,No,4
+P100655,2023-03-15,2023-03-27,51,Male,Sylhet,Cardiology,Diabetes-related,Uninsured,12,69950,No,3
+P100656,2023-04-18,2023-04-21,59,Male,Chattogram,Surgery,Hernia,Private,3,35850,No,4
+P100657,2024-02-17,2024-02-24,61,Female,Dhaka,General Medicine,Infection,Government scheme,7,22050,Yes,3
+P100658,2024-06-06,2024-06-10,4,Male,Dhaka,Pediatrics,Gastrointestinal,Uninsured,4,19300,No,4
+P100659,2023-06-02,2023-06-09,70,Male,Dhaka,Cardiology,Diabetes-related,Employer,7,83550,No,3
+P100660,2023-12-20,2023-12-28,63,Female,Chattogram,General Medicine,Diabetes-related,Private,8,25250,Yes,4
+P100661,2023-02-24,2023-03-01,56,Female,Rajshahi,Surgery,Hernia,Government scheme,5,59300,No,4
+P100662,2023-03-22,2023-03-30,47,Male,Dhaka,General Medicine,Diabetes-related,Uninsured,8,34050,No,4
+P100663,2024-02-28,2024-03-03,43,Male,Khulna,General Medicine,Infection,Employer,4,20050,No,4
+P100664,2024-02-11,2024-02-21,54,Male,Mymensingh,Cardiology,Diabetes-related,,10,59200,No,3
+P100665,2024-07-01,2024-07-05,12,Female,Mymensingh,Pediatrics,Infection,Uninsured,4,8050,No,4
+P100666,2024-10-26,2024-10-28,23,Female,Rangpur,Obstetrics,Pregnancy complication,Uninsured,2,12100,No,3
+P100667,2023-05-19,2023-05-26,22,Male,Rajshahi,Surgery,Appendicitis,Uninsured,7,44600,No,
+P100668,2023-09-07,2023-09-13,36,Female,Rajshahi,General Medicine,Respiratory,Uninsured,6,24950,No,4
+P100669,2024-09-16,2024-09-22,61,Male,Rajshahi,Cardiology,Diabetes-related,Uninsured,6,62600,No,4
+P100670,2023-02-07,2023-02-12,70,Male,Dhaka,General Medicine,Respiratory,Uninsured,5,27250,No,4
+P100671,2024-08-27,2024-08-29,4,Female,Rangpur,Pediatrics,Respiratory,Uninsured,2,6000,No,5
+P100672,2024-11-21,2024-11-29,41,Male,Barishal,Surgery,Gastrointestinal,Private,8,99950,No,4
+P100673,2023-03-14,2023-03-18,10,Female,Khulna,Pediatrics,Gastrointestinal,Government scheme,4,16500,No,4
+P100674,2023-04-14,2023-04-17,11,Female,Dhaka,Pediatrics,Gastrointestinal,Private,3,7850,No,3
+P100675,2024-05-14,2024-05-22,73,Male,Dhaka,Cardiology,Hypertension-related,Uninsured,8,90500,No,4
+P100676,2023-12-13,2023-12-23,37,Female,Rangpur,Surgery,Injury,Uninsured,10,128500,No,3
+P100677,2024-12-21,2024-12-24,66,Female,Dhaka,Orthopedics,Joint disorder,Private,3,20650,No,
+P100678,2024-02-02,2024-02-11,37,Female,Dhaka,General Medicine,Diabetes-related,Government scheme,9,37300,No,4
+P100679,2024-04-23,2024-05-02,76,Male,Khulna,Cardiology,Diabetes-related,Uninsured,9,78250,No,4
+P100680,2023-06-23,2023-06-29,54,Male,Barishal,General Medicine,Infection,Employer,6,29150,No,3
+P100681,2023-08-25,2023-08-30,18,Male,Dhaka,General Medicine,Gastrointestinal,Government scheme,5,18300,No,4
+P100682,2023-05-10,2023-05-16,45,Female,Dhaka,General Medicine,Respiratory,Employer,6,25400,No,4
+P100683,2023-04-18,2023-04-28,81,Male,Sylhet,Orthopedics,Joint disorder,Private,10,68500,No,4
+P100684,2023-03-24,2023-03-27,11,Female,Mymensingh,Pediatrics,Gastrointestinal,Uninsured,3,8300,No,5
+P100685,2024-10-13,2024-10-26,64,Female,Rajshahi,Cardiology,Hypertension-related,Employer,13,122150,No,2
+P100686,2023-02-21,2023-02-27,65,Female,Sylhet,Cardiology,Cardiac,Employer,6,43150,No,5
+P100687,2024-01-13,2024-01-17,21,Male,Chattogram,Surgery,Gastrointestinal,Government scheme,4,58650,No,4
+P100688,2024-01-06,2024-01-09,36,Female,Barishal,Obstetrics,Childbirth,Employer,3,20850,No,4
+P100689,2023-02-10,2023-02-17,65,Female,Rajshahi,Orthopedics,Joint disorder,Employer,7,46250,No,4
+P100690,2024-09-06,2024-09-08,14,Male,Rangpur,General Medicine,Diabetes-related,Government scheme,2,8450,No,2
+P100691,2024-01-01,2024-01-06,29,Male,Sylhet,Surgery,Injury,Uninsured,5,49500,No,3
+P100692,2023-04-03,2023-04-12,63,Female,Chattogram,General Medicine,Respiratory,Uninsured,9,24100,No,3
+P100693,2023-04-04,2023-04-09,62,Female,Dhaka,Cardiology,Diabetes-related,Private,5,38750,No,5
+P100694,2024-05-26,2024-06-04,35,Female,Rangpur,Surgery,Gastrointestinal,Government scheme,9,106650,No,
+P100695,2024-03-28,2024-04-05,64,Female,Dhaka,Orthopedics,Fracture,Uninsured,8,72900,No,3
+P100696,2023-10-29,2023-11-02,24,Female,Barishal,Obstetrics,Childbirth,Uninsured,4,24900,No,4
+P100697,2023-10-23,2023-10-31,1,Male,Rajshahi,Pediatrics,Respiratory,Employer,8,35150,No,4
+P100698,2023-01-26,2023-01-30,0,Male,Dhaka,Pediatrics,Respiratory,Uninsured,4,10950,No,4
+P100699,2023-01-24,2023-01-26,55,Male,Barishal,General Medicine,Gastrointestinal,Uninsured,2,7300,No,3
+P100700,2024-01-27,2024-01-31,27,Female,Rajshahi,General Medicine,Gastrointestinal,Government scheme,4,24150,No,2
+P100701,2023-09-23,2023-09-27,58,Male,Rangpur,Cardiology,Cardiac,Uninsured,4,22200,No,4
+P100702,2023-07-03,2023-07-07,35,Female,Dhaka,General Medicine,Gastrointestinal,Uninsured,4,14300,No,5
+P100703,2023-10-04,2023-10-13,10,Female,Dhaka,Surgery,Appendicitis,Private,9,82600,No,3
+P100704,2024-03-17,2024-03-22,23,Female,Dhaka,General Medicine,Infection,Employer,5,19050,No,3
+P100705,2023-08-03,2023-08-11,79,Male,Dhaka,Orthopedics,Fracture,Uninsured,8,57400,No,3
+P100706,2023-09-13,2023-09-16,30,Female,Khulna,Obstetrics,Pregnancy complication,Uninsured,3,20900,No,4
+P100707,2023-07-26,2023-07-27,26,Female,Chattogram,Obstetrics,Childbirth,Uninsured,1,6400,No,4
+P100708,2024-05-01,2024-05-04,39,Female,Dhaka,Cardiology,Cardiac,Private,3,19500,No,5
+P100709,2023-02-09,2023-02-12,36,Male,Mymensingh,Orthopedics,Joint disorder,Uninsured,3,20700,No,5
+P100710,2024-11-01,2024-11-07,39,Male,Dhaka,Surgery,Gastrointestinal,Uninsured,6,72000,No,4
+P100711,2024-02-09,2024-02-12,9,Female,Chattogram,Pediatrics,Gastrointestinal,Government scheme,3,12650,No,2
+P100712,2023-06-28,2023-07-02,39,Female,Rangpur,Obstetrics,Childbirth,Employer,4,44100,No,3
+P100713,2024-07-08,2024-07-13,38,Male,Khulna,Surgery,Hernia,Uninsured,5,71500,No,3
+P100714,2024-11-17,2024-11-18,32,Female,Chattogram,Obstetrics,Pregnancy complication,Private,1,4650,No,3
+P100715,2023-02-12,2023-02-20,68,Female,Mymensingh,General Medicine,Respiratory,Government scheme,8,31250,No,4
+P100716,2023-05-30,2023-06-09,62,Female,Rajshahi,Orthopedics,Joint disorder,Uninsured,10,83700,No,4
+P100717,2023-04-16,2023-04-22,51,Female,Dhaka,General Medicine,Respiratory,Government scheme,6,21100,No,2
+P100718,2023-02-21,2023-02-24,4,Male,Dhaka,Pediatrics,Infection,Uninsured,3,11800,No,5
+P100719,2024-06-23,2024-06-30,60,Male,Mymensingh,Surgery,Appendicitis,Uninsured,7,47600,No,4
+P100720,2023-05-21,2023-05-25,53,Female,Chattogram,Orthopedics,Fracture,Uninsured,4,36750,No,4
+P100721,2023-10-07,2023-10-14,70,Female,Rangpur,Cardiology,Hypertension-related,Uninsured,7,55950,No,4
+P100722,2024-08-17,2024-08-21,25,Female,Dhaka,General Medicine,Respiratory,Government scheme,4,15550,No,3
+P100723,2024-03-22,2024-03-29,45,Male,Dhaka,Surgery,Gastrointestinal,Private,7,121200,No,5
+P100724,2024-05-09,2024-05-14,49,Male,Rangpur,General Medicine,Respiratory,Government scheme,5,14600,No,4
+P100725,2023-03-13,2023-03-16,38,Male,Mymensingh,General Medicine,Respiratory,Government scheme,3,12850,No,5
+P100726,2024-12-09,2024-12-16,50,Male,Dhaka,General Medicine,Infection,Uninsured,7,34150,No,3
+P100727,2023-03-02,2023-03-06,36,Female,Dhaka,General Medicine,Respiratory,Employer,4,16700,No,5
+P100728,2024-06-02,2024-06-13,48,Male,Barishal,Orthopedics,Fracture,Employer,11,58800,No,3
+P100729,2024-04-11,2024-04-22,80,Female,Rajshahi,Orthopedics,Fracture,Uninsured,11,123350,No,5
+P100730,2023-10-29,2023-11-04,72,Female,Chattogram,Cardiology,Hypertension-related,Government scheme,6,51200,No,3
+P100731,2024-09-03,2024-09-06,26,Female,Dhaka,General Medicine,Gastrointestinal,Government scheme,3,10500,No,5
+P100732,2024-10-13,2024-10-17,53,Female,Mymensingh,General Medicine,Gastrointestinal,Uninsured,4,14800,No,4
+P100733,2023-02-21,2023-02-27,47,Male,Dhaka,Cardiology,Cardiac,Uninsured,6,49100,No,4
+P100734,2024-11-30,2024-12-05,18,Female,Dhaka,General Medicine,Gastrointestinal,Uninsured,5,14850,No,4
+P100735,2023-06-26,2023-07-02,14,Male,Chattogram,Pediatrics,Infection,Employer,6,21900,No,
+P100736,2024-07-31,2024-08-05,62,Male,Dhaka,General Medicine,Diabetes-related,Government scheme,5,17250,Yes,
+P100737,2024-08-22,2024-08-23,34,Male,Rajshahi,Cardiology,Diabetes-related,Government scheme,1,10650,No,5
+P100738,2024-02-11,2024-02-21,70,Male,Chattogram,Cardiology,Hypertension-related,Employer,10,102450,No,4
+P100739,2024-09-22,2024-09-26,54,Female,Khulna,Cardiology,Cardiac,Uninsured,4,54050,No,1
+P100740,2024-08-25,2024-08-26,37,Male,Chattogram,General Medicine,Infection,Employer,1,3800,No,4
+P100741,2024-01-17,2024-01-22,50,Male,Dhaka,General Medicine,Diabetes-related,Uninsured,5,16350,No,4
+P100742,2023-05-11,2023-05-16,53,Male,Rangpur,Surgery,Hernia,Government scheme,5,41550,No,3
+P100743,2023-11-14,2023-11-18,25,Male,Rajshahi,General Medicine,Diabetes-related,Uninsured,4,27700,No,3
+P100744,2024-10-19,2024-10-28,68,Female,Chattogram,Orthopedics,Joint disorder,Uninsured,9,84950,No,4
+P100745,2023-05-28,2023-06-02,59,Male,Dhaka,Orthopedics,Joint disorder,Uninsured,5,33650,No,5
+P100746,2024-12-30,2025-01-04,40,Female,Khulna,Cardiology,Cardiac,Uninsured,5,68700,No,
+P100747,2023-05-13,2023-05-18,55,Male,Sylhet,Cardiology,Cardiac,Uninsured,5,63150,No,5
+P100748,2024-04-30,2024-05-02,24,Female,Khulna,Obstetrics,Childbirth,Uninsured,2,8550,No,5
+P100749,2024-04-12,2024-04-16,23,Female,Sylhet,Obstetrics,Childbirth,Private,4,19900,No,4
+P100750,2023-05-23,2023-05-27,75,Male,Dhaka,General Medicine,Infection,Employer,4,15500,No,2
+P100751,2023-12-11,2023-12-19,68,Male,Mymensingh,Cardiology,Diabetes-related,Uninsured,8,55100,No,4
+P100752,2023-04-16,2023-04-20,18,Female,Dhaka,General Medicine,Infection,Uninsured,4,15600,No,4
+P100753,2023-09-24,2023-10-08,64,Female,Dhaka,Orthopedics,Fracture,Private,14,133800,No,4
+P100754,2024-12-01,2024-12-02,8,Male,Rajshahi,Pediatrics,Gastrointestinal,Private,1,2500,No,4
+P100755,2023-02-09,2023-02-16,56,Female,Dhaka,General Medicine,Respiratory,Private,7,30150,No,5
+P100756,2024-09-28,2024-10-01,68,Female,Rajshahi,Cardiology,Cardiac,Employer,3,36150,No,4
+P100757,2024-05-09,2024-05-14,49,Male,Dhaka,Surgery,Appendicitis,Uninsured,5,66300,No,4
+P100758,2024-06-30,2024-07-01,40,Male,Sylhet,General Medicine,Respiratory,Uninsured,1,3950,Yes,4
+P100759,2023-07-25,2023-08-04,49,Female,Sylhet,Orthopedics,Joint disorder,Employer,10,67700,No,5
+P100760,2024-11-23,2024-11-26,3,Female,Khulna,Pediatrics,Infection,Private,3,12900,No,3
+P100761,2023-07-04,2023-07-10,4,Female,Chattogram,General Medicine,Respiratory,Private,6,17900,No,4
+P100762,2024-01-03,2024-01-09,48,Male,Chattogram,General Medicine,Gastrointestinal,Employer,6,25500,No,5
+P100763,2023-01-27,2023-02-03,45,Male,Rangpur,General Medicine,Diabetes-related,Uninsured,7,28200,No,3
+P100764,2024-10-10,2024-10-17,53,Male,Rajshahi,Surgery,Hernia,Uninsured,7,111300,No,5
+P100765,2024-05-29,2024-06-01,15,Male,Rajshahi,General Medicine,Diabetes-related,Uninsured,3,10350,No,5
+P100766,2023-04-29,2023-05-07,54,Female,Dhaka,General Medicine,Gastrointestinal,Government scheme,8,28250,No,2
+P100767,2024-04-28,2024-05-06,83,Male,Dhaka,General Medicine,Infection,Employer,8,23450,No,4
+P100768,2023-05-14,2023-05-20,43,Male,Chattogram,General Medicine,Gastrointestinal,Uninsured,6,26750,No,4
+P100769,2023-11-21,2023-11-23,14,Male,Barishal,Pediatrics,Gastrointestinal,Uninsured,2,6300,No,4
+P100770,2024-01-10,2024-01-13,48,Male,Rangpur,General Medicine,Diabetes-related,Private,3,9650,Yes,4
+P100771,2024-11-10,2024-11-14,86,Female,Mymensingh,Orthopedics,Joint disorder,Uninsured,4,26400,No,5
+P100772,2023-08-31,2023-09-03,5,Male,Chattogram,Pediatrics,Gastrointestinal,Government scheme,3,12000,No,4
+P100773,2023-01-10,2023-01-15,38,Female,Rajshahi,Obstetrics,Pregnancy complication,Uninsured,5,22750,No,3
+P100774,2023-11-12,2023-11-14,46,Male,Sylhet,General Medicine,Diabetes-related,Employer,2,6200,No,3
+P100775,2024-11-07,2024-11-10,26,Male,Chattogram,Surgery,Appendicitis,Government scheme,3,45050,No,4
+P100776,2024-08-05,2024-08-09,9,Male,Rajshahi,Pediatrics,Respiratory,Uninsured,4,13450,No,3
+P100777,2023-02-13,2023-02-16,31,Female,Barishal,General Medicine,Infection,Government scheme,3,15250,No,3
+P100778,2023-02-08,2023-02-11,36,Female,Dhaka,Obstetrics,Childbirth,Government scheme,3,16450,No,4
+P100779,2024-07-06,2024-07-14,68,Male,Dhaka,Surgery,Gastrointestinal,Uninsured,8,95950,No,4
+P100780,2024-06-10,2024-06-19,78,Female,Chattogram,General Medicine,Diabetes-related,Uninsured,9,37450,No,5
+P100781,2024-02-11,2024-02-18,50,Female,Khulna,Surgery,Injury,Government scheme,7,118800,No,4
+P100782,2023-03-06,2023-03-13,52,Male,Dhaka,Orthopedics,Fracture,Private,7,77600,No,3
+P100783,2023-07-24,2023-07-25,13,Female,Dhaka,Pediatrics,Infection,Government scheme,1,4650,No,3
+P100784,2024-09-10,2024-09-17,91,Female,Dhaka,Surgery,Appendicitis,Uninsured,7,71800,No,4
+P100785,2023-04-12,2023-04-15,52,Male,Rangpur,Cardiology,Cardiac,Government scheme,3,21100,No,4
+P100786,2023-05-28,2023-06-01,41,Female,Rangpur,Obstetrics,Childbirth,Government scheme,4,29050,No,4
+P100787,2023-11-27,2023-12-06,33,Male,Rangpur,Cardiology,Cardiac,Uninsured,9,114300,No,4
+P100788,2024-06-20,2024-06-23,28,Female,Rangpur,Obstetrics,Childbirth,Uninsured,3,24050,No,4
+P100789,2024-08-27,2024-08-29,1,Female,Dhaka,Pediatrics,Respiratory,Uninsured,2,7000,No,4
+P100790,2024-03-08,2024-03-13,61,Male,Dhaka,General Medicine,Respiratory,Government scheme,5,24000,No,4
+P100791,2023-12-26,2024-01-05,91,Female,Rajshahi,Cardiology,Hypertension-related,Uninsured,10,108450,No,3
+P100792,2023-10-09,2023-10-14,38,Female,Rajshahi,Cardiology,Cardiac,Employer,5,46700,No,3
+P100793,2023-02-01,2023-02-07,71,Male,Sylhet,General Medicine,Infection,Uninsured,6,25200,No,5
+P100794,2023-07-15,2023-07-18,43,Male,Dhaka,General Medicine,Diabetes-related,Government scheme,3,12300,No,4
+P100795,2023-06-06,2023-06-11,69,Male,Mymensingh,Cardiology,Diabetes-related,Uninsured,5,36950,No,3
+P100796,2023-02-11,2023-02-13,9,Female,Chattogram,General Medicine,Gastrointestinal,Government scheme,2,6750,No,5
+P100797,2024-06-27,2024-07-11,71,Male,Khulna,General Medicine,Diabetes-related,Private,14,47000,No,3
+P100798,2023-09-15,2023-09-18,22,Female,Rangpur,Obstetrics,Pregnancy complication,Private,3,12050,No,4
+P100799,2024-01-08,2024-01-12,11,Female,Rajshahi,Pediatrics,Respiratory,Employer,4,14500,No,4
+P100800,2023-05-27,2023-06-01,31,Female,Sylhet,Obstetrics,Childbirth,Uninsured,5,29700,No,
+P100801,2024-03-07,2024-03-11,57,Female,Sylhet,Cardiology,Diabetes-related,Uninsured,4,43550,No,2
+P100802,2023-04-10,2023-04-21,54,Male,Sylhet,Surgery,Hernia,Uninsured,11,180900,No,4
+P100803,2024-05-09,2024-05-14,4,Female,Rangpur,Pediatrics,Respiratory,Uninsured,5,24350,No,5
+P100804,2024-06-23,2024-06-30,30,Female,Chattogram,General Medicine,Respiratory,Government scheme,7,39900,No,4
+P100805,2023-08-16,2023-08-22,32,Female,Chattogram,General Medicine,Diabetes-related,Uninsured,6,19850,No,2
+P100806,2023-06-05,2023-06-08,4,Male,Rangpur,Pediatrics,Gastrointestinal,Government scheme,3,7350,No,5
+P100807,2024-07-23,2024-08-01,4,Female,Khulna,General Medicine,Respiratory,Uninsured,9,45450,No,3
+P100808,2023-06-12,2023-06-18,70,Male,Khulna,Orthopedics,Fracture,Employer,6,67800,No,3
+P100809,2023-05-11,2023-05-19,65,Female,Chattogram,Surgery,Hernia,Uninsured,8,141650,Yes,4
+P100810,2023-09-06,2023-09-13,27,Male,Dhaka,General Medicine,Respiratory,Employer,7,31600,No,4
+P100811,2024-12-06,2024-12-08,48,Male,Rajshahi,General Medicine,Infection,Private,2,4850,No,4
+P100812,2023-12-04,2023-12-14,36,Female,Mymensingh,Surgery,Appendicitis,Employer,10,131500,No,3
+P100813,2023-07-11,2023-07-18,3,Female,Chattogram,Pediatrics,Gastrointestinal,Private,7,28150,No,5
+P100814,2024-01-11,2024-01-16,29,Female,Dhaka,General Medicine,Diabetes-related,Uninsured,5,27350,No,4
+P100815,2023-09-12,2023-09-19,24,Male,Dhaka,Surgery,Injury,Government scheme,7,120100,No,2
+P100816,2024-04-30,2024-05-08,63,Female,Rajshahi,Surgery,Injury,Uninsured,8,120500,No,5
+P100817,2023-11-17,2023-11-23,57,Male,Chattogram,Orthopedics,Joint disorder,Uninsured,6,41450,No,4
+P100818,2024-03-05,2024-03-09,10,Female,Barishal,Pediatrics,Respiratory,Uninsured,4,10800,No,5
+P100819,2023-11-15,2023-11-22,82,Female,Dhaka,General Medicine,Respiratory,Employer,7,32000,No,4
+P100820,2023-12-18,2023-12-25,42,Female,Dhaka,General Medicine,Gastrointestinal,Government scheme,7,22950,No,5
+P100821,2023-11-23,2023-11-25,13,Female,Dhaka,Pediatrics,Gastrointestinal,,2,10100,No,4
+P100822,2023-10-15,2023-10-21,66,Female,Dhaka,General Medicine,Infection,Government scheme,6,15650,No,4
+P100823,2024-12-04,2024-12-07,12,Female,Rangpur,Pediatrics,Gastrointestinal,Uninsured,3,12100,No,5
+P100824,2023-07-14,2023-07-17,27,Female,Rangpur,Obstetrics,Childbirth,Uninsured,3,19500,Yes,4
+P100825,2024-08-10,2024-08-11,56,Male,Sylhet,General Medicine,Gastrointestinal,Uninsured,1,3800,No,5
+P100826,2024-06-02,2024-06-05,10,Male,Rangpur,Pediatrics,Infection,Uninsured,3,8350,No,1
+P100827,2024-01-21,2024-01-26,65,Female,Dhaka,General Medicine,Infection,Private,5,11950,No,4
+P100828,2023-08-20,2023-08-24,28,Female,Rangpur,Surgery,Appendicitis,Uninsured,4,42050,No,4
+P100829,2023-12-20,2023-12-26,39,Male,Rajshahi,General Medicine,Respiratory,Uninsured,6,21100,No,4
+P100830,2024-09-12,2024-09-17,8,Male,Sylhet,Pediatrics,Infection,Uninsured,5,23100,No,3
+P100831,2023-05-13,2023-05-19,39,Male,Khulna,Orthopedics,Fracture,Employer,6,39450,No,5
+P100832,2024-03-03,2024-03-06,54,Male,Chattogram,Cardiology,Cardiac,Private,3,30250,No,3
+P100833,2024-07-12,2024-07-17,7,Male,Dhaka,Pediatrics,Gastrointestinal,Uninsured,5,12650,Yes,4
+P100834,2024-04-07,2024-04-10,35,Female,Dhaka,Obstetrics,Pregnancy complication,Government scheme,3,20300,No,4
+P100835,2023-04-16,2023-04-24,61,Female,Chattogram,Orthopedics,Fracture,Uninsured,8,36600,No,4
+P100836,2024-01-07,2024-01-10,37,Female,Rajshahi,Obstetrics,Pregnancy complication,Employer,3,30400,No,5
+P100837,2023-05-14,2023-05-20,15,Male,Mymensingh,Surgery,Injury,Uninsured,6,69500,No,4
+P100838,2024-11-08,2024-11-14,36,Female,Dhaka,Cardiology,Cardiac,Uninsured,6,26850,No,5
+P100839,2023-09-14,2023-09-22,81,Female,Khulna,Orthopedics,Joint disorder,Uninsured,8,53500,No,4
+P100840,2023-11-04,2023-11-11,40,Female,Rajshahi,General Medicine,Infection,Uninsured,7,22500,No,3
+P100841,2024-09-17,2024-09-22,31,Female,Dhaka,Obstetrics,Childbirth,Uninsured,5,25450,No,4
+P100842,2023-11-08,2023-11-15,54,Male,Chattogram,Orthopedics,Joint disorder,Government scheme,7,51100,No,4
+P100843,2023-05-22,2023-05-29,37,Male,Chattogram,Cardiology,Cardiac,Uninsured,7,53400,No,4
+P100844,2024-10-13,2024-10-20,70,Female,Rajshahi,General Medicine,Infection,Uninsured,7,22850,No,4
+P100845,2024-04-18,2024-04-27,34,Female,Dhaka,Surgery,Appendicitis,Private,9,80850,No,3
+P100846,2024-03-17,2024-03-28,77,Female,Dhaka,Cardiology,Diabetes-related,Government scheme,11,121600,No,3
+P100847,2023-02-25,2023-03-02,14,Male,Chattogram,Pediatrics,Infection,Employer,5,23650,No,2
+P100848,2023-11-24,2023-11-30,43,Male,Rangpur,General Medicine,Infection,Uninsured,6,22500,No,4
+P100849,2023-12-02,2023-12-12,70,Female,Rangpur,Surgery,Injury,Employer,10,119450,Yes,4
+P100850,2023-07-11,2023-07-16,47,Female,Dhaka,General Medicine,Respiratory,Government scheme,5,15100,No,5
+P100851,2024-02-17,2024-02-26,59,Female,Khulna,General Medicine,Diabetes-related,Private,9,36650,No,5
+P100852,2023-06-28,2023-07-04,56,Male,Mymensingh,Surgery,Gastrointestinal,Uninsured,6,76250,No,3
+P100853,2023-12-10,2023-12-17,54,Male,Dhaka,Surgery,Hernia,Uninsured,7,79500,Yes,4
+P100854,2024-08-08,2024-08-14,48,Male,Dhaka,General Medicine,Respiratory,Uninsured,6,26500,No,4
+P100855,2024-06-20,2024-06-29,54,Female,Dhaka,Orthopedics,Joint disorder,Government scheme,9,77800,No,3
+P100856,2023-07-24,2023-07-30,18,Female,Dhaka,Obstetrics,Pregnancy complication,Government scheme,6,27650,No,4
+P100857,2023-06-01,2023-06-10,23,Female,Rangpur,Surgery,Appendicitis,Uninsured,9,145550,No,3
+P100858,2023-01-05,2023-01-12,58,Male,Rangpur,Cardiology,Diabetes-related,,7,59800,No,5
+P100859,2023-09-10,2023-09-18,58,Female,Rajshahi,Orthopedics,Joint disorder,Employer,8,97300,No,3
+P100860,2023-01-15,2023-01-24,20,Female,Chattogram,Obstetrics,Childbirth,Uninsured,9,60000,No,
+P100861,2023-04-04,2023-04-08,36,Female,Rangpur,Obstetrics,Childbirth,Private,4,39300,No,2
+P100862,2024-12-15,2024-12-20,25,Female,Dhaka,Obstetrics,Pregnancy complication,Employer,5,40250,No,5
+P100863,2024-09-16,2024-09-23,51,Female,Dhaka,Orthopedics,Fracture,Uninsured,7,59250,No,5
+P100864,2024-02-13,2024-02-20,48,Female,Dhaka,General Medicine,Gastrointestinal,Private,7,23350,No,3
+P100865,2024-07-19,2024-07-24,38,Female,Rangpur,Surgery,Appendicitis,Government scheme,5,50350,No,3
+P100866,2023-12-23,2024-01-02,10,Male,Barishal,Surgery,Gastrointestinal,Uninsured,10,137100,No,4
+P100867,2024-03-14,2024-03-23,21,Female,Khulna,Obstetrics,Pregnancy complication,Uninsured,9,55950,Yes,4
+P100868,2024-11-01,2024-11-03,19,Female,Barishal,General Medicine,Diabetes-related,Employer,2,6900,No,4
+P100869,2023-02-27,2023-03-05,7,Female,Dhaka,General Medicine,Diabetes-related,Uninsured,6,29550,No,4
+P100870,2023-09-14,2023-09-17,36,Female,Chattogram,Obstetrics,Childbirth,Uninsured,3,18200,No,5
+P100871,2023-03-28,2023-04-04,44,Female,Rangpur,General Medicine,Respiratory,Uninsured,7,34550,No,3
+P100872,2024-08-03,2024-08-11,51,Male,Mymensingh,Surgery,Gastrointestinal,Government scheme,8,75200,No,5
+P100873,2024-08-23,2024-08-27,65,Female,Rajshahi,Cardiology,Hypertension-related,Uninsured,4,46200,No,5
+P100874,2024-06-10,2024-06-11,3,Male,Dhaka,Pediatrics,Respiratory,Uninsured,1,3950,No,5
+P100875,2024-03-20,2024-03-29,3,Female,Mymensingh,Surgery,Gastrointestinal,Uninsured,9,145700,No,3
+P100876,2023-12-15,2023-12-23,38,Male,Chattogram,Cardiology,Hypertension-related,Uninsured,8,91950,No,5
+P100877,2023-01-18,2023-01-27,85,Male,Chattogram,Cardiology,Diabetes-related,Government scheme,9,79300,No,4
+P100878,2024-07-19,2024-07-22,2,Female,Dhaka,Pediatrics,Infection,Employer,3,10050,Yes,2
+P100879,2024-10-14,2024-10-18,4,Female,Dhaka,Pediatrics,Gastrointestinal,Uninsured,4,21850,No,3
+P100880,2024-12-06,2024-12-16,66,Male,Khulna,Cardiology,Hypertension-related,Government scheme,10,83700,No,4
+P100881,2023-09-07,2023-09-12,3,Female,Khulna,Pediatrics,Infection,Government scheme,5,21100,No,
+P100882,2023-05-27,2023-06-03,28,Male,Dhaka,Surgery,Hernia,Government scheme,7,76350,Yes,3
+P100883,2024-04-22,2024-05-02,59,Male,Dhaka,Orthopedics,Fracture,Private,10,50250,No,5
+P100884,2023-01-13,2023-01-15,29,Male,Rajshahi,General Medicine,Infection,Uninsured,2,5900,No,3
+P100885,2023-02-13,2023-02-23,65,Male,Chattogram,Cardiology,Cardiac,Private,10,99600,Yes,3
+P100886,2024-08-22,2024-08-26,59,Female,Chattogram,Cardiology,Hypertension-related,Private,4,42900,No,3
+P100887,2024-11-29,2024-12-04,33,Female,Dhaka,General Medicine,Gastrointestinal,Private,5,22150,No,4
+P100888,2023-10-22,2023-10-28,20,Male,Rangpur,General Medicine,Infection,Uninsured,6,31950,No,2
+P100889,2024-01-06,2024-01-09,6,Male,Mymensingh,Pediatrics,Respiratory,Uninsured,3,11600,No,3
+P100890,2024-02-02,2024-02-07,41,Female,Chattogram,Cardiology,Diabetes-related,Uninsured,5,37050,No,2
+P100891,2023-04-12,2023-04-21,50,Female,Barishal,Surgery,Appendicitis,Uninsured,9,125300,No,3
+P100892,2023-06-12,2023-06-17,94,Male,Rangpur,General Medicine,Infection,Uninsured,5,20850,No,5
+P100893,2023-08-06,2023-08-14,69,Male,Dhaka,General Medicine,Respiratory,Uninsured,8,27700,No,4
+P100894,2024-09-06,2024-09-09,34,Female,Rangpur,Obstetrics,Childbirth,Uninsured,3,20250,No,3
+P100895,2023-11-16,2023-11-27,56,Male,Rajshahi,Surgery,Gastrointestinal,Uninsured,11,134650,No,4
+P100896,2024-06-10,2024-06-15,40,Female,Rajshahi,General Medicine,Diabetes-related,Employer,5,17200,No,4
+P100897,2023-05-22,2023-05-25,3,Female,Rajshahi,General Medicine,Gastrointestinal,Uninsured,3,11500,No,5
+P100898,2024-11-26,2024-11-30,15,Female,Dhaka,General Medicine,Infection,Uninsured,4,22800,No,4
+P100899,2024-10-06,2024-10-15,75,Female,Sylhet,Orthopedics,Fracture,Government scheme,9,101700,No,1
+P100900,2023-12-13,2023-12-22,46,Male,Sylhet,Orthopedics,Joint disorder,Uninsured,9,75450,No,5
+P100901,2023-06-14,2023-06-16,28,Female,Dhaka,General Medicine,Gastrointestinal,Uninsured,2,8100,No,3
+P100902,2024-12-13,2024-12-20,38,Female,Rajshahi,General Medicine,Gastrointestinal,Uninsured,7,19550,No,4
+P100903,2024-08-12,2024-08-14,43,Female,Mymensingh,Orthopedics,Fracture,Uninsured,2,24600,No,4
+P100904,2024-01-08,2024-01-13,17,Male,Rangpur,Surgery,Hernia,Private,5,77750,No,3
+P100905,2023-07-15,2023-07-17,7,Female,Khulna,Pediatrics,Respiratory,Uninsured,2,8450,Yes,4
+P100906,2024-03-29,2024-04-08,45,Male,Dhaka,Orthopedics,Fracture,Uninsured,10,45300,No,4
+P100907,2023-09-28,2023-10-01,27,Female,Chattogram,General Medicine,Infection,Uninsured,3,12100,No,4
+P100908,2024-05-07,2024-05-13,26,Female,Dhaka,General Medicine,Diabetes-related,Uninsured,6,23250,No,3
+P100909,2024-08-30,2024-09-07,52,Female,Rangpur,General Medicine,Respiratory,Private,8,37950,No,5
+P100910,2023-12-24,2023-12-26,21,Female,Sylhet,Obstetrics,Childbirth,Uninsured,2,10700,No,3
+P100911,2023-02-05,2023-02-19,37,Female,Mymensingh,Surgery,Hernia,Uninsured,14,158550,No,3
+P100912,2024-02-15,2024-02-27,38,Male,Dhaka,Surgery,Hernia,Uninsured,12,168100,No,3
+P100913,2024-09-18,2024-09-29,53,Female,Mymensingh,Surgery,Appendicitis,Private,11,108800,Yes,4
+P100914,2023-06-13,2023-06-20,39,Female,Mymensingh,Surgery,Appendicitis,Uninsured,7,72750,No,3
+P100915,2024-12-01,2024-12-05,36,Male,Barishal,Surgery,Hernia,Government scheme,4,50400,No,5
+P100916,2023-09-22,2023-09-27,51,Male,Rangpur,General Medicine,Infection,Uninsured,5,27950,No,4
+P100917,2024-05-14,2024-05-22,55,Male,Chattogram,General Medicine,Diabetes-related,Employer,8,39150,Yes,4
+P100918,2024-05-27,2024-06-05,55,Female,Chattogram,Cardiology,Cardiac,Uninsured,9,106000,No,
+P100919,2023-05-13,2023-05-25,59,Female,Dhaka,Orthopedics,Joint disorder,Government scheme,12,97550,No,4
+P100920,2023-01-29,2023-02-05,26,Female,Dhaka,General Medicine,Infection,Uninsured,7,40700,No,4
+P100921,2024-11-23,2024-11-25,19,Female,Dhaka,Obstetrics,Childbirth,Uninsured,2,7750,No,2
+P100922,2024-05-26,2024-05-31,4,Female,Barishal,Pediatrics,Infection,Government scheme,5,29000,No,5
+P100923,2024-04-05,2024-04-22,68,Female,Chattogram,Orthopedics,Fracture,Employer,17,232900,No,3
+P100924,2023-08-10,2023-08-13,50,Male,Dhaka,General Medicine,Diabetes-related,Government scheme,3,13450,No,5
+P100925,2023-03-20,2023-03-26,51,Male,Dhaka,General Medicine,Gastrointestinal,Uninsured,6,29550,No,3
+P100926,2023-07-18,2023-07-22,47,Male,Khulna,General Medicine,Diabetes-related,Uninsured,4,15850,No,2
+P100927,2024-02-04,2024-02-10,42,Female,Mymensingh,Surgery,Gastrointestinal,Uninsured,6,68300,No,2
+P100928,2024-05-21,2024-05-25,9,Male,Chattogram,Pediatrics,Infection,Private,4,12000,No,3
+P100929,2023-08-21,2023-08-26,40,Female,Sylhet,Obstetrics,Childbirth,Uninsured,5,29650,No,4
+P100930,2023-06-06,2023-06-14,60,Male,Mymensingh,General Medicine,Infection,Uninsured,8,36750,No,5
+P100931,2023-07-02,2023-07-12,70,Female,Barishal,Cardiology,Cardiac,Uninsured,10,99950,No,4
+P100932,2024-12-03,2024-12-07,56,Female,Barishal,Cardiology,Hypertension-related,Employer,4,59150,Yes,3
+P100933,2024-04-05,2024-04-08,39,Female,Khulna,Obstetrics,Childbirth,Uninsured,3,18450,No,3
+P100934,2024-12-24,2024-12-29,31,Female,Mymensingh,Obstetrics,Childbirth,Uninsured,5,20700,No,5
+P100935,2023-01-05,2023-01-10,46,Female,Chattogram,General Medicine,Gastrointestinal,Uninsured,5,30150,No,3
+P100936,2023-12-01,2023-12-06,54,Female,Sylhet,Surgery,Gastrointestinal,Uninsured,5,44200,No,5
+P100937,2023-11-30,2023-12-07,47,Female,Chattogram,General Medicine,Infection,Uninsured,7,24350,No,5
+P100938,2023-10-21,2023-10-26,46,Male,Dhaka,Surgery,Gastrointestinal,Government scheme,5,64200,No,5
+P100939,2023-10-13,2023-10-17,27,Male,Sylhet,General Medicine,Infection,,4,17750,No,4
+P100940,2023-02-27,2023-03-07,56,Female,Rangpur,General Medicine,Diabetes-related,Uninsured,8,22300,No,3
+P100941,2023-01-24,2023-01-27,37,Female,Rangpur,Obstetrics,Childbirth,Uninsured,3,14950,No,4
+P100942,2024-07-22,2024-07-25,34,Female,Mymensingh,General Medicine,Diabetes-related,Uninsured,3,8300,No,5
+P100943,2023-11-18,2023-11-20,58,Female,Sylhet,Cardiology,Diabetes-related,Private,2,21050,No,3
+P100944,2023-04-29,2023-05-03,51,Male,Rajshahi,Cardiology,Diabetes-related,Uninsured,4,48400,Yes,3
+P100945,2023-09-11,2023-09-14,32,Female,Mymensingh,General Medicine,Respiratory,Private,3,8850,No,4
+P100946,2024-11-12,2024-11-16,12,Male,Dhaka,Pediatrics,Respiratory,Uninsured,4,17950,No,3
+P100947,2023-12-08,2023-12-15,72,Female,Dhaka,Surgery,Injury,Uninsured,7,106000,No,5
+P100948,2024-12-24,2025-01-04,28,Male,Chattogram,Surgery,Appendicitis,Uninsured,11,111950,No,3
+P100949,2023-04-28,2023-05-02,51,Male,Khulna,Cardiology,Cardiac,Uninsured,4,21950,No,4
+P100950,2023-03-31,2023-04-07,35,Male,Barishal,Orthopedics,Fracture,Uninsured,7,42850,No,5
+P100951,2024-02-16,2024-02-19,26,Male,Rangpur,General Medicine,Respiratory,Uninsured,3,10350,No,5
+P100952,2024-05-13,2024-05-18,7,Female,Dhaka,General Medicine,Diabetes-related,Government scheme,5,29400,No,4
+P100953,2024-12-17,2024-12-20,54,Male,Rangpur,General Medicine,Respiratory,Uninsured,3,11650,No,4
+P100954,2023-12-07,2023-12-13,95,Male,Khulna,Surgery,Injury,Uninsured,6,56000,No,3
+P100955,2023-05-27,2023-06-04,34,Male,Mymensingh,Surgery,Hernia,Uninsured,8,99600,No,5
+P100956,2024-01-31,2024-02-02,31,Female,Chattogram,Obstetrics,Childbirth,Uninsured,2,8700,No,5
+P100957,2023-08-13,2023-08-22,70,Male,Khulna,Orthopedics,Joint disorder,Uninsured,9,81900,No,2
+P100958,2023-05-12,2023-05-18,47,Female,Sylhet,Orthopedics,Fracture,Private,6,37600,No,5
+P100959,2023-03-06,2023-03-16,76,Female,Rajshahi,Orthopedics,Fracture,Private,10,64950,Yes,
+P100960,2024-06-12,2024-06-18,54,Male,Dhaka,Orthopedics,Fracture,Private,6,52700,Yes,4
+P100961,2024-04-14,2024-04-20,49,Female,Dhaka,Cardiology,Diabetes-related,Uninsured,6,83650,No,4
+P100962,2023-05-02,2023-05-05,38,Female,Dhaka,General Medicine,Diabetes-related,Uninsured,3,20800,No,4
+P100963,2024-02-12,2024-02-16,57,Male,Rajshahi,General Medicine,Gastrointestinal,Government scheme,4,12350,No,4
+P100964,2024-10-08,2024-10-14,37,Female,Khulna,Surgery,Hernia,Uninsured,6,62000,No,3
+P100965,2024-08-20,2024-08-25,51,Male,Khulna,Orthopedics,Joint disorder,Private,5,45500,No,4
+P100966,2023-11-28,2023-12-03,38,Male,Barishal,Surgery,Injury,Private,5,80350,No,4
+P100967,2023-02-11,2023-02-13,16,Male,Dhaka,General Medicine,Infection,Uninsured,2,4650,No,3
+P100968,2024-04-08,2024-04-14,63,Male,Dhaka,Orthopedics,Joint disorder,Uninsured,6,49050,No,
+P100969,2024-01-12,2024-01-19,6,Female,Sylhet,General Medicine,Diabetes-related,Private,7,24800,No,3
+P100970,2024-11-03,2024-11-07,33,Female,Sylhet,General Medicine,Infection,Uninsured,4,9900,No,3
+P100971,2024-02-08,2024-02-20,57,Male,Barishal,General Medicine,Respiratory,Uninsured,12,34350,No,4
+P100972,2024-06-22,2024-06-24,48,Female,Sylhet,General Medicine,Infection,Uninsured,2,6950,No,3
+P100973,2024-01-21,2024-01-27,53,Female,Mymensingh,Surgery,Injury,Uninsured,6,73050,No,5
+P100974,2024-01-30,2024-02-02,57,Female,Mymensingh,Cardiology,Diabetes-related,Private,3,34750,No,4
+P100975,2023-08-20,2023-08-24,7,Female,Khulna,Pediatrics,Infection,Uninsured,4,15300,No,4
+P100976,2023-10-21,2023-10-29,74,Female,Chattogram,Orthopedics,Fracture,Government scheme,8,81100,No,4
+P100977,2023-08-05,2023-08-11,70,Male,Dhaka,Cardiology,Cardiac,Employer,6,54350,No,5
+P100978,2023-12-04,2023-12-11,64,Female,Khulna,Orthopedics,Fracture,Employer,7,46950,No,3
+P100979,2024-11-25,2024-11-30,60,Female,Chattogram,General Medicine,Diabetes-related,Uninsured,5,19100,No,5
+P100980,2023-09-07,2023-09-12,57,Female,Dhaka,Surgery,Hernia,Uninsured,5,71400,No,5
+P100981,2023-12-05,2023-12-08,28,Female,Dhaka,Obstetrics,Childbirth,Employer,3,23300,No,4
+P100982,2024-11-21,2024-11-25,19,Female,Mymensingh,Obstetrics,Pregnancy complication,Private,4,23150,No,5
+P100983,2023-04-21,2023-05-02,39,Male,Dhaka,Orthopedics,Fracture,Uninsured,11,69750,No,3
+P100984,2023-07-04,2023-07-08,50,Male,Sylhet,General Medicine,Gastrointestinal,Government scheme,4,17400,No,4
+P100985,2023-12-27,2024-01-02,52,Male,Rangpur,Surgery,Injury,Private,6,81150,No,3
+P100986,2023-10-26,2023-11-01,73,Female,Barishal,Cardiology,Diabetes-related,Government scheme,6,73500,No,5
+P100987,2023-09-07,2023-09-11,23,Female,Dhaka,General Medicine,Gastrointestinal,Employer,4,13500,No,3
+P100988,2024-07-22,2024-08-01,45,Female,Rangpur,Cardiology,Cardiac,Employer,10,76150,No,4
+P100989,2023-12-31,2024-01-03,24,Female,Khulna,Obstetrics,Childbirth,Uninsured,3,21750,No,5
+P100990,2023-09-23,2023-09-28,8,Female,Dhaka,Pediatrics,Respiratory,Uninsured,5,15800,No,5
+P100991,2023-12-16,2023-12-18,18,Female,Khulna,Obstetrics,Pregnancy complication,Private,2,10700,No,3
+P100992,2024-10-09,2024-10-12,24,Female,Dhaka,Obstetrics,Childbirth,Private,3,24650,No,5
+P100993,2024-12-19,2024-12-27,4,Female,Barishal,General Medicine,Respiratory,Private,8,22700,No,3
+P100994,2023-06-27,2023-07-03,49,Female,Rangpur,Surgery,Appendicitis,Uninsured,6,120400,No,2
+P100995,2023-01-30,2023-02-03,32,Male,Rajshahi,Cardiology,Diabetes-related,Private,4,30900,No,3
+P100996,2023-01-23,2023-01-29,12,Female,Mymensingh,Pediatrics,Respiratory,Uninsured,6,26100,Yes,5
+P100997,2023-11-22,2023-11-28,69,Female,Chattogram,General Medicine,Diabetes-related,Employer,6,23350,Yes,4
+P100998,2024-04-03,2024-04-09,78,Female,Rangpur,Surgery,Injury,Government scheme,6,77050,No,3
+P100999,2023-02-07,2023-02-13,17,Male,Sylhet,General Medicine,Diabetes-related,Uninsured,6,22450,No,4
+P101000,2024-01-07,2024-01-09,35,Male,Dhaka,General Medicine,Infection,Private,2,9900,No,4
+P101001,2023-10-19,2023-10-22,58,Male,Mymensingh,Orthopedics,Joint disorder,Private,3,22000,No,4
+P101002,2024-11-12,2024-11-22,77,Female,Mymensingh,General Medicine,Gastrointestinal,Uninsured,10,34650,No,2
+P101003,2024-03-16,2024-03-18,32,Female,Chattogram,General Medicine,Gastrointestinal,Uninsured,2,12600,No,4
+P101004,2023-11-05,2023-11-07,3,Female,Sylhet,Pediatrics,Respiratory,Government scheme,2,7050,No,4
+P101005,2024-03-04,2024-03-06,51,Female,Dhaka,Cardiology,Hypertension-related,Government scheme,2,15200,No,3
+P101006,2023-04-09,2023-04-21,72,Male,Dhaka,Surgery,Appendicitis,Uninsured,12,99200,No,2
+P101007,2023-12-13,2023-12-16,52,Female,Dhaka,Cardiology,Diabetes-related,Employer,3,43050,No,4
+P101008,2023-08-29,2023-08-30,29,Female,Rajshahi,Obstetrics,Childbirth,Employer,1,5250,No,4
+P101009,2023-05-13,2023-05-17,37,Male,Dhaka,Orthopedics,Joint disorder,Government scheme,4,53600,No,4
+P101010,2023-10-15,2023-10-21,10,Female,Dhaka,Pediatrics,Gastrointestinal,Employer,6,23200,No,3
+P101011,2024-04-11,2024-04-16,4,Male,Mymensingh,Pediatrics,Infection,Uninsured,5,18150,No,3
+P101012,2024-03-01,2024-03-09,66,Female,Rajshahi,Orthopedics,Joint disorder,Employer,8,66800,No,3
+P101013,2024-12-04,2024-12-10,8,Female,Rangpur,Surgery,Appendicitis,Employer,6,125300,No,4
+P101014,2023-07-20,2023-07-25,43,Female,Dhaka,Cardiology,Cardiac,Private,5,26000,No,5
+P101015,2024-05-25,2024-05-30,58,Female,Dhaka,General Medicine,Diabetes-related,Uninsured,5,21100,No,2
+P101016,2024-02-06,2024-02-08,14,Male,Sylhet,Pediatrics,Gastrointestinal,Uninsured,2,6550,No,
+P101017,2024-09-29,2024-10-01,28,Female,Chattogram,Obstetrics,Pregnancy complication,Uninsured,2,11400,Yes,4
+P101018,2024-10-24,2024-10-30,35,Female,Rajshahi,General Medicine,Gastrointestinal,Government scheme,6,24900,No,4
+P101019,2024-05-31,2024-06-07,47,Female,Mymensingh,Cardiology,Cardiac,Uninsured,7,58950,No,5
+P101020,2023-11-06,2023-11-13,37,Female,Chattogram,Surgery,Gastrointestinal,Government scheme,7,88050,No,3
+P101021,2024-01-25,2024-01-31,24,Female,Rajshahi,Obstetrics,Pregnancy complication,Government scheme,6,35800,No,
+P101022,2024-04-20,2024-04-26,48,Female,Khulna,Surgery,Gastrointestinal,Uninsured,6,51850,No,3
+P101023,2024-08-11,2024-08-21,71,Male,Dhaka,Orthopedics,Fracture,Uninsured,10,88000,No,4
+P101024,2023-06-17,2023-06-22,14,Female,Barishal,Pediatrics,Respiratory,Government scheme,5,20950,No,4
+P101025,2024-09-29,2024-10-05,46,Male,Rajshahi,Cardiology,Diabetes-related,Uninsured,6,47150,No,4
+P101026,2024-08-07,2024-08-14,45,Male,Dhaka,Surgery,Gastrointestinal,Employer,7,134000,No,3
+P101027,2023-03-06,2023-03-12,56,Male,Chattogram,Cardiology,Diabetes-related,Employer,6,75400,No,4
+P101028,2023-07-16,2023-07-19,32,Female,Rajshahi,Obstetrics,Pregnancy complication,Uninsured,3,22250,No,5
+P101029,2023-06-22,2023-06-27,63,Male,Khulna,Cardiology,Diabetes-related,Private,5,55400,No,3
+P101030,2024-02-28,2024-03-06,61,Male,Mymensingh,Orthopedics,Joint disorder,Government scheme,7,56400,No,4
+P101031,2023-06-02,2023-06-04,11,Female,Sylhet,Pediatrics,Gastrointestinal,Employer,2,9300,No,5
+P101032,2023-08-08,2023-08-16,50,Male,Chattogram,Orthopedics,Fracture,Private,8,94800,No,3
+P101033,2023-05-19,2023-05-26,37,Male,Mymensingh,Surgery,Injury,Employer,7,102800,No,5
+P101034,2023-02-19,2023-03-02,74,Male,Sylhet,Cardiology,Diabetes-related,Uninsured,11,85850,No,3
+P101035,2023-12-02,2023-12-05,12,Male,Dhaka,Pediatrics,Gastrointestinal,Uninsured,3,10400,No,4
+P101036,2023-08-22,2023-08-29,47,Female,Dhaka,Cardiology,Diabetes-related,Private,7,72700,No,3
+P101037,2024-01-04,2024-01-11,57,Female,Dhaka,Cardiology,Hypertension-related,Government scheme,7,77700,No,4
+P101038,2023-06-04,2023-06-15,60,Female,Dhaka,Cardiology,Hypertension-related,Employer,11,97100,No,4
+P101039,2023-07-29,2023-07-31,73,Male,Rajshahi,General Medicine,Gastrointestinal,Uninsured,2,6950,No,4
+P101040,2024-10-13,2024-10-18,35,Male,Chattogram,General Medicine,Gastrointestinal,Uninsured,5,29700,No,3
+P101041,2024-08-10,2024-08-17,0,Male,Mymensingh,Pediatrics,Infection,Private,7,18750,No,
+P101042,2023-07-14,2023-07-18,7,Male,Rajshahi,Pediatrics,Respiratory,Employer,4,11050,No,4
+P101043,2023-04-29,2023-05-02,12,Female,Dhaka,Pediatrics,Gastrointestinal,Government scheme,3,7550,No,5
+P101044,2024-12-12,2024-12-21,40,Female,Mymensingh,General Medicine,Infection,Uninsured,9,28450,No,4
+P101045,2024-05-12,2024-05-17,55,Male,Rajshahi,Cardiology,Diabetes-related,Employer,5,61450,No,5
+P101046,2023-12-26,2023-12-30,35,Female,Dhaka,General Medicine,Infection,Private,4,22050,No,4
+P101047,2024-05-25,2024-05-27,38,Female,Dhaka,Obstetrics,Childbirth,Employer,2,11800,No,4
+P101048,2023-06-11,2023-06-21,36,Male,Barishal,Surgery,Gastrointestinal,Government scheme,10,135850,No,4
+P101049,2023-11-09,2023-11-11,59,Female,Rajshahi,General Medicine,Respiratory,Uninsured,2,8000,No,5
+P101050,2023-10-13,2023-10-17,5,Male,Khulna,Pediatrics,Respiratory,Employer,4,10400,No,5
+P101051,2024-06-10,2024-06-19,46,Male,Rangpur,General Medicine,Gastrointestinal,Uninsured,9,62700,No,3
+P101052,2023-05-14,2023-05-22,19,Female,Barishal,General Medicine,Diabetes-related,Employer,8,45100,No,4
+P101053,2023-12-24,2023-12-29,22,Female,Rangpur,General Medicine,Respiratory,Uninsured,5,21850,No,4
+P101054,2024-08-31,2024-09-09,84,Male,Sylhet,General Medicine,Respiratory,Government scheme,9,29050,Yes,4
+P101055,2023-05-24,2023-05-26,9,Female,Barishal,Pediatrics,Gastrointestinal,Uninsured,2,6600,No,2
+P101056,2023-03-29,2023-04-04,38,Female,Dhaka,Surgery,Hernia,Uninsured,6,60550,No,2
+P101057,2024-08-22,2024-08-26,26,Female,Rajshahi,General Medicine,Respiratory,Employer,4,16400,No,4
+P101058,2024-09-29,2024-10-03,78,Male,Chattogram,Orthopedics,Fracture,Uninsured,4,34600,Yes,3
+P101059,2023-11-11,2023-11-15,3,Female,Rajshahi,Pediatrics,Respiratory,Uninsured,4,12850,Yes,4
+P101060,2023-02-03,2023-02-08,53,Female,Chattogram,Surgery,Gastrointestinal,Employer,5,41700,No,5
+P101061,2024-01-30,2024-02-03,8,Female,Khulna,Pediatrics,Respiratory,Uninsured,4,23850,No,3
+P101062,2023-08-07,2023-08-14,39,Female,Chattogram,General Medicine,Respiratory,Private,7,29700,No,4
+P101063,2024-03-04,2024-03-07,1,Female,Rajshahi,Pediatrics,Gastrointestinal,Employer,3,11750,No,3
+P101064,2023-04-13,2023-04-22,55,Female,Chattogram,Cardiology,Diabetes-related,Uninsured,9,72900,No,4
+P101065,2024-08-10,2024-08-20,14,Female,Rangpur,Surgery,Gastrointestinal,Uninsured,10,81200,No,4
+P101066,2024-05-15,2024-05-23,56,Female,Chattogram,Cardiology,Cardiac,Private,8,70500,No,2
+P101067,2024-04-16,2024-04-18,13,Male,Sylhet,Pediatrics,Infection,Government scheme,2,6450,No,3
+P101068,2024-01-09,2024-01-11,47,Male,Khulna,General Medicine,Gastrointestinal,Uninsured,2,9550,No,3
+P101069,2023-06-10,2023-06-19,83,Female,Chattogram,Cardiology,Cardiac,Uninsured,9,101600,No,4
+P101070,2024-11-16,2024-11-26,43,Female,Rangpur,Surgery,Appendicitis,Uninsured,10,145300,No,4
+P101071,2023-07-14,2023-07-16,6,Female,Mymensingh,Pediatrics,Infection,Uninsured,2,8950,No,4
+P101072,2023-09-25,2023-09-30,56,Male,Sylhet,Cardiology,Hypertension-related,Uninsured,5,70650,No,4
+P101073,2024-11-07,2024-11-20,95,Female,Mymensingh,Surgery,Gastrointestinal,Employer,13,171950,No,4
+P101074,2023-01-30,2023-02-03,59,Male,Chattogram,Surgery,Appendicitis,Uninsured,4,63200,No,4
+P101075,2023-04-02,2023-04-06,46,Male,Mymensingh,Cardiology,Diabetes-related,Uninsured,4,40750,No,3
+P101076,2024-07-10,2024-07-20,66,Male,Rangpur,Orthopedics,Joint disorder,Employer,10,49750,No,3
+P101077,2023-09-26,2023-09-30,47,Male,Sylhet,Orthopedics,Fracture,Uninsured,4,30800,No,4
+P101078,2024-02-28,2024-03-02,5,Female,Rangpur,Pediatrics,Respiratory,Employer,3,8450,No,4
+P101079,2024-02-28,2024-03-03,39,Female,Sylhet,Cardiology,Diabetes-related,Employer,4,38150,No,5
+P101080,2024-08-27,2024-09-01,35,Male,Rajshahi,General Medicine,Respiratory,Uninsured,5,16400,No,4
+P101081,2024-03-28,2024-04-11,43,Female,Rajshahi,Surgery,Injury,Uninsured,14,195450,No,4
+P101082,2023-11-08,2023-11-18,4,Male,Chattogram,Surgery,Hernia,Uninsured,10,153350,No,4
+P101083,2024-02-05,2024-02-10,35,Female,Khulna,Obstetrics,Childbirth,Uninsured,5,40550,No,
+P101084,2024-06-22,2024-07-03,42,Female,Chattogram,Surgery,Appendicitis,Uninsured,11,197850,No,3
+P101085,2023-10-04,2023-10-07,20,Female,Sylhet,Obstetrics,Childbirth,Uninsured,3,11850,No,5
+P101086,2023-05-05,2023-05-10,38,Female,Rajshahi,Obstetrics,Pregnancy complication,Uninsured,5,22250,No,4
+P101087,2023-12-22,2023-12-26,25,Female,Chattogram,Obstetrics,Childbirth,Government scheme,4,49900,No,5
+P101088,2024-12-30,2025-01-07,63,Male,Dhaka,Orthopedics,Joint disorder,Uninsured,8,82350,No,4
+P101089,2023-03-23,2023-03-29,40,Female,Dhaka,Orthopedics,Joint disorder,Uninsured,6,50750,No,3
+P101090,2023-05-07,2023-05-12,56,Female,Khulna,General Medicine,Diabetes-related,Uninsured,5,20150,No,4
+P101091,2024-12-27,2024-12-29,11,Male,Chattogram,Pediatrics,Gastrointestinal,Uninsured,2,6900,No,5
+P101092,2024-08-28,2024-09-04,74,Male,Dhaka,General Medicine,Infection,Government scheme,7,17250,No,4
+P101093,2023-03-27,2023-03-30,7,Female,Chattogram,General Medicine,Gastrointestinal,Government scheme,3,9900,No,4
+P101094,2023-06-05,2023-06-10,10,Male,Chattogram,Pediatrics,Infection,Uninsured,5,17000,No,5
+P101095,2024-05-19,2024-05-24,42,Male,Dhaka,Cardiology,Cardiac,Private,5,37650,No,4
+P101096,2024-07-25,2024-07-31,50,Female,Chattogram,General Medicine,Diabetes-related,Uninsured,6,20750,No,4
+P101097,2024-06-19,2024-06-22,34,Female,Barishal,Obstetrics,Pregnancy complication,Employer,3,34150,No,3
+P101098,2024-09-20,2024-09-28,48,Female,Sylhet,Surgery,Hernia,Uninsured,8,90150,No,5
+P101099,2024-01-05,2024-01-10,53,Male,Mymensingh,General Medicine,Gastrointestinal,Government scheme,5,21450,No,3
+P101100,2024-10-01,2024-10-05,42,Female,Dhaka,General Medicine,Diabetes-related,Uninsured,4,17000,No,4
+P101101,2024-03-11,2024-03-16,43,Female,Chattogram,Cardiology,Hypertension-related,Uninsured,5,52150,No,4
+P101102,2023-12-14,2023-12-17,20,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,3,16000,No,4
+P101103,2024-04-09,2024-04-13,41,Female,Khulna,Obstetrics,Pregnancy complication,Uninsured,4,32800,Yes,3
+P101104,2023-11-10,2023-11-16,17,Male,Dhaka,General Medicine,Diabetes-related,Private,6,26800,No,3
+P101105,2024-03-18,2024-03-21,24,Female,Dhaka,Obstetrics,Childbirth,Private,3,13050,No,4
+P101106,2024-08-31,2024-09-05,16,Female,Khulna,General Medicine,Diabetes-related,Uninsured,5,19450,No,3
+P101107,2024-11-30,2024-12-07,63,Female,Chattogram,Cardiology,Cardiac,Employer,7,60350,No,2
+P101108,2024-02-28,2024-03-08,19,Male,Rajshahi,Surgery,Appendicitis,Uninsured,9,102250,Yes,4
+P101109,2023-01-05,2023-01-09,48,Male,Khulna,General Medicine,Infection,Employer,4,18150,Yes,3
+P101110,2024-03-29,2024-04-03,15,Female,Rangpur,General Medicine,Gastrointestinal,Uninsured,5,23450,No,4
+P101111,2023-07-03,2023-07-15,62,Female,Chattogram,Cardiology,Hypertension-related,Uninsured,12,122900,No,3
+P101112,2023-06-22,2023-06-25,14,Female,Dhaka,Pediatrics,Respiratory,Uninsured,3,11450,No,4
+P101113,2024-10-05,2024-10-14,70,Male,Rajshahi,Surgery,Gastrointestinal,Private,9,110350,No,4
+P101114,2023-11-22,2023-12-01,48,Male,Dhaka,Surgery,Hernia,Government scheme,9,63100,No,3
+P101115,2024-07-31,2024-08-03,66,Male,Dhaka,General Medicine,Diabetes-related,Private,3,14600,No,3
+P101116,2023-09-27,2023-10-02,26,Male,Rajshahi,General Medicine,Infection,Uninsured,5,22600,No,4
+P101117,2024-03-18,2024-03-22,30,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,4,18750,No,3
+P101118,2024-04-30,2024-05-05,43,Female,Dhaka,General Medicine,Respiratory,Government scheme,5,21450,No,5
+P101119,2024-10-14,2024-10-22,22,Male,Barishal,Surgery,Gastrointestinal,Employer,8,112900,No,3
+P101120,2023-05-24,2023-05-30,14,Female,Rangpur,Pediatrics,Gastrointestinal,Uninsured,6,28150,No,3
+P101121,2024-02-14,2024-02-21,36,Female,Dhaka,General Medicine,Diabetes-related,Government scheme,7,31800,No,
+P101122,2023-10-24,2023-10-26,33,Female,Rajshahi,Obstetrics,Childbirth,Private,2,13000,No,4
+P101123,2023-12-05,2023-12-09,27,Female,Mymensingh,General Medicine,Diabetes-related,Uninsured,4,20250,No,3
+P101124,2024-09-11,2024-09-19,40,Male,Dhaka,Cardiology,Hypertension-related,Private,8,66700,No,4
+P101125,2023-04-10,2023-04-14,38,Female,Sylhet,Orthopedics,Joint disorder,Uninsured,4,35450,No,4
+P101126,2024-02-03,2024-02-07,25,Male,Dhaka,Orthopedics,Fracture,Uninsured,4,27400,No,5
+P101127,2023-10-11,2023-10-17,3,Female,Mymensingh,Pediatrics,Gastrointestinal,Government scheme,6,27700,No,5
+P101128,2024-10-16,2024-10-22,1,Female,Dhaka,Pediatrics,Respiratory,Employer,6,14050,No,2
+P101129,2023-06-07,2023-06-15,54,Female,Chattogram,Surgery,Hernia,Uninsured,8,117750,No,3
+P101130,2023-06-19,2023-06-23,10,Male,Mymensingh,Surgery,Gastrointestinal,Uninsured,4,48200,No,4
+P101131,2023-03-08,2023-03-12,38,Male,Barishal,Orthopedics,Joint disorder,Uninsured,4,40750,No,4
+P101132,2023-11-18,2023-11-22,77,Male,Dhaka,General Medicine,Diabetes-related,Uninsured,4,13150,No,3
+P101133,2023-01-08,2023-01-16,39,Female,Sylhet,Obstetrics,Childbirth,Private,8,49100,No,3
+P101134,2024-01-01,2024-01-06,48,Female,Rangpur,Surgery,Hernia,Uninsured,5,60900,No,3
+P101135,2023-06-13,2023-06-22,66,Male,Rajshahi,Cardiology,Cardiac,Uninsured,9,90300,No,3
+P101136,2023-10-20,2023-10-26,67,Male,Dhaka,Orthopedics,Joint disorder,Government scheme,6,36950,No,3
+P101137,2024-03-17,2024-03-24,36,Female,Dhaka,Cardiology,Hypertension-related,Uninsured,7,73850,No,3
+P101138,2024-05-14,2024-05-22,37,Male,Mymensingh,General Medicine,Respiratory,Uninsured,8,20150,No,3
+P101139,2023-02-14,2023-02-21,14,Female,Dhaka,Pediatrics,Infection,Government scheme,7,20750,No,5
+P101140,2023-04-19,2023-04-22,35,Male,Chattogram,Cardiology,Hypertension-related,Uninsured,3,18250,No,4
+P101141,2023-08-20,2023-08-22,38,Female,Dhaka,Obstetrics,Childbirth,Uninsured,2,14750,No,3
+P101142,2024-01-15,2024-01-17,28,Female,Dhaka,Obstetrics,Childbirth,Uninsured,2,13250,No,4
+P101143,2024-10-06,2024-10-08,35,Female,Rajshahi,Obstetrics,Childbirth,Uninsured,2,13450,No,2
+P101144,2023-04-12,2023-04-18,43,Female,Chattogram,Cardiology,Cardiac,Employer,6,78050,Yes,5
+P101145,2023-02-19,2023-02-23,43,Female,Dhaka,Cardiology,Hypertension-related,Private,4,33250,No,5
+P101146,2024-04-04,2024-04-05,26,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,1,7000,Yes,4
+P101147,2024-12-15,2024-12-18,24,Female,Dhaka,Obstetrics,Childbirth,Uninsured,3,18300,No,3
+P101148,2024-08-29,2024-09-07,76,Male,Dhaka,Orthopedics,Joint disorder,Uninsured,9,70450,No,3
+P101149,2024-02-17,2024-02-29,90,Female,Dhaka,Surgery,Injury,Employer,12,199650,No,3
+P101150,2023-01-15,2023-01-20,32,Male,Sylhet,General Medicine,Respiratory,Government scheme,5,33650,No,4
+P101151,2024-02-25,2024-02-29,15,Female,Dhaka,Surgery,Hernia,Private,4,43100,No,5
+P101152,2023-11-30,2023-12-07,1,Male,Chattogram,General Medicine,Gastrointestinal,Uninsured,7,34500,No,5
+P101153,2023-11-23,2023-11-28,37,Female,Rajshahi,General Medicine,Infection,Employer,5,21650,No,5
+P101154,2023-12-26,2024-01-04,53,Female,Sylhet,Orthopedics,Fracture,Government scheme,9,78200,No,4
+P101155,2024-02-14,2024-02-18,28,Female,Barishal,General Medicine,Gastrointestinal,Uninsured,4,17000,No,3
+P101156,2024-06-09,2024-06-12,46,Female,Mymensingh,General Medicine,Diabetes-related,Uninsured,3,11050,No,3
+P101157,2023-05-21,2023-05-26,49,Male,Dhaka,General Medicine,Respiratory,Uninsured,5,8150,No,4
+P101158,2023-02-24,2023-03-04,62,Male,Dhaka,Cardiology,Hypertension-related,,8,105700,No,3
+P101159,2023-02-07,2023-02-11,26,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,4,20150,No,4
+P101160,2023-10-24,2023-10-29,35,Male,Dhaka,General Medicine,Gastrointestinal,Uninsured,5,18850,No,5
+P101161,2024-01-06,2024-01-10,6,Male,Mymensingh,Pediatrics,Gastrointestinal,Private,4,13250,No,4
+P101162,2024-07-27,2024-08-01,31,Female,Khulna,Obstetrics,Pregnancy complication,Private,5,24650,No,4
+P101163,2023-11-13,2023-11-20,55,Female,Sylhet,General Medicine,Gastrointestinal,Uninsured,7,29750,No,2
+P101164,2024-01-24,2024-01-29,42,Male,Mymensingh,General Medicine,Diabetes-related,Uninsured,5,19800,No,5
+P101165,2024-12-14,2024-12-16,59,Male,Rangpur,Surgery,Hernia,Uninsured,2,20050,No,2
+P101166,2024-07-01,2024-07-03,41,Female,Chattogram,Obstetrics,Childbirth,Uninsured,2,12450,No,4
+P101167,2024-05-19,2024-05-29,38,Male,Rangpur,Orthopedics,Joint disorder,Government scheme,10,79350,No,4
+P101168,2023-09-23,2023-09-29,20,Female,Chattogram,Obstetrics,Pregnancy complication,Private,6,45400,No,4
+P101169,2023-04-22,2023-04-24,13,Male,Dhaka,General Medicine,Gastrointestinal,Employer,2,5700,No,3
+P101170,2024-11-02,2024-11-06,47,Female,Rajshahi,Cardiology,Diabetes-related,Government scheme,4,29450,No,3
+P101171,2024-02-09,2024-02-17,27,Female,Mymensingh,Obstetrics,Childbirth,Government scheme,8,57550,No,4
+P101172,2023-02-26,2023-03-09,57,Female,Sylhet,General Medicine,Respiratory,Uninsured,11,37500,No,4
+P101173,2023-12-19,2023-12-22,25,Female,Chattogram,Obstetrics,Pregnancy complication,Uninsured,3,14350,No,3
+P101174,2023-03-08,2023-03-12,62,Male,Rangpur,Orthopedics,Fracture,Employer,4,27600,No,4
+P101175,2024-12-17,2024-12-18,24,Female,Rajshahi,Obstetrics,Childbirth,Private,1,5850,No,3
+P101176,2024-01-21,2024-02-01,63,Male,Barishal,Orthopedics,Joint disorder,Employer,11,85900,No,4
+P101177,2024-07-27,2024-08-02,60,Male,Chattogram,Cardiology,Cardiac,Private,6,51250,No,3
+P101178,2023-12-10,2023-12-17,65,Male,Dhaka,General Medicine,Gastrointestinal,Uninsured,7,21650,No,4
+P101179,2023-01-15,2023-01-22,51,Male,Chattogram,General Medicine,Respiratory,Uninsured,7,33950,No,4
+P101180,2024-04-11,2024-04-14,40,Female,Rangpur,Obstetrics,Pregnancy complication,Uninsured,3,25100,No,5
+P101181,2024-04-21,2024-04-25,43,Female,Mymensingh,General Medicine,Respiratory,Private,4,9900,No,4
+P101182,2023-06-17,2023-06-23,71,Female,Dhaka,General Medicine,Respiratory,Employer,6,16300,No,3
+P101183,2024-06-07,2024-06-11,44,Female,Dhaka,General Medicine,Gastrointestinal,Government scheme,4,20550,No,4
+P101184,2023-06-15,2023-06-24,35,Female,Dhaka,General Medicine,Gastrointestinal,Uninsured,9,53300,No,5
+P101185,2024-05-19,2024-05-24,37,Female,Sylhet,Obstetrics,Childbirth,Uninsured,5,17600,No,
+P101186,2024-06-30,2024-07-03,60,Female,Rajshahi,Cardiology,Diabetes-related,Uninsured,3,33100,No,4
+P101187,2023-04-11,2023-04-20,56,Male,Rajshahi,Surgery,Injury,Uninsured,9,162650,No,3
+P101188,2023-08-01,2023-08-07,66,Female,Dhaka,General Medicine,Respiratory,Employer,6,19350,No,3
+P101189,2023-04-30,2023-05-05,1,Male,Dhaka,Pediatrics,Infection,Government scheme,5,25950,No,4
+P101190,2024-06-14,2024-06-21,57,Female,Mymensingh,Cardiology,Cardiac,Uninsured,7,60250,No,3
+P101191,2023-06-21,2023-06-27,76,Female,Khulna,Cardiology,Cardiac,Employer,6,58400,No,4
+P101192,2024-04-12,2024-04-16,2,Male,Dhaka,Surgery,Hernia,Uninsured,4,40100,No,5
+P101193,2023-11-01,2023-11-07,40,Male,Dhaka,Surgery,Hernia,Employer,6,92450,No,4
+P101194,2023-03-02,2023-03-11,41,Male,Dhaka,Surgery,Gastrointestinal,Private,9,133050,No,3
+P101195,2024-10-06,2024-10-12,27,Male,Dhaka,General Medicine,Diabetes-related,Uninsured,6,36950,No,5
+P101196,2024-06-03,2024-06-11,89,Female,Dhaka,General Medicine,Respiratory,Government scheme,8,45850,No,5
+P101197,2023-07-10,2023-07-13,7,Female,Barishal,Pediatrics,Infection,Uninsured,3,10500,No,4
+P101198,2024-10-04,2024-10-10,33,Female,Dhaka,General Medicine,Infection,Private,6,52200,No,5
+P101199,2024-06-01,2024-06-06,24,Female,Chattogram,Obstetrics,Pregnancy complication,Uninsured,5,42050,No,4
+P101200,2024-08-19,2024-08-28,58,Male,Rajshahi,Orthopedics,Fracture,Uninsured,9,82400,No,4
+P101201,2023-05-11,2023-05-18,29,Male,Chattogram,Orthopedics,Joint disorder,Private,7,43650,No,3
+P101202,2023-01-07,2023-01-14,28,Female,Rajshahi,Obstetrics,Pregnancy complication,Uninsured,7,28650,No,3
+P101203,2023-02-15,2023-02-21,14,Female,Rangpur,Pediatrics,Respiratory,Uninsured,6,14650,No,5
+P101204,2024-01-29,2024-02-07,61,Female,Dhaka,General Medicine,Gastrointestinal,Government scheme,9,28500,No,
+P101205,2024-07-28,2024-08-01,29,Male,Sylhet,General Medicine,Diabetes-related,Uninsured,4,22600,No,4
+P101206,2024-10-28,2024-11-01,7,Female,Dhaka,Pediatrics,Gastrointestinal,Private,4,15800,No,4
+P101207,2024-12-02,2024-12-15,76,Female,Dhaka,Orthopedics,Fracture,Private,13,89200,No,4
+P101208,2024-03-13,2024-03-20,68,Male,Dhaka,General Medicine,Diabetes-related,Uninsured,7,27050,No,4
+P101209,2024-04-05,2024-04-15,65,Male,Barishal,Cardiology,Cardiac,Employer,10,84400,Yes,4
+P101210,2023-07-31,2023-08-03,28,Female,Chattogram,Obstetrics,Pregnancy complication,Uninsured,3,22000,No,4
+P101211,2023-01-01,2023-01-04,25,Female,Sylhet,Obstetrics,Childbirth,Uninsured,3,14450,No,4
+P101212,2023-05-23,2023-05-31,54,Male,Dhaka,Orthopedics,Joint disorder,Uninsured,8,69850,No,4
+P101213,2023-02-10,2023-02-16,46,Female,Khulna,Cardiology,Hypertension-related,Private,6,58200,No,4
+P101214,2024-05-15,2024-05-21,22,Female,Dhaka,General Medicine,Diabetes-related,Uninsured,6,19400,No,3
+P101215,2024-01-03,2024-01-08,43,Male,Dhaka,Orthopedics,Joint disorder,Uninsured,5,59500,No,5
+P101216,2024-07-17,2024-07-22,49,Female,Khulna,Cardiology,Hypertension-related,Uninsured,5,41800,No,4
+P101217,2023-04-19,2023-04-24,43,Female,Dhaka,Orthopedics,Fracture,Private,5,31200,No,4
+P101218,2024-10-28,2024-10-31,14,Male,Chattogram,Pediatrics,Gastrointestinal,Uninsured,3,13000,No,3
+P101219,2024-06-09,2024-06-18,10,Male,Rajshahi,General Medicine,Gastrointestinal,Uninsured,9,36500,No,3
+P101220,2024-10-23,2024-10-30,46,Male,Barishal,General Medicine,Infection,Uninsured,7,31000,No,5
+P101221,2024-04-18,2024-04-21,46,Female,Barishal,General Medicine,Respiratory,Uninsured,3,8900,No,4
+P101222,2023-09-05,2023-09-14,76,Female,Dhaka,Surgery,Injury,Private,9,132300,No,4
+P101223,2024-04-02,2024-04-05,12,Female,Dhaka,Pediatrics,Infection,Uninsured,3,18050,No,3
+P101224,2024-03-16,2024-03-19,47,Female,Chattogram,General Medicine,Respiratory,Uninsured,3,8750,No,
+P101225,2023-05-13,2023-05-20,48,Male,Dhaka,Surgery,Injury,Uninsured,7,91800,No,5
+P101226,2023-03-16,2023-03-26,54,Male,Chattogram,Orthopedics,Joint disorder,Private,10,65750,No,4
+P101227,2024-04-19,2024-04-27,68,Female,Chattogram,Orthopedics,Fracture,Private,8,125350,No,4
+P101228,2023-03-10,2023-03-17,57,Male,Chattogram,Surgery,Hernia,Uninsured,7,114500,No,4
+P101229,2023-03-15,2023-03-21,48,Male,Rajshahi,General Medicine,Respiratory,Private,6,25750,No,3
+P101230,2023-02-22,2023-02-26,36,Male,Dhaka,General Medicine,Respiratory,Private,4,11750,No,5
+P101231,2024-03-30,2024-04-02,13,Male,Chattogram,Pediatrics,Infection,Uninsured,3,8200,No,4
+P101232,2024-11-07,2024-11-11,34,Male,Dhaka,General Medicine,Infection,Uninsured,4,19300,No,3
+P101233,2023-12-29,2023-12-31,6,Male,Dhaka,Pediatrics,Respiratory,Uninsured,2,5000,No,3
+P101234,2023-04-22,2023-04-24,25,Male,Sylhet,General Medicine,Gastrointestinal,Government scheme,2,5750,No,5
+P101235,2024-01-10,2024-01-15,29,Female,Dhaka,General Medicine,Infection,Uninsured,5,20050,No,
+P101236,2023-12-19,2023-12-26,19,Female,Dhaka,General Medicine,Infection,Uninsured,7,28950,No,4
+P101237,2024-03-09,2024-03-13,64,Female,Rangpur,Cardiology,Diabetes-related,Uninsured,4,39600,No,4
+P101238,2023-11-13,2023-11-18,65,Female,Chattogram,General Medicine,Respiratory,Uninsured,5,17900,No,3
+P101239,2024-01-24,2024-01-29,23,Female,Dhaka,General Medicine,Gastrointestinal,Government scheme,5,25150,No,4
+P101240,2023-08-26,2023-09-04,47,Male,Sylhet,Surgery,Gastrointestinal,Uninsured,9,87050,No,4
+P101241,2024-10-23,2024-10-29,43,Female,Khulna,Cardiology,Diabetes-related,Uninsured,6,63150,No,4
+P101242,2024-01-28,2024-02-01,53,Female,Mymensingh,Cardiology,Hypertension-related,Private,4,38000,Yes,5
+P101243,2023-08-15,2023-08-22,28,Female,Rangpur,General Medicine,Diabetes-related,Government scheme,7,32550,Yes,5
+P101244,2023-01-03,2023-01-07,66,Male,Barishal,Cardiology,Hypertension-related,Employer,4,48400,No,5
+P101245,2024-05-10,2024-05-14,28,Male,Dhaka,General Medicine,Infection,Private,4,14300,No,5
+P101246,2023-10-05,2023-10-11,8,Female,Rajshahi,Pediatrics,Gastrointestinal,Uninsured,6,17800,Yes,4
+P101247,2023-07-01,2023-07-06,62,Female,Dhaka,General Medicine,Respiratory,Uninsured,5,13100,No,4
+P101248,2023-12-16,2023-12-24,37,Female,Rajshahi,Surgery,Appendicitis,Employer,8,57950,No,3
+P101249,2023-12-21,2023-12-28,29,Female,Mymensingh,Surgery,Appendicitis,Private,7,80400,Yes,3
+P101250,2024-08-09,2024-08-14,16,Male,Dhaka,General Medicine,Infection,Uninsured,5,19450,No,2
+P101251,2024-02-01,2024-02-04,47,Male,Rangpur,General Medicine,Diabetes-related,Uninsured,3,9150,No,5
+P101252,2024-05-26,2024-05-29,59,Female,Rajshahi,General Medicine,Diabetes-related,Private,3,9650,No,3
+P101253,2024-04-17,2024-04-21,3,Female,Dhaka,Pediatrics,Infection,Uninsured,4,20500,No,5
+P101254,2024-09-12,2024-09-20,86,Male,Rangpur,General Medicine,Gastrointestinal,Government scheme,8,39850,Yes,4
+P101255,2023-01-05,2023-01-15,70,Male,Rajshahi,Surgery,Appendicitis,Private,10,87550,No,4
+P101256,2023-10-02,2023-10-06,32,Female,Rajshahi,Obstetrics,Pregnancy complication,Uninsured,4,21500,No,4
+P101257,2024-06-06,2024-06-13,30,Female,Rajshahi,Obstetrics,Childbirth,Employer,7,46500,No,5
+P101258,2023-04-13,2023-04-17,53,Female,Dhaka,Orthopedics,Fracture,Employer,4,27350,No,5
+P101259,2023-11-19,2023-11-28,51,Male,Dhaka,Surgery,Gastrointestinal,Uninsured,9,88250,No,4
+P101260,2023-10-20,2023-10-25,25,Female,Khulna,General Medicine,Gastrointestinal,Uninsured,5,18400,No,3
+P101261,2024-08-11,2024-08-16,74,Male,Rangpur,Cardiology,Hypertension-related,Employer,5,59100,No,5
+P101262,2024-12-04,2024-12-14,63,Female,Barishal,Cardiology,Cardiac,Uninsured,10,120900,No,3
+P101263,2023-03-19,2023-03-27,47,Male,Rangpur,Surgery,Appendicitis,Employer,8,79900,No,2
+P101264,2023-06-06,2023-06-09,13,Female,Rangpur,Pediatrics,Respiratory,Uninsured,3,11800,No,4
+P101265,2024-07-19,2024-07-23,41,Female,Dhaka,Obstetrics,Pregnancy complication,Government scheme,4,23950,No,5
+P101266,2023-05-08,2023-05-17,76,Female,Sylhet,General Medicine,Diabetes-related,Private,9,28000,Yes,3
+P101267,2023-12-29,2024-01-03,45,Female,Sylhet,Surgery,Hernia,Uninsured,5,55700,No,4
+P101268,2024-11-20,2024-11-25,56,Female,Chattogram,Orthopedics,Fracture,Government scheme,5,29150,No,3
+P101269,2024-12-12,2024-12-19,79,Female,Chattogram,Orthopedics,Fracture,Uninsured,7,74900,No,4
+P101270,2024-11-24,2024-12-02,61,Male,Sylhet,Surgery,Hernia,Uninsured,8,141500,No,
+P101271,2023-04-09,2023-04-15,53,Male,Mymensingh,Cardiology,Cardiac,Uninsured,6,48750,No,4
+P101272,2023-04-19,2023-04-28,58,Male,Mymensingh,Cardiology,Diabetes-related,Uninsured,9,68850,No,3
+P101273,2023-05-09,2023-05-14,10,Male,Rajshahi,Pediatrics,Infection,Uninsured,5,22800,No,3
+P101274,2024-07-15,2024-07-20,45,Female,Sylhet,General Medicine,Infection,Uninsured,5,27100,No,5
+P101275,2023-05-11,2023-05-19,63,Male,Rajshahi,Cardiology,Cardiac,Uninsured,8,54500,No,3
+P101276,2023-11-10,2023-11-12,14,Male,Rangpur,General Medicine,Respiratory,Uninsured,2,7700,No,4
+P101277,2024-08-20,2024-08-23,11,Female,Khulna,General Medicine,Diabetes-related,Uninsured,3,11800,No,5
+P101278,2023-12-26,2023-12-29,24,Male,Mymensingh,Surgery,Appendicitis,Government scheme,3,29700,No,3
+P101279,2024-11-17,2024-11-19,7,Male,Mymensingh,Pediatrics,Respiratory,Uninsured,2,7700,No,4
+P101280,2023-12-31,2024-01-02,48,Female,Chattogram,Cardiology,Cardiac,Government scheme,2,15100,No,5
+P101281,2023-10-05,2023-10-14,66,Female,Mymensingh,Cardiology,Diabetes-related,Uninsured,9,70750,No,3
+P101282,2024-12-07,2024-12-14,55,Female,Barishal,Cardiology,Hypertension-related,Uninsured,7,61400,No,3
+P101283,2024-02-04,2024-02-07,7,Female,Dhaka,Pediatrics,Infection,Uninsured,3,7250,No,4
+P101284,2023-05-15,2023-05-18,45,Female,Dhaka,Surgery,Injury,Uninsured,3,21550,No,5
+P101285,2024-04-08,2024-04-17,17,Female,Barishal,Surgery,Hernia,Uninsured,9,135850,No,5
+P101286,2024-07-18,2024-07-24,51,Male,Dhaka,Cardiology,Diabetes-related,Government scheme,6,44900,No,4
+P101287,2024-09-04,2024-09-09,66,Female,Dhaka,Cardiology,Cardiac,Uninsured,5,76750,No,3
+P101288,2023-01-05,2023-01-16,66,Male,Rajshahi,Orthopedics,Fracture,Uninsured,11,144050,Yes,5
+P101289,2023-03-21,2023-03-30,47,Male,Dhaka,Orthopedics,Fracture,Government scheme,9,63450,No,2
+P101290,2024-04-03,2024-04-08,60,Female,Chattogram,Orthopedics,Fracture,Uninsured,5,71800,No,4
+P101291,2024-06-25,2024-07-01,9,Female,Sylhet,Pediatrics,Gastrointestinal,Government scheme,6,26550,No,4
+P101292,2024-04-21,2024-04-26,57,Male,Dhaka,Orthopedics,Fracture,Private,5,34050,No,5
+P101293,2023-10-07,2023-10-10,48,Female,Khulna,Cardiology,Cardiac,Uninsured,3,14150,No,5
+P101294,2024-07-04,2024-07-11,55,Female,Dhaka,Cardiology,Diabetes-related,Uninsured,7,74850,No,3
+P101295,2024-02-27,2024-03-05,59,Female,Rangpur,Cardiology,Diabetes-related,Uninsured,7,63500,No,4
+P101296,2024-11-06,2024-11-11,38,Male,Chattogram,General Medicine,Diabetes-related,Private,5,22300,Yes,3
+P101297,2023-09-26,2023-09-30,41,Female,Rangpur,General Medicine,Infection,Employer,4,15100,No,4
+P101298,2024-07-04,2024-07-07,35,Female,Barishal,Obstetrics,Pregnancy complication,Uninsured,3,13500,No,4
+P101299,2023-04-15,2023-04-19,37,Female,Rangpur,Cardiology,Diabetes-related,Employer,4,32350,No,4
+P101300,2024-06-18,2024-06-23,22,Male,Rajshahi,General Medicine,Diabetes-related,Uninsured,5,23850,No,4
+P101301,2024-06-18,2024-06-27,55,Female,Rajshahi,Orthopedics,Joint disorder,Uninsured,9,65900,No,5
+P101302,2023-07-05,2023-07-06,33,Female,Dhaka,Obstetrics,Childbirth,Uninsured,1,5500,No,5
+P101303,2023-02-15,2023-02-19,30,Male,Rajshahi,General Medicine,Respiratory,Employer,4,10950,No,4
+P101304,2024-12-25,2024-12-28,27,Female,Rajshahi,Obstetrics,Pregnancy complication,Uninsured,3,18400,No,4
+P101305,2023-02-25,2023-03-04,38,Female,Khulna,Surgery,Hernia,Government scheme,7,63600,No,3
+P101306,2023-12-08,2023-12-11,0,Male,Dhaka,Pediatrics,Respiratory,Uninsured,3,13200,No,5
+P101307,2023-01-01,2023-01-06,5,Female,Rajshahi,Pediatrics,Respiratory,Employer,5,14550,No,4
+P101308,2023-11-01,2023-11-05,59,Male,Rajshahi,General Medicine,Infection,Government scheme,4,14850,No,4
+P101309,2024-08-22,2024-08-26,40,Male,Khulna,Surgery,Appendicitis,Private,4,82450,No,4
+P101310,2024-01-02,2024-01-10,63,Female,Khulna,Cardiology,Diabetes-related,Private,8,66700,No,4
+P101311,2023-06-25,2023-06-28,31,Female,Chattogram,Surgery,Hernia,Uninsured,3,32250,No,5
+P101312,2023-10-15,2023-10-19,11,Male,Rajshahi,Pediatrics,Infection,,4,16200,No,5
+P101313,2023-03-09,2023-03-17,49,Male,Chattogram,General Medicine,Infection,Private,8,20500,No,5
+P101314,2024-03-09,2024-03-16,59,Male,Sylhet,General Medicine,Diabetes-related,Uninsured,7,38300,Yes,4
+P101315,2023-01-03,2023-01-08,6,Female,Sylhet,Pediatrics,Gastrointestinal,Employer,5,22450,No,5
+P101316,2023-09-13,2023-09-24,67,Female,Chattogram,Orthopedics,Fracture,Private,11,100350,No,5
+P101317,2023-02-14,2023-02-17,53,Male,Dhaka,General Medicine,Gastrointestinal,Private,3,5150,No,4
+P101318,2023-06-25,2023-06-27,19,Female,Barishal,Obstetrics,Childbirth,Private,2,11250,No,2
+P101319,2023-02-19,2023-02-27,46,Male,Sylhet,Surgery,Gastrointestinal,,8,69850,No,4
+P101320,2024-11-08,2024-11-14,72,Male,Dhaka,Orthopedics,Joint disorder,Uninsured,6,63600,Yes,5
+P101321,2024-07-17,2024-07-23,48,Female,Chattogram,Orthopedics,Fracture,Uninsured,6,62450,No,3
+P101322,2024-11-08,2024-11-11,29,Female,Chattogram,General Medicine,Infection,Employer,3,13200,No,4
+P101323,2024-05-13,2024-05-18,18,Female,Sylhet,Obstetrics,Pregnancy complication,Private,5,22200,No,4
+P101324,2023-12-29,2024-01-09,60,Female,Dhaka,Cardiology,Diabetes-related,Government scheme,11,143850,No,
+P101325,2023-05-08,2023-05-11,50,Male,Sylhet,Surgery,Appendicitis,Uninsured,3,33700,No,4
+P101326,2024-12-03,2024-12-14,46,Female,Khulna,Cardiology,Cardiac,Employer,11,155450,Yes,3
+P101327,2024-10-31,2024-11-11,56,Male,Rangpur,Orthopedics,Joint disorder,Uninsured,11,94050,No,4
+P101328,2023-10-31,2023-11-04,40,Male,Mymensingh,General Medicine,Gastrointestinal,Uninsured,4,18150,No,3
+P101329,2023-06-14,2023-06-17,1,Male,Rajshahi,General Medicine,Diabetes-related,Employer,3,10700,No,2
+P101330,2023-10-10,2023-10-13,35,Female,Barishal,Obstetrics,Pregnancy complication,Private,3,25600,No,5
+P101331,2023-10-15,2023-10-20,55,Female,Barishal,Orthopedics,Joint disorder,Employer,5,46550,No,5
+P101332,2024-10-31,2024-11-07,55,Male,Rangpur,Orthopedics,Joint disorder,Private,7,80300,No,5
+P101333,2023-02-18,2023-02-25,70,Female,Rajshahi,Surgery,Appendicitis,Uninsured,7,87800,No,5
+P101334,2024-04-07,2024-04-12,17,Female,Dhaka,Surgery,Injury,Uninsured,5,59300,No,4
+P101335,2024-07-15,2024-07-18,25,Male,Mymensingh,Surgery,Appendicitis,Employer,3,41800,No,4
+P101336,2024-07-10,2024-07-12,1,Female,Dhaka,General Medicine,Diabetes-related,Uninsured,2,11450,No,4
+P101337,2023-05-22,2023-06-02,0,Female,Mymensingh,Pediatrics,Infection,Government scheme,11,49650,No,4
+P101338,2023-10-29,2023-11-02,32,Male,Dhaka,Surgery,Hernia,Uninsured,4,49700,No,3
+P101339,2023-09-07,2023-09-09,52,Male,Rajshahi,Cardiology,Diabetes-related,Uninsured,2,11300,No,3
+P101340,2023-10-25,2023-10-30,31,Male,Mymensingh,General Medicine,Respiratory,Government scheme,5,24500,No,4
+P101341,2023-03-05,2023-03-09,26,Female,Barishal,Obstetrics,Childbirth,Employer,4,16750,No,5
+P101342,2023-03-02,2023-03-12,70,Female,Khulna,Orthopedics,Fracture,Uninsured,10,80700,No,3
+P101343,2023-01-18,2023-01-21,59,Male,Chattogram,Orthopedics,Fracture,Uninsured,3,23300,No,
+P101344,2024-12-06,2024-12-16,34,Male,Chattogram,Surgery,Injury,Uninsured,10,84200,No,4
+P101345,2023-11-01,2023-11-04,9,Male,Dhaka,Pediatrics,Infection,Uninsured,3,11500,No,4
+P101346,2023-06-16,2023-06-23,72,Male,Khulna,Cardiology,Hypertension-related,Government scheme,7,107950,No,4
+P101347,2024-08-05,2024-08-08,57,Male,Chattogram,Cardiology,Cardiac,,3,24950,No,5
+P101348,2023-12-27,2024-01-01,46,Male,Dhaka,Cardiology,Diabetes-related,Uninsured,5,54500,No,4
+P101349,2023-09-24,2023-09-28,7,Female,Chattogram,General Medicine,Diabetes-related,Government scheme,4,28850,No,3
+P101350,2023-03-25,2023-03-29,29,Female,Mymensingh,Obstetrics,Childbirth,Government scheme,4,29800,No,5
+P101351,2023-10-09,2023-10-15,40,Female,Rangpur,Obstetrics,Childbirth,Uninsured,6,30650,Yes,4
+P101352,2024-04-17,2024-04-24,57,Male,Chattogram,General Medicine,Gastrointestinal,Employer,7,29700,No,4
+P101353,2024-03-31,2024-04-07,89,Male,Mymensingh,Cardiology,Diabetes-related,Uninsured,7,71050,No,4
+P101354,2023-10-13,2023-10-21,43,Female,Rajshahi,Surgery,Appendicitis,Uninsured,8,137400,No,4
+P101355,2024-03-23,2024-03-27,26,Female,Chattogram,General Medicine,Infection,Employer,4,21650,No,4
+P101356,2024-07-14,2024-07-20,41,Female,Chattogram,Orthopedics,Fracture,Uninsured,6,24000,No,2
+P101357,2024-11-10,2024-11-18,65,Female,Rangpur,Orthopedics,Fracture,Employer,8,51650,No,4
+P101358,2024-01-21,2024-01-24,6,Male,Dhaka,Pediatrics,Gastrointestinal,Private,3,10300,No,5
+P101359,2023-06-16,2023-06-20,53,Male,Dhaka,General Medicine,Infection,Employer,4,12400,No,2
+P101360,2023-04-05,2023-04-08,10,Female,Mymensingh,Pediatrics,Gastrointestinal,Uninsured,3,4150,No,4
+P101361,2023-04-26,2023-05-04,69,Female,Sylhet,Cardiology,Hypertension-related,Uninsured,8,60050,No,5
+P101362,2023-01-08,2023-01-12,13,Female,Sylhet,Pediatrics,Gastrointestinal,Employer,4,14000,No,3
+P101363,2024-02-12,2024-02-19,37,Female,Sylhet,General Medicine,Diabetes-related,Government scheme,7,24550,No,4
+P101364,2023-06-05,2023-06-13,65,Male,Barishal,Orthopedics,Joint disorder,Employer,8,49900,No,4
+P101365,2023-06-15,2023-06-22,60,Male,Dhaka,Orthopedics,Fracture,Uninsured,7,56600,No,5
+P101366,2024-06-12,2024-06-17,26,Male,Sylhet,General Medicine,Diabetes-related,Private,5,21800,No,5
+P101367,2023-08-22,2023-08-29,79,Female,Dhaka,General Medicine,Infection,Uninsured,7,24900,No,3
+P101368,2024-08-27,2024-08-31,34,Female,Dhaka,General Medicine,Gastrointestinal,Uninsured,4,22550,No,
+P101369,2023-04-11,2023-04-18,68,Male,Mymensingh,Cardiology,Cardiac,Uninsured,7,63900,No,5
+P101370,2023-09-07,2023-09-15,1,Female,Dhaka,General Medicine,Diabetes-related,Government scheme,8,25750,No,3
+P101371,2023-02-07,2023-02-15,67,Female,Dhaka,Surgery,Injury,Uninsured,8,72450,No,4
+P101372,2024-01-27,2024-02-03,78,Male,Chattogram,Cardiology,Cardiac,Uninsured,7,59750,No,4
+P101373,2023-04-02,2023-04-07,24,Female,Rangpur,Obstetrics,Pregnancy complication,Government scheme,5,39650,No,3
+P101374,2023-06-25,2023-07-02,42,Female,Mymensingh,Surgery,Hernia,Employer,7,68350,No,5
+P101375,2024-06-20,2024-06-24,53,Female,Dhaka,General Medicine,Infection,Uninsured,4,18550,No,3
+P101376,2024-10-04,2024-10-12,10,Male,Chattogram,Pediatrics,Infection,Government scheme,8,28650,No,2
+P101377,2024-02-03,2024-02-14,29,Male,Sylhet,Surgery,Appendicitis,Employer,11,217250,No,3
+P101378,2024-12-05,2024-12-09,0,Male,Khulna,Pediatrics,Respiratory,Uninsured,4,15450,No,4
+P101379,2024-07-06,2024-07-13,65,Female,Dhaka,Cardiology,Cardiac,Government scheme,7,52900,No,3
+P101380,2024-07-03,2024-07-08,46,Male,Chattogram,Cardiology,Diabetes-related,Employer,5,54100,No,4
+P101381,2024-12-24,2025-01-02,29,Female,Khulna,General Medicine,Gastrointestinal,Government scheme,9,43650,No,4
+P101382,2023-03-06,2023-03-10,73,Male,Dhaka,Orthopedics,Fracture,Uninsured,4,29000,No,3
+P101383,2023-06-19,2023-06-30,61,Male,Sylhet,Surgery,Gastrointestinal,Private,11,98650,No,3
+P101384,2023-11-16,2023-11-22,27,Male,Dhaka,Surgery,Gastrointestinal,Government scheme,6,82350,No,4
+P101385,2024-03-27,2024-03-31,27,Female,Rangpur,General Medicine,Respiratory,Private,4,16250,No,5
+P101386,2024-12-24,2024-12-27,1,Male,Barishal,Pediatrics,Respiratory,Uninsured,3,7200,No,3
+P101387,2023-03-14,2023-03-22,68,Female,Khulna,Cardiology,Hypertension-related,Uninsured,8,76750,No,4
+P101388,2023-06-17,2023-06-23,22,Male,Sylhet,Surgery,Appendicitis,Government scheme,6,61400,No,4
+P101389,2023-08-06,2023-08-12,49,Female,Dhaka,General Medicine,Infection,Uninsured,6,16450,No,4
+P101390,2024-05-04,2024-05-14,56,Male,Dhaka,Surgery,Injury,Employer,10,109900,No,4
+P101391,2024-11-25,2024-11-30,34,Female,Rajshahi,Obstetrics,Childbirth,Uninsured,5,41350,No,4
+P101392,2024-11-16,2024-11-18,40,Female,Sylhet,General Medicine,Infection,Government scheme,2,10800,No,4
+P101393,2024-06-29,2024-07-02,62,Female,Rangpur,General Medicine,Infection,Uninsured,3,15200,No,4
+P101394,2024-07-18,2024-07-21,29,Female,Chattogram,Obstetrics,Childbirth,Government scheme,3,19250,No,4
+P101395,2023-10-31,2023-11-04,37,Male,Sylhet,General Medicine,Respiratory,Employer,4,18550,No,4
+P101396,2024-03-20,2024-03-25,44,Female,Dhaka,Orthopedics,Joint disorder,Uninsured,5,41000,No,5
+P101397,2023-05-05,2023-05-11,62,Male,Dhaka,Surgery,Injury,Uninsured,6,54600,No,4
+P101398,2024-01-05,2024-01-10,47,Female,Dhaka,Orthopedics,Fracture,Employer,5,31900,No,4
+P101399,2023-08-02,2023-08-11,62,Female,Rangpur,Cardiology,Hypertension-related,Government scheme,9,69600,No,3
+P101400,2024-11-09,2024-11-14,57,Female,Rajshahi,Cardiology,Hypertension-related,Private,5,63900,No,3
+P101401,2023-09-26,2023-10-04,20,Female,Rajshahi,General Medicine,Gastrointestinal,Uninsured,8,41900,No,3
+P101402,2023-10-16,2023-10-29,29,Female,Sylhet,Surgery,Injury,Employer,13,119100,No,4
+P101403,2023-10-22,2023-11-03,77,Female,Dhaka,Cardiology,Hypertension-related,Government scheme,12,109450,No,4
+P101404,2024-10-19,2024-10-25,46,Male,Dhaka,General Medicine,Infection,Uninsured,6,21700,No,4
+P101405,2024-11-11,2024-11-16,21,Male,Dhaka,General Medicine,Diabetes-related,Uninsured,5,19250,No,4
+P101406,2023-11-11,2023-11-20,48,Female,Dhaka,Surgery,Gastrointestinal,Uninsured,9,94450,No,3
+P101407,2024-12-27,2025-01-02,39,Female,Rajshahi,General Medicine,Infection,Government scheme,6,34100,No,3
+P101408,2024-07-06,2024-07-14,95,Female,Chattogram,Surgery,Gastrointestinal,Government scheme,8,95550,No,3
+P101409,2024-09-09,2024-09-12,2,Female,Sylhet,Pediatrics,Respiratory,Uninsured,3,11100,No,3
+P101410,2024-10-30,2024-11-03,33,Female,Rangpur,Obstetrics,Childbirth,Uninsured,4,25400,No,5
+P101411,2023-08-31,2023-09-04,34,Male,Mymensingh,Surgery,Gastrointestinal,Uninsured,4,37100,No,5
+P101412,2024-02-06,2024-02-10,33,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,4,24650,No,2
+P101413,2023-07-28,2023-08-01,70,Female,Rajshahi,Surgery,Injury,Employer,4,62600,No,4
+P101414,2023-08-15,2023-08-19,5,Male,Dhaka,General Medicine,Infection,Government scheme,4,23100,No,4
+P101415,2023-12-05,2023-12-13,29,Female,Dhaka,Obstetrics,Childbirth,Uninsured,8,36050,No,4
+P101416,2023-02-07,2023-02-18,85,Male,Khulna,Orthopedics,Joint disorder,Uninsured,11,60200,No,3
+P101417,2023-06-07,2023-06-13,56,Male,Chattogram,Orthopedics,Joint disorder,Uninsured,6,48750,No,5
+P101418,2024-08-13,2024-08-21,7,Female,Barishal,Surgery,Appendicitis,Government scheme,8,126700,No,4
+P101419,2023-05-02,2023-05-09,34,Female,Rangpur,Surgery,Injury,Uninsured,7,91900,No,5
+P101420,2024-03-30,2024-04-02,7,Female,Dhaka,Pediatrics,Gastrointestinal,Uninsured,3,12450,No,3
+P101421,2024-07-12,2024-07-23,78,Female,Mymensingh,Orthopedics,Joint disorder,Employer,11,62650,No,2
+P101422,2023-07-12,2023-07-22,63,Male,Dhaka,Orthopedics,Fracture,Private,10,69350,No,4
+P101423,2023-12-01,2023-12-06,46,Male,Mymensingh,Cardiology,Diabetes-related,Government scheme,5,26000,No,3
+P101424,2024-10-02,2024-10-08,48,Male,Khulna,Cardiology,Diabetes-related,Uninsured,6,52100,No,5
+P101425,2024-09-01,2024-09-10,50,Male,Dhaka,Cardiology,Hypertension-related,Uninsured,9,47150,No,2
+P101426,2024-11-02,2024-11-08,49,Female,Chattogram,General Medicine,Infection,Employer,6,33500,No,3
+P101427,2024-04-03,2024-04-10,68,Male,Dhaka,General Medicine,Gastrointestinal,Government scheme,7,41300,No,3
+P101428,2024-10-09,2024-10-13,34,Female,Sylhet,Obstetrics,Childbirth,Government scheme,4,24850,No,4
+P101429,2023-10-18,2023-10-25,64,Female,Dhaka,Cardiology,Hypertension-related,Private,7,43150,Yes,4
+P101430,2024-03-15,2024-03-27,15,Female,Rangpur,Surgery,Hernia,Uninsured,12,158200,No,4
+P101431,2024-05-02,2024-05-07,1,Male,Chattogram,Pediatrics,Respiratory,Private,5,27850,No,4
+P101432,2024-12-13,2024-12-21,15,Male,Mymensingh,General Medicine,Respiratory,Uninsured,8,36050,No,4
+P101433,2023-09-26,2023-09-30,52,Female,Dhaka,General Medicine,Respiratory,Uninsured,4,21500,No,4
+P101434,2024-09-30,2024-10-10,15,Female,Barishal,General Medicine,Gastrointestinal,Uninsured,10,35450,No,5
+P101435,2024-01-07,2024-01-17,37,Female,Rangpur,Surgery,Gastrointestinal,Uninsured,10,96500,No,5
+P101436,2023-03-18,2023-03-23,48,Male,Dhaka,General Medicine,Infection,Uninsured,5,19650,No,4
+P101437,2024-04-23,2024-05-02,42,Male,Dhaka,Orthopedics,Fracture,Uninsured,9,44500,No,4
+P101438,2024-12-17,2024-12-25,21,Male,Rajshahi,Surgery,Appendicitis,Uninsured,8,169100,No,3
+P101439,2023-11-27,2023-11-29,40,Female,Barishal,Surgery,Hernia,Employer,2,24850,No,4
+P101440,2024-02-05,2024-02-10,52,Female,Rangpur,General Medicine,Diabetes-related,Employer,5,24850,Yes,3
+P101441,2024-11-07,2024-11-14,63,Female,Dhaka,General Medicine,Gastrointestinal,Uninsured,7,24950,No,3
+P101442,2024-11-02,2024-11-08,54,Female,Rangpur,General Medicine,Diabetes-related,Uninsured,6,16300,Yes,2
+P101443,2023-10-20,2023-10-28,43,Female,Mymensingh,General Medicine,Infection,Government scheme,8,45700,No,3
+P101444,2024-07-09,2024-07-15,27,Male,Sylhet,General Medicine,Gastrointestinal,Uninsured,6,18100,No,5
+P101445,2024-04-05,2024-04-15,43,Male,Dhaka,Orthopedics,Fracture,Government scheme,10,87300,No,4
+P101446,2024-04-17,2024-04-29,31,Female,Dhaka,Surgery,Gastrointestinal,Uninsured,12,160850,Yes,3
+P101447,2024-06-09,2024-06-19,63,Male,Mymensingh,Orthopedics,Joint disorder,Private,10,81500,No,4
+P101448,2023-08-27,2023-08-30,7,Male,Sylhet,Pediatrics,Gastrointestinal,Uninsured,3,8650,No,3
+P101449,2023-08-11,2023-08-13,1,Male,Khulna,General Medicine,Gastrointestinal,Government scheme,2,7700,No,4
+P101450,2023-01-20,2023-01-24,27,Female,Rangpur,Obstetrics,Childbirth,Uninsured,4,18950,No,5
+P101451,2024-09-17,2024-09-26,13,Female,Dhaka,Pediatrics,Respiratory,Uninsured,9,38550,No,4
+P101452,2023-07-22,2023-07-30,66,Female,Sylhet,Surgery,Hernia,Uninsured,8,110750,No,5
+P101453,2024-05-07,2024-05-12,43,Female,Khulna,Surgery,Injury,Uninsured,5,59700,No,5
+P101454,2024-05-15,2024-05-19,38,Male,Rangpur,Cardiology,Diabetes-related,Employer,4,31250,No,4
+P101455,2024-05-28,2024-06-03,89,Male,Sylhet,General Medicine,Respiratory,Uninsured,6,40650,No,3
+P101456,2024-09-22,2024-09-26,41,Male,Rajshahi,General Medicine,Diabetes-related,Uninsured,4,11550,No,4
+P101457,2024-09-25,2024-10-06,63,Male,Dhaka,Cardiology,Diabetes-related,Private,11,67300,Yes,5
+P101458,2023-01-02,2023-01-07,49,Female,Rangpur,Surgery,Injury,Uninsured,5,58800,No,
+P101459,2024-09-05,2024-09-08,52,Female,Sylhet,Cardiology,Diabetes-related,Employer,3,25300,No,4
+P101460,2023-06-01,2023-06-05,24,Female,Chattogram,Obstetrics,Childbirth,Government scheme,4,31600,No,3
+P101461,2024-04-16,2024-04-30,47,Male,Mymensingh,Orthopedics,Joint disorder,Uninsured,14,131650,No,3
+P101462,2024-05-06,2024-05-15,84,Female,Chattogram,General Medicine,Diabetes-related,Private,9,36250,No,4
+P101463,2023-02-09,2023-02-17,72,Male,Chattogram,Cardiology,Cardiac,Private,8,81600,No,4
+P101464,2023-07-27,2023-08-06,2,Male,Mymensingh,Pediatrics,Gastrointestinal,Uninsured,10,39500,No,3
+P101465,2024-10-26,2024-11-02,1,Female,Khulna,Pediatrics,Respiratory,Private,7,41450,No,4
+P101466,2023-04-14,2023-04-22,66,Male,Rangpur,Cardiology,Hypertension-related,Uninsured,8,76700,No,5
+P101467,2023-06-19,2023-06-25,21,Male,Rangpur,General Medicine,Gastrointestinal,Uninsured,6,20250,No,4
+P101468,2023-03-01,2023-03-06,36,Female,Rajshahi,Obstetrics,Pregnancy complication,Private,5,31550,No,4
+P101469,2023-05-02,2023-05-11,25,Male,Dhaka,General Medicine,Diabetes-related,Private,9,18700,No,4
+P101470,2024-04-10,2024-04-19,47,Female,Rangpur,Surgery,Hernia,Government scheme,9,107100,No,3
+P101471,2024-09-06,2024-09-10,9,Male,Rajshahi,General Medicine,Infection,Uninsured,4,21050,No,4
+P101472,2024-03-10,2024-03-15,1,Female,Rajshahi,General Medicine,Infection,Government scheme,5,23250,No,
+P101473,2023-07-27,2023-08-03,62,Male,Rajshahi,Orthopedics,Joint disorder,Uninsured,7,60350,No,4
+P101474,2024-09-18,2024-09-23,46,Male,Dhaka,Orthopedics,Fracture,Private,5,47050,No,5
+P101475,2023-09-26,2023-10-04,30,Female,Dhaka,Orthopedics,Joint disorder,Uninsured,8,84350,No,4
+P101476,2023-08-18,2023-08-21,65,Male,Khulna,Cardiology,Hypertension-related,Uninsured,3,38550,No,
+P101477,2024-01-05,2024-01-13,84,Female,Sylhet,Surgery,Injury,,8,107350,No,4
+P101478,2023-04-10,2023-04-18,77,Male,Rajshahi,Orthopedics,Joint disorder,Uninsured,8,59150,No,5
+P101479,2023-09-18,2023-09-25,54,Female,Dhaka,Orthopedics,Joint disorder,Uninsured,7,31400,Yes,2
+P101480,2024-08-06,2024-08-20,58,Female,Chattogram,Cardiology,Hypertension-related,Uninsured,14,160900,Yes,4
+P101481,2024-03-20,2024-03-25,59,Male,Sylhet,General Medicine,Diabetes-related,Uninsured,5,22750,No,5
+P101482,2024-12-22,2024-12-26,8,Male,Dhaka,Pediatrics,Respiratory,Uninsured,4,14550,No,
+P101483,2024-07-20,2024-07-26,64,Female,Rajshahi,General Medicine,Diabetes-related,Uninsured,6,20200,No,5
+P101484,2023-09-21,2023-09-25,11,Female,Barishal,Pediatrics,Gastrointestinal,Private,4,17800,No,4
+P101485,2024-07-13,2024-07-18,42,Male,Chattogram,General Medicine,Respiratory,Employer,5,18750,No,3
+P101486,2024-09-23,2024-10-02,48,Male,Khulna,Surgery,Hernia,Employer,9,107050,No,2
+P101487,2024-04-05,2024-04-15,65,Female,Rangpur,Orthopedics,Fracture,Employer,10,78900,No,
+P101488,2024-07-10,2024-07-19,39,Female,Dhaka,Surgery,Appendicitis,Employer,9,120850,No,4
+P101489,2024-01-03,2024-01-07,56,Male,Dhaka,Orthopedics,Fracture,Uninsured,4,24000,No,5
+P101490,2024-10-27,2024-10-30,69,Male,Dhaka,General Medicine,Diabetes-related,Uninsured,3,13800,No,3
+P101491,2023-06-23,2023-06-28,40,Female,Barishal,Obstetrics,Pregnancy complication,Uninsured,5,25050,No,5
+P101492,2023-11-06,2023-11-10,6,Male,Rangpur,Pediatrics,Gastrointestinal,Uninsured,4,11800,No,3
+P101493,2023-07-05,2023-07-06,40,Female,Barishal,Obstetrics,Childbirth,Government scheme,1,7500,No,4
+P101494,2023-03-15,2023-03-22,64,Female,Mymensingh,Cardiology,Cardiac,Employer,7,49150,No,3
+P101495,2024-03-25,2024-03-30,0,Male,Barishal,Pediatrics,Respiratory,Private,5,21850,No,4
+P101496,2023-03-28,2023-04-03,34,Female,Chattogram,Surgery,Appendicitis,Employer,6,73850,No,4
+P101497,2023-06-15,2023-06-24,12,Male,Dhaka,Pediatrics,Respiratory,Government scheme,9,20850,No,4
+P101498,2024-07-11,2024-07-19,80,Female,Khulna,Cardiology,Cardiac,Uninsured,8,101250,No,5
+P101499,2023-06-25,2023-06-28,13,Male,Barishal,Pediatrics,Infection,Uninsured,3,11350,No,4
+P101500,2024-09-22,2024-09-26,8,Female,Rajshahi,Pediatrics,Respiratory,Employer,4,15450,No,3
+P101501,2023-02-05,2023-02-14,95,Male,Rajshahi,Surgery,Injury,Private,9,138950,No,4
+P101502,2023-11-30,2023-12-04,41,Male,Chattogram,Cardiology,Hypertension-related,Uninsured,4,52350,No,5
+P101503,2023-02-19,2023-03-01,48,Female,Chattogram,Cardiology,Cardiac,Uninsured,10,94650,No,4
+P101504,2023-02-13,2023-02-16,39,Female,Khulna,Obstetrics,Childbirth,Government scheme,3,21000,No,5
+P101505,2024-07-31,2024-08-12,63,Female,Sylhet,Orthopedics,Fracture,Government scheme,12,105350,No,2
+P101506,2023-02-18,2023-02-20,31,Female,Rangpur,Obstetrics,Pregnancy complication,Uninsured,2,11000,No,4
+P101507,2024-10-13,2024-10-22,85,Male,Chattogram,Orthopedics,Joint disorder,Employer,9,48450,No,3
+P101508,2024-03-12,2024-03-17,28,Female,Rangpur,General Medicine,Infection,Uninsured,5,21100,No,3
+P101509,2023-12-19,2023-12-22,23,Female,Chattogram,Obstetrics,Childbirth,Employer,3,25400,No,4
+P101510,2024-11-01,2024-11-11,65,Male,Chattogram,General Medicine,Infection,Private,10,46300,Yes,4
+P101511,2023-10-11,2023-10-15,56,Female,Rangpur,General Medicine,Diabetes-related,Government scheme,4,12250,No,3
+P101512,2023-10-19,2023-10-25,13,Female,Mymensingh,Pediatrics,Infection,Employer,6,27650,No,4
+P101513,2023-10-27,2023-10-29,25,Female,Mymensingh,Obstetrics,Pregnancy complication,Government scheme,2,11100,No,4
+P101514,2024-04-19,2024-04-24,70,Female,Dhaka,Surgery,Injury,Uninsured,5,35550,No,4
+P101515,2024-09-10,2024-09-15,66,Female,Chattogram,General Medicine,Respiratory,Employer,5,25800,Yes,4
+P101516,2024-01-31,2024-02-03,53,Female,Sylhet,General Medicine,Diabetes-related,Uninsured,3,9450,No,4
+P101517,2023-07-25,2023-08-02,46,Female,Rangpur,Surgery,Hernia,Uninsured,8,149850,No,5
+P101518,2024-10-11,2024-10-17,46,Female,Rajshahi,General Medicine,Infection,Private,6,32000,No,4
+P101519,2024-03-13,2024-03-19,40,Female,Dhaka,General Medicine,Infection,Uninsured,6,22650,No,4
+P101520,2024-08-30,2024-09-06,54,Male,Rajshahi,General Medicine,Diabetes-related,Uninsured,7,31400,No,2
+P101521,2023-11-12,2023-11-22,58,Female,Dhaka,Orthopedics,Fracture,Uninsured,10,146650,No,4
+P101522,2023-05-26,2023-05-31,25,Female,Chattogram,Surgery,Injury,Uninsured,5,77050,No,3
+P101523,2024-11-20,2024-11-27,19,Female,Khulna,Obstetrics,Childbirth,Uninsured,7,44600,No,4
+P101524,2024-05-09,2024-05-11,8,Female,Dhaka,Pediatrics,Infection,Government scheme,2,14400,Yes,4
+P101525,2023-08-13,2023-08-24,26,Male,Barishal,General Medicine,Gastrointestinal,Uninsured,11,45300,No,5
+P101526,2024-09-10,2024-09-15,61,Female,Khulna,Cardiology,Diabetes-related,Private,5,52050,No,5
+P101527,2023-01-07,2023-01-09,57,Male,Chattogram,Orthopedics,Joint disorder,Uninsured,2,12650,No,3
+P101528,2024-11-10,2024-11-12,46,Male,Chattogram,General Medicine,Diabetes-related,Uninsured,2,5250,No,3
+P101529,2024-02-27,2024-03-03,52,Male,Mymensingh,General Medicine,Infection,Uninsured,5,18600,No,4
+P101530,2024-03-06,2024-03-15,49,Female,Rajshahi,Cardiology,Hypertension-related,Uninsured,9,81800,Yes,4
+P101531,2023-01-10,2023-01-17,71,Female,Rangpur,General Medicine,Infection,Employer,7,30400,Yes,3
+P101532,2023-05-09,2023-05-14,54,Female,Chattogram,Orthopedics,Joint disorder,Employer,5,28050,No,4
+P101533,2024-06-10,2024-06-12,10,Male,Khulna,Pediatrics,Gastrointestinal,Uninsured,2,8250,No,4
+P101534,2024-02-12,2024-02-19,33,Male,Mymensingh,General Medicine,Gastrointestinal,,7,22750,Yes,3
+P101535,2023-04-04,2023-04-15,64,Female,Dhaka,Orthopedics,Joint disorder,Private,11,102450,No,3
+P101536,2024-05-01,2024-05-10,23,Female,Dhaka,Obstetrics,Childbirth,Uninsured,9,68200,No,3
+P101537,2024-06-28,2024-07-02,34,Female,Mymensingh,Obstetrics,Childbirth,Uninsured,4,21750,No,4
+P101538,2023-07-18,2023-07-21,38,Female,Chattogram,Obstetrics,Pregnancy complication,Uninsured,3,14150,No,5
+P101539,2024-05-18,2024-05-24,71,Female,Dhaka,Cardiology,Diabetes-related,Private,6,79450,No,4
+P101540,2024-12-11,2024-12-17,40,Female,Mymensingh,Obstetrics,Pregnancy complication,Uninsured,6,44800,No,4
+P101541,2023-12-19,2023-12-25,7,Male,Dhaka,General Medicine,Gastrointestinal,Employer,6,24950,No,5
+P101542,2023-06-17,2023-06-30,73,Male,Khulna,Cardiology,Cardiac,Uninsured,13,168900,No,3
+P101543,2024-12-03,2024-12-11,72,Female,Sylhet,General Medicine,Diabetes-related,Uninsured,8,32650,No,3
+P101544,2024-10-27,2024-11-01,52,Male,Sylhet,Orthopedics,Joint disorder,Employer,5,34250,No,4
+P101545,2023-11-30,2023-12-07,62,Female,Rajshahi,Cardiology,Cardiac,Uninsured,7,49050,No,5
+P101546,2023-11-07,2023-11-11,64,Male,Dhaka,General Medicine,Gastrointestinal,Uninsured,4,15550,No,4
+P101547,2024-08-31,2024-09-03,41,Female,Rangpur,Obstetrics,Childbirth,Uninsured,3,21850,No,5
+P101548,2023-01-01,2023-01-08,45,Male,Rangpur,Cardiology,Hypertension-related,Government scheme,7,89150,No,4
+P101549,2023-08-16,2023-08-25,59,Female,Dhaka,General Medicine,Infection,Private,9,36200,No,2
+P101550,2024-02-01,2024-02-07,28,Female,Chattogram,General Medicine,Respiratory,Uninsured,6,32500,Yes,4
+P101551,2024-04-22,2024-05-02,51,Male,Rajshahi,Cardiology,Cardiac,Uninsured,10,85300,No,3
+P101552,2024-04-03,2024-04-05,46,Female,Dhaka,Cardiology,Cardiac,Uninsured,2,14800,No,5
+P101553,2023-09-28,2023-10-06,62,Female,Rangpur,Cardiology,Diabetes-related,Uninsured,8,51950,No,5
+P101554,2024-09-26,2024-10-01,65,Female,Mymensingh,General Medicine,Infection,Uninsured,5,17600,No,2
+P101555,2024-04-19,2024-04-23,35,Female,Chattogram,Obstetrics,Childbirth,Uninsured,4,17500,No,5
+P101556,2024-01-30,2024-02-06,38,Male,Mymensingh,Surgery,Gastrointestinal,Uninsured,7,138800,No,5
+P101557,2024-11-16,2024-11-23,40,Male,Rangpur,Orthopedics,Joint disorder,Government scheme,7,62500,No,3
+P101558,2023-03-10,2023-03-15,14,Female,Barishal,Pediatrics,Respiratory,Private,5,17100,No,4
+P101559,2024-06-02,2024-06-12,49,Male,Mymensingh,Surgery,Appendicitis,Private,10,184550,No,5
+P101560,2024-11-07,2024-11-16,78,Male,Chattogram,Surgery,Injury,Private,9,78000,No,
+P101561,2024-04-28,2024-05-02,8,Male,Mymensingh,Pediatrics,Respiratory,Uninsured,4,13550,No,
+P101562,2024-02-17,2024-02-22,49,Female,Dhaka,Surgery,Injury,Private,5,98900,No,5
+P101563,2023-09-24,2023-09-30,34,Male,Rajshahi,Surgery,Appendicitis,Uninsured,6,69450,No,4
+P101564,2023-07-18,2023-07-22,23,Female,Rajshahi,Obstetrics,Pregnancy complication,Government scheme,4,44250,No,4
+P101565,2024-02-03,2024-02-13,54,Female,Dhaka,Orthopedics,Joint disorder,Uninsured,10,97350,No,4
+P101566,2024-10-18,2024-10-26,34,Male,Sylhet,General Medicine,Diabetes-related,Private,8,44350,No,3
+P101567,2023-12-04,2023-12-09,22,Male,Rajshahi,General Medicine,Infection,Employer,5,27900,No,3
+P101568,2023-03-30,2023-04-04,77,Male,Rajshahi,Orthopedics,Joint disorder,Uninsured,5,40000,No,5
+P101569,2023-12-20,2023-12-24,22,Male,Khulna,Orthopedics,Joint disorder,Uninsured,4,28300,No,3
+P101570,2023-03-13,2023-03-16,69,Female,Dhaka,Cardiology,Cardiac,Employer,3,26250,No,3
+P101571,2024-11-14,2024-11-21,51,Female,Dhaka,Orthopedics,Joint disorder,Uninsured,7,43750,No,4
+P101572,2024-01-26,2024-02-04,52,Male,Dhaka,Orthopedics,Joint disorder,Uninsured,9,70800,No,3
+P101573,2023-06-06,2023-06-11,18,Female,Mymensingh,Obstetrics,Childbirth,Uninsured,5,29950,No,3
+P101574,2024-04-01,2024-04-06,75,Female,Sylhet,General Medicine,Diabetes-related,Uninsured,5,30500,No,4
+P101575,2024-01-28,2024-02-01,27,Female,Rajshahi,General Medicine,Gastrointestinal,Uninsured,4,18550,No,5
+P101576,2024-01-09,2024-01-11,30,Female,Khulna,Obstetrics,Childbirth,Government scheme,2,21650,No,4
+P101577,2024-03-08,2024-03-11,22,Female,Khulna,Obstetrics,Pregnancy complication,Government scheme,3,10500,No,3
+P101578,2024-11-09,2024-11-18,39,Male,Dhaka,Surgery,Appendicitis,Uninsured,9,79650,No,4
+P101579,2024-09-16,2024-09-22,50,Male,Dhaka,Surgery,Hernia,Government scheme,6,65900,No,5
+P101580,2023-07-11,2023-07-14,33,Female,Rajshahi,Surgery,Hernia,Government scheme,3,52300,No,5
+P101581,2023-06-25,2023-07-05,35,Female,Dhaka,Cardiology,Cardiac,Uninsured,10,87550,No,5
+P101582,2024-12-23,2024-12-26,45,Female,Rangpur,Cardiology,Hypertension-related,Private,3,18700,No,3
+P101583,2024-04-15,2024-04-20,67,Male,Dhaka,General Medicine,Infection,Uninsured,5,18800,No,5
+P101584,2023-01-15,2023-01-22,6,Male,Khulna,Pediatrics,Respiratory,Uninsured,7,18150,No,4
+P101585,2024-01-22,2024-01-27,51,Female,Chattogram,Surgery,Hernia,Government scheme,5,42350,No,3
+P101586,2023-03-28,2023-04-02,54,Male,Sylhet,Cardiology,Diabetes-related,Government scheme,5,74150,No,4
+P101587,2023-01-22,2023-01-28,48,Female,Mymensingh,Orthopedics,Joint disorder,Employer,6,43950,No,5
+P101588,2023-05-16,2023-05-22,75,Female,Chattogram,General Medicine,Diabetes-related,Uninsured,6,25050,No,5
+P101589,2023-07-05,2023-07-10,38,Female,Dhaka,General Medicine,Respiratory,Uninsured,5,19550,No,3
+P101590,2023-02-28,2023-03-05,33,Male,Khulna,General Medicine,Diabetes-related,Uninsured,5,18800,No,4
+P101591,2024-09-01,2024-09-08,63,Female,Dhaka,General Medicine,Diabetes-related,Uninsured,7,22700,No,4
+P101592,2023-11-16,2023-11-20,27,Female,Dhaka,Surgery,Injury,Uninsured,4,44400,No,2
+P101593,2024-02-07,2024-02-11,49,Female,Khulna,Cardiology,Hypertension-related,Uninsured,4,39150,No,2
+P101594,2024-09-23,2024-09-28,36,Female,Dhaka,Obstetrics,Childbirth,Private,5,42750,No,4
+P101595,2024-09-03,2024-09-05,7,Male,Dhaka,Pediatrics,Infection,Uninsured,2,8850,No,4
+P101596,2024-08-22,2024-08-29,42,Female,Chattogram,General Medicine,Gastrointestinal,Uninsured,7,20650,No,2
+P101597,2023-05-24,2023-05-28,47,Female,Rajshahi,General Medicine,Diabetes-related,Uninsured,4,20500,Yes,4
+P101598,2024-06-27,2024-07-01,27,Female,Mymensingh,Obstetrics,Childbirth,Government scheme,4,27050,No,
+P101599,2024-12-27,2025-01-05,83,Female,Dhaka,General Medicine,Respiratory,Uninsured,9,30800,No,4
+P101600,2023-01-06,2023-01-15,48,Male,Chattogram,Surgery,Appendicitis,Uninsured,9,113050,No,4
+P101601,2024-09-25,2024-09-28,1,Female,Barishal,General Medicine,Diabetes-related,Uninsured,3,13850,No,4
+P101602,2024-09-23,2024-10-01,3,Male,Rangpur,Pediatrics,Infection,Uninsured,8,28350,No,4
+P101603,2024-09-06,2024-09-08,21,Female,Chattogram,Obstetrics,Pregnancy complication,Uninsured,2,13550,No,2
+P101604,2023-10-17,2023-10-22,42,Female,Khulna,General Medicine,Gastrointestinal,Government scheme,5,16100,No,3
+P101605,2023-05-26,2023-05-30,42,Male,Khulna,General Medicine,Gastrointestinal,Uninsured,4,26350,No,4
+P101606,2024-06-18,2024-06-26,46,Male,Chattogram,Surgery,Appendicitis,Uninsured,8,59250,No,3
+P101607,2024-03-30,2024-04-04,41,Female,Dhaka,General Medicine,Respiratory,Uninsured,5,23100,No,5
+P101608,2024-06-14,2024-06-19,57,Female,Barishal,Cardiology,Cardiac,Uninsured,5,49300,No,4
+P101609,2023-07-06,2023-07-19,66,Male,Dhaka,Cardiology,Diabetes-related,Employer,13,137400,No,3
+P101610,2023-05-10,2023-05-13,31,Male,Chattogram,General Medicine,Infection,,3,10050,No,4
+P101611,2024-10-20,2024-10-22,30,Female,Khulna,Obstetrics,Pregnancy complication,Uninsured,2,16050,No,5
+P101612,2024-01-12,2024-01-17,32,Female,Dhaka,Obstetrics,Childbirth,Private,5,29200,No,3
+P101613,2024-09-13,2024-09-24,95,Male,Dhaka,Cardiology,Cardiac,Uninsured,11,73600,Yes,4
+P101614,2024-11-07,2024-11-13,26,Female,Rajshahi,Obstetrics,Pregnancy complication,Uninsured,6,27400,No,5
+P101615,2023-12-02,2023-12-07,44,Female,Rangpur,General Medicine,Infection,Uninsured,5,20650,No,5
+P101616,2023-07-12,2023-07-17,12,Female,Sylhet,General Medicine,Infection,Government scheme,5,13400,No,4
+P101617,2024-10-15,2024-10-16,8,Male,Chattogram,Pediatrics,Gastrointestinal,,1,5500,No,5
+P101618,2024-06-05,2024-06-14,44,Female,Chattogram,Surgery,Appendicitis,Uninsured,9,140400,No,3
+P101619,2024-05-01,2024-05-06,23,Male,Mymensingh,General Medicine,Respiratory,Government scheme,5,31600,Yes,5
+P101620,2024-11-30,2024-12-04,33,Male,Khulna,General Medicine,Respiratory,Uninsured,4,24600,No,4
+P101621,2023-06-29,2023-07-11,72,Male,Barishal,Orthopedics,Fracture,Uninsured,12,87900,No,5
+P101622,2023-09-21,2023-09-24,37,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,3,14500,No,4
+P101623,2023-01-29,2023-02-03,53,Female,Dhaka,General Medicine,Gastrointestinal,Uninsured,5,10250,No,4
+P101624,2023-10-10,2023-10-16,33,Male,Chattogram,Cardiology,Hypertension-related,Uninsured,6,48800,No,4
+P101625,2023-11-22,2023-11-24,39,Female,Rangpur,Obstetrics,Childbirth,Employer,2,18650,No,3
+P101626,2023-11-27,2023-12-06,83,Male,Mymensingh,Cardiology,Hypertension-related,Uninsured,9,65850,No,3
+P101627,2023-04-21,2023-04-25,18,Male,Dhaka,General Medicine,Infection,Uninsured,4,15200,No,4
+P101628,2024-08-13,2024-08-20,72,Male,Barishal,General Medicine,Gastrointestinal,Uninsured,7,24400,No,5
+P101629,2023-12-24,2023-12-31,72,Male,Rangpur,Cardiology,Cardiac,Uninsured,7,69200,Yes,2
+P101630,2023-11-17,2023-11-24,66,Male,Rangpur,Orthopedics,Joint disorder,Uninsured,7,77250,No,3
+P101631,2024-09-22,2024-10-01,24,Female,Rajshahi,Surgery,Appendicitis,Uninsured,9,73500,No,5
+P101632,2023-12-21,2023-12-23,6,Female,Dhaka,Pediatrics,Gastrointestinal,Uninsured,2,5000,No,3
+P101633,2024-10-13,2024-10-17,0,Male,Mymensingh,Pediatrics,Gastrointestinal,Uninsured,4,20300,No,5
+P101634,2023-06-12,2023-06-18,32,Female,Dhaka,Surgery,Gastrointestinal,Uninsured,6,86500,No,3
+P101635,2024-09-12,2024-09-17,58,Female,Dhaka,Cardiology,Cardiac,Private,5,42150,No,3
+P101636,2024-12-22,2024-12-25,54,Male,Dhaka,Cardiology,Diabetes-related,Employer,3,41350,No,4
+P101637,2024-07-01,2024-07-10,1,Male,Rajshahi,Surgery,Injury,Uninsured,9,76750,No,5
+P101638,2024-10-13,2024-10-16,64,Male,Dhaka,General Medicine,Diabetes-related,Government scheme,3,15150,No,3
+P101639,2024-06-24,2024-06-28,34,Female,Khulna,Obstetrics,Pregnancy complication,Private,4,23600,No,2
+P101640,2024-03-14,2024-03-17,27,Female,Mymensingh,Obstetrics,Childbirth,Private,3,20950,Yes,3
+P101641,2024-07-11,2024-07-15,32,Male,Rajshahi,General Medicine,Gastrointestinal,Private,4,8800,No,5
+P101642,2024-12-02,2024-12-12,50,Female,Mymensingh,Orthopedics,Joint disorder,Uninsured,10,74950,Yes,2
+P101643,2024-03-17,2024-03-23,49,Female,Rangpur,General Medicine,Respiratory,Employer,6,28850,No,5
+P101644,2024-05-16,2024-05-22,24,Female,Sylhet,General Medicine,Respiratory,Uninsured,6,23600,No,4
+P101645,2023-02-27,2023-03-07,26,Male,Khulna,Orthopedics,Fracture,Uninsured,8,87600,No,4
+P101646,2024-12-01,2024-12-04,50,Female,Rangpur,General Medicine,Gastrointestinal,Private,3,16300,No,4
+P101647,2024-07-21,2024-07-27,39,Female,Rajshahi,Obstetrics,Childbirth,Employer,6,28350,No,3
+P101648,2023-04-28,2023-05-06,38,Female,Dhaka,Surgery,Injury,Uninsured,8,117950,No,4
+P101649,2023-07-31,2023-08-04,33,Female,Mymensingh,Obstetrics,Childbirth,Employer,4,18750,No,3
+P101650,2023-06-14,2023-06-16,19,Female,Rajshahi,General Medicine,Diabetes-related,Private,2,8100,No,5
+P101651,2023-08-22,2023-08-26,43,Female,Rangpur,General Medicine,Respiratory,Private,4,18850,No,3
+P101652,2024-10-08,2024-10-13,12,Male,Chattogram,General Medicine,Diabetes-related,Government scheme,5,16250,No,4
+P101653,2023-12-05,2023-12-07,21,Male,Chattogram,General Medicine,Gastrointestinal,Government scheme,2,9750,No,3
+P101654,2023-11-03,2023-11-06,26,Male,Sylhet,Surgery,Injury,Uninsured,3,31750,No,3
+P101655,2024-07-22,2024-07-29,69,Male,Khulna,Cardiology,Cardiac,Government scheme,7,54500,No,3
+P101656,2023-09-28,2023-10-06,34,Female,Chattogram,General Medicine,Diabetes-related,Uninsured,8,38200,No,5
+P101657,2024-10-08,2024-10-11,26,Female,Rangpur,Obstetrics,Pregnancy complication,Employer,3,14600,No,4
+P101658,2024-07-04,2024-07-12,85,Female,Rajshahi,Cardiology,Diabetes-related,Government scheme,8,57700,Yes,3
+P101659,2023-07-07,2023-07-10,49,Female,Dhaka,General Medicine,Diabetes-related,Private,3,15550,No,3
+P101660,2024-04-05,2024-04-10,48,Male,Barishal,General Medicine,Respiratory,Uninsured,5,20550,No,3
+P101661,2023-12-19,2023-12-24,4,Male,Dhaka,Pediatrics,Respiratory,Uninsured,5,12150,No,4
+P101662,2023-09-09,2023-09-14,32,Female,Rajshahi,Obstetrics,Childbirth,Uninsured,5,37150,No,5
+P101663,2024-10-23,2024-10-27,30,Male,Dhaka,General Medicine,Gastrointestinal,Uninsured,4,14450,No,4
+P101664,2023-10-18,2023-10-24,1,Female,Dhaka,Surgery,Injury,Private,6,50700,No,5
+P101665,2023-03-27,2023-04-05,61,Male,Mymensingh,Surgery,Appendicitis,Employer,9,57700,No,3
+P101666,2023-10-26,2023-10-29,21,Female,Dhaka,Obstetrics,Pregnancy complication,Private,3,22550,No,4
+P101667,2024-01-13,2024-01-18,50,Female,Sylhet,General Medicine,Respiratory,Uninsured,5,16150,Yes,4
+P101668,2023-04-03,2023-04-10,38,Female,Khulna,General Medicine,Gastrointestinal,Employer,7,20500,No,3
+P101669,2024-06-26,2024-07-03,39,Female,Dhaka,Surgery,Appendicitis,Employer,7,98550,No,4
+P101670,2023-06-17,2023-06-20,68,Male,Mymensingh,Cardiology,Cardiac,Private,3,33050,No,4
+P101671,2023-03-09,2023-03-15,14,Female,Dhaka,Pediatrics,Infection,Uninsured,6,17250,No,4
+P101672,2024-01-28,2024-02-03,29,Female,Rajshahi,Obstetrics,Pregnancy complication,Private,6,45250,No,4
+P101673,2023-04-28,2023-05-02,30,Female,Sylhet,General Medicine,Respiratory,Uninsured,4,26750,No,5
+P101674,2024-07-24,2024-07-28,26,Female,Sylhet,Obstetrics,Childbirth,Uninsured,4,33600,No,4
+P101675,2023-02-19,2023-02-28,77,Male,Chattogram,Surgery,Gastrointestinal,Private,9,145450,No,3
+P101676,2023-11-02,2023-11-05,30,Female,Rangpur,Obstetrics,Pregnancy complication,Private,3,19450,No,5
+P101677,2023-02-07,2023-02-17,70,Male,Mymensingh,Cardiology,Cardiac,Uninsured,10,80550,No,3
+P101678,2023-10-07,2023-10-14,1,Female,Rajshahi,Surgery,Appendicitis,Employer,7,82850,No,2
+P101679,2024-11-12,2024-11-20,36,Male,Khulna,Orthopedics,Fracture,Employer,8,71450,No,3
+P101680,2024-04-19,2024-04-23,39,Female,Chattogram,Obstetrics,Pregnancy complication,Private,4,17550,No,4
+P101681,2024-01-26,2024-01-27,33,Female,Chattogram,Obstetrics,Childbirth,Uninsured,1,4950,No,5
+P101682,2023-04-25,2023-04-29,38,Female,Rajshahi,Obstetrics,Pregnancy complication,Uninsured,4,16800,Yes,3
+P101683,2023-08-17,2023-08-22,15,Male,Dhaka,General Medicine,Respiratory,Private,5,21200,No,5
+P101684,2023-10-05,2023-10-16,80,Female,Barishal,General Medicine,Respiratory,Government scheme,11,44900,No,4
+P101685,2024-02-27,2024-03-04,48,Male,Dhaka,General Medicine,Diabetes-related,Uninsured,6,20400,No,4
+P101686,2023-06-01,2023-06-10,64,Female,Dhaka,Orthopedics,Joint disorder,Uninsured,9,88400,No,3
+P101687,2024-12-30,2025-01-08,48,Male,Chattogram,Orthopedics,Fracture,Uninsured,9,55450,No,5
+P101688,2024-04-20,2024-04-22,11,Female,Dhaka,Pediatrics,Infection,Uninsured,2,5900,No,4
+P101689,2023-08-16,2023-08-20,68,Male,Rajshahi,Cardiology,Cardiac,Private,4,43750,No,3
+P101690,2023-03-24,2023-03-29,36,Female,Rajshahi,Obstetrics,Pregnancy complication,Uninsured,5,37850,Yes,5
+P101691,2024-03-10,2024-03-16,36,Female,Dhaka,Surgery,Injury,Uninsured,6,59000,No,4
+P101692,2023-11-23,2023-11-26,54,Female,Dhaka,General Medicine,Diabetes-related,Uninsured,3,12700,No,5
+P101693,2024-05-06,2024-05-09,30,Female,Dhaka,Obstetrics,Childbirth,Employer,3,14800,No,5
+P101694,2024-03-11,2024-03-16,3,Female,Khulna,Pediatrics,Gastrointestinal,Uninsured,5,16650,Yes,4
+P101695,2024-04-12,2024-04-21,80,Male,Chattogram,Orthopedics,Joint disorder,Uninsured,9,74650,Yes,5
+P101696,2024-08-31,2024-09-08,45,Male,Barishal,General Medicine,Infection,Private,8,36800,No,4
+P101697,2024-01-19,2024-01-21,41,Female,Khulna,Obstetrics,Childbirth,Employer,2,13000,Yes,5
+P101698,2024-06-12,2024-06-21,67,Female,Chattogram,Surgery,Injury,Uninsured,9,115650,No,4
+P101699,2023-09-20,2023-09-23,41,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,3,13750,No,4
+P101700,2024-11-19,2024-11-29,23,Female,Chattogram,Surgery,Hernia,Private,10,132250,No,4
+P101701,2023-10-25,2023-10-30,18,Male,Chattogram,Surgery,Gastrointestinal,Uninsured,5,68850,No,4
+P101702,2024-05-11,2024-05-20,61,Male,Chattogram,Cardiology,Cardiac,Employer,9,96200,No,4
+P101703,2024-12-29,2025-01-03,7,Male,Mymensingh,Pediatrics,Respiratory,Government scheme,5,14600,No,4
+P101704,2023-09-12,2023-09-19,58,Male,Dhaka,Orthopedics,Joint disorder,Uninsured,7,70400,No,5
+P101705,2023-03-16,2023-03-26,32,Female,Dhaka,Surgery,Gastrointestinal,Employer,10,86350,No,4
+P101706,2023-06-19,2023-06-20,21,Male,Rangpur,General Medicine,Infection,Private,1,3600,No,5
+P101707,2023-06-27,2023-07-05,40,Male,Mymensingh,Cardiology,Hypertension-related,Uninsured,8,67200,Yes,5
+P101708,2023-02-11,2023-02-17,41,Female,Rajshahi,Surgery,Hernia,Uninsured,6,52500,No,4
+P101709,2024-02-02,2024-02-06,32,Female,Rajshahi,General Medicine,Infection,Private,4,14900,No,4
+P101710,2023-07-22,2023-07-26,37,Female,Dhaka,Obstetrics,Pregnancy complication,Employer,4,25350,No,5
+P101711,2023-03-12,2023-03-17,79,Female,Rangpur,Cardiology,Diabetes-related,Uninsured,5,28500,No,3
+P101712,2023-04-10,2023-04-17,40,Male,Khulna,Surgery,Injury,Uninsured,7,76100,No,5
+P101713,2023-07-19,2023-07-26,67,Female,Rajshahi,Surgery,Gastrointestinal,Employer,7,54250,No,3
+P101714,2023-09-27,2023-09-30,50,Female,Chattogram,Cardiology,Hypertension-related,Uninsured,3,45000,No,5
+P101715,2024-12-12,2024-12-17,27,Female,Rajshahi,Obstetrics,Pregnancy complication,Uninsured,5,31650,No,4
+P101716,2024-05-27,2024-06-02,61,Male,Sylhet,Cardiology,Cardiac,Uninsured,6,55750,No,4
+P101717,2024-06-05,2024-06-10,12,Female,Dhaka,Pediatrics,Infection,Private,5,18550,No,3
+P101718,2024-05-20,2024-05-23,13,Male,Rajshahi,Pediatrics,Infection,Government scheme,3,12200,No,5
+P101719,2024-08-09,2024-08-15,41,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,6,45950,No,3
+P101720,2023-08-21,2023-08-25,70,Female,Sylhet,General Medicine,Respiratory,Uninsured,4,10800,Yes,3
+P101721,2023-03-14,2023-03-15,39,Male,Dhaka,General Medicine,Infection,Private,1,5550,No,5
+P101722,2024-01-07,2024-01-11,1,Female,Rangpur,Pediatrics,Respiratory,Private,4,19100,No,5
+P101723,2023-01-01,2023-01-08,68,Female,Rajshahi,Orthopedics,Joint disorder,Uninsured,7,55100,No,3
+P101724,2023-06-08,2023-06-20,47,Male,Rajshahi,Orthopedics,Fracture,Uninsured,12,93200,Yes,4
+P101725,2024-07-03,2024-07-08,38,Male,Chattogram,General Medicine,Gastrointestinal,Private,5,9200,No,5
+P101726,2024-01-03,2024-01-09,45,Female,Rajshahi,Cardiology,Cardiac,Uninsured,6,39550,No,4
+P101727,2024-05-19,2024-05-26,66,Male,Chattogram,Surgery,Hernia,Uninsured,7,95650,No,5
+P101728,2024-01-08,2024-01-14,48,Male,Chattogram,General Medicine,Respiratory,Employer,6,32400,No,4
+P101729,2024-02-01,2024-02-08,63,Male,Dhaka,Cardiology,Cardiac,Employer,7,75600,No,4
+P101730,2023-08-08,2023-08-19,69,Female,Chattogram,Surgery,Gastrointestinal,Uninsured,11,129500,No,2
+P101731,2023-06-09,2023-06-10,65,Male,Rangpur,General Medicine,Infection,Employer,1,6450,No,3
+P101732,2023-07-09,2023-07-15,18,Female,Dhaka,Obstetrics,Childbirth,Private,6,46300,No,5
+P101733,2024-08-05,2024-08-11,13,Male,Rangpur,General Medicine,Respiratory,Employer,6,21750,No,4
+P101734,2024-12-16,2024-12-27,28,Female,Rangpur,Surgery,Hernia,Employer,11,227750,No,3
+P101735,2023-03-01,2023-03-07,31,Female,Khulna,Obstetrics,Childbirth,Private,6,27350,No,5
+P101736,2024-01-28,2024-02-04,21,Male,Dhaka,Surgery,Hernia,Uninsured,7,58150,No,5
+P101737,2023-12-10,2023-12-15,56,Female,Rajshahi,General Medicine,Respiratory,Uninsured,5,18000,No,4
+P101738,2024-02-15,2024-02-22,60,Male,Rangpur,Orthopedics,Fracture,Uninsured,7,46350,No,2
+P101739,2023-06-20,2023-06-25,33,Female,Chattogram,Obstetrics,Pregnancy complication,Uninsured,5,27400,No,4
+P101740,2023-01-06,2023-01-10,38,Female,Chattogram,General Medicine,Diabetes-related,Private,4,19550,No,3
+P101741,2023-05-29,2023-06-03,12,Female,Chattogram,General Medicine,Infection,Uninsured,5,19850,No,4
+P101742,2023-05-13,2023-05-18,40,Female,Chattogram,General Medicine,Infection,Government scheme,5,19950,No,
+P101743,2023-02-08,2023-02-14,8,Male,Dhaka,Surgery,Gastrointestinal,Employer,6,73050,No,3
+P101744,2023-09-18,2023-09-21,4,Male,Dhaka,Pediatrics,Infection,Uninsured,3,5900,No,2
+P101745,2024-05-14,2024-05-22,0,Male,Khulna,Pediatrics,Respiratory,Private,8,19150,No,4
+P101746,2024-12-06,2024-12-09,33,Female,Rajshahi,Obstetrics,Pregnancy complication,Government scheme,3,16350,No,2
+P101747,2024-04-24,2024-05-01,63,Male,Dhaka,Orthopedics,Joint disorder,Private,7,45350,Yes,3
+P101748,2023-05-08,2023-05-14,84,Female,Mymensingh,Orthopedics,Fracture,Employer,6,45300,No,4
+P101749,2023-09-22,2023-10-01,69,Male,Chattogram,Cardiology,Hypertension-related,Uninsured,9,115050,Yes,3
+P101750,2023-08-10,2023-08-16,2,Female,Dhaka,Pediatrics,Gastrointestinal,Uninsured,6,20600,No,3
+P101751,2023-06-04,2023-06-10,58,Male,Dhaka,General Medicine,Diabetes-related,Uninsured,6,17250,No,4
+P101752,2024-12-23,2024-12-29,14,Male,Chattogram,Surgery,Appendicitis,Uninsured,6,59050,No,3
+P101753,2024-04-23,2024-04-30,18,Female,Rajshahi,Obstetrics,Childbirth,Uninsured,7,64400,No,4
+P101754,2023-12-18,2023-12-25,44,Male,Dhaka,Cardiology,Cardiac,Government scheme,7,92400,No,3
+P101755,2023-11-15,2023-11-22,7,Male,Rangpur,Pediatrics,Infection,Private,7,28450,No,4
+P101756,2023-08-21,2023-08-29,1,Male,Rangpur,General Medicine,Diabetes-related,Uninsured,8,21650,No,3
+P101757,2023-11-01,2023-11-06,41,Female,Chattogram,Surgery,Appendicitis,Uninsured,5,64800,No,4
+P101758,2024-04-08,2024-04-18,21,Female,Sylhet,Surgery,Gastrointestinal,Uninsured,10,132100,No,5
+P101759,2024-11-08,2024-11-17,44,Male,Khulna,Surgery,Injury,Uninsured,9,108700,No,4
+P101760,2023-12-29,2024-01-05,42,Male,Rangpur,Cardiology,Diabetes-related,Uninsured,7,54650,No,4
+P101761,2023-05-16,2023-05-18,50,Male,Dhaka,General Medicine,Infection,Uninsured,2,7300,No,3
+P101762,2024-11-29,2024-12-03,42,Male,Khulna,General Medicine,Diabetes-related,Government scheme,4,13650,No,4
+P101763,2023-08-18,2023-08-21,70,Male,Dhaka,General Medicine,Diabetes-related,Employer,3,9000,No,4
+P101764,2023-03-02,2023-03-06,42,Male,Dhaka,General Medicine,Respiratory,Uninsured,4,22500,No,4
+P101765,2024-02-02,2024-02-08,26,Female,Rangpur,General Medicine,Gastrointestinal,Government scheme,6,29900,No,4
+P101766,2024-07-31,2024-08-05,37,Male,Chattogram,Surgery,Appendicitis,Employer,5,55850,No,3
+P101767,2023-07-08,2023-07-14,15,Male,Rajshahi,General Medicine,Gastrointestinal,Uninsured,6,26200,No,
+P101768,2023-07-23,2023-07-28,50,Male,Dhaka,General Medicine,Respiratory,Uninsured,5,22050,No,3
+P101769,2023-07-31,2023-08-03,24,Female,Rangpur,Obstetrics,Pregnancy complication,Uninsured,3,32350,No,3
+P101770,2024-08-11,2024-08-12,5,Male,Chattogram,Pediatrics,Infection,Uninsured,1,4350,No,4
+P101771,2024-11-29,2024-12-04,34,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,5,36950,No,4
+P101772,2024-09-10,2024-09-14,9,Male,Khulna,Pediatrics,Respiratory,Private,4,14150,No,5
+P101773,2023-06-15,2023-06-17,29,Male,Dhaka,Surgery,Hernia,Uninsured,2,21550,No,5
+P101774,2024-09-11,2024-09-15,14,Male,Dhaka,Pediatrics,Infection,Uninsured,4,19800,No,3
+P101775,2023-08-15,2023-08-23,54,Female,Barishal,Orthopedics,Joint disorder,Uninsured,8,75350,No,4
+P101776,2024-09-24,2024-09-28,13,Male,Mymensingh,Pediatrics,Gastrointestinal,Uninsured,4,11400,No,5
+P101777,2024-12-24,2024-12-31,60,Male,Sylhet,Cardiology,Hypertension-related,Uninsured,7,70550,No,4
+P101778,2024-06-08,2024-06-17,63,Female,Dhaka,Cardiology,Cardiac,Uninsured,9,99850,No,3
+P101779,2024-11-28,2024-12-03,57,Male,Chattogram,Orthopedics,Joint disorder,Uninsured,5,23700,No,5
+P101780,2023-04-14,2023-04-19,63,Male,Sylhet,General Medicine,Respiratory,Uninsured,5,15900,No,4
+P101781,2024-04-23,2024-04-27,37,Female,Dhaka,Obstetrics,Childbirth,Government scheme,4,26300,No,4
+P101782,2023-02-07,2023-02-14,29,Female,Sylhet,General Medicine,Diabetes-related,Uninsured,7,17300,No,5
+P101783,2024-04-21,2024-04-26,61,Female,Rajshahi,General Medicine,Diabetes-related,Private,5,12850,No,5
+P101784,2023-09-06,2023-09-13,52,Female,Rangpur,General Medicine,Diabetes-related,Government scheme,7,26150,No,4
+P101785,2024-12-09,2024-12-13,20,Female,Chattogram,Obstetrics,Pregnancy complication,Uninsured,4,27150,No,3
+P101786,2023-12-28,2023-12-29,53,Female,Mymensingh,Cardiology,Hypertension-related,Uninsured,1,10300,No,3
+P101787,2024-07-10,2024-07-17,13,Female,Chattogram,Pediatrics,Gastrointestinal,Private,7,36400,No,5
+P101788,2023-08-09,2023-08-22,90,Female,Barishal,Surgery,Gastrointestinal,Uninsured,13,159250,No,4
+P101789,2023-02-24,2023-02-27,25,Female,Dhaka,General Medicine,Gastrointestinal,Government scheme,3,10950,No,4
+P101790,2024-06-25,2024-06-29,38,Female,Rajshahi,Obstetrics,Pregnancy complication,Government scheme,4,17300,No,5
+P101791,2023-06-11,2023-06-22,47,Male,Chattogram,Cardiology,Hypertension-related,Uninsured,11,89900,Yes,3
+P101792,2024-06-11,2024-06-21,77,Male,Dhaka,General Medicine,Infection,Uninsured,10,47750,No,5
+P101793,2023-12-06,2023-12-10,2,Female,Chattogram,Pediatrics,Gastrointestinal,Government scheme,4,16900,No,4
+P101794,2024-12-10,2024-12-12,59,Male,Dhaka,Surgery,Injury,Private,2,25650,No,5
+P101795,2023-09-15,2023-09-21,28,Male,Mymensingh,General Medicine,Respiratory,Uninsured,6,27500,No,4
+P101796,2023-10-20,2023-10-24,65,Female,Rangpur,Orthopedics,Fracture,Government scheme,4,44050,No,4
+P101797,2024-06-24,2024-07-01,47,Female,Sylhet,General Medicine,Respiratory,Uninsured,7,28550,No,4
+P101798,2024-07-27,2024-08-02,50,Female,Rajshahi,Orthopedics,Fracture,Employer,6,67550,No,4
+P101799,2023-04-02,2023-04-06,11,Male,Dhaka,Pediatrics,Infection,Government scheme,4,11650,No,3
+P101800,2024-06-25,2024-06-30,14,Male,Chattogram,Pediatrics,Respiratory,Uninsured,5,17200,No,3
+P101801,2023-12-25,2023-12-29,10,Male,Dhaka,Pediatrics,Infection,Uninsured,4,12400,No,4
+P101802,2024-12-22,2024-12-30,46,Male,Rajshahi,General Medicine,Infection,Uninsured,8,39000,No,3
+P101803,2024-04-05,2024-04-11,10,Female,Rangpur,Pediatrics,Infection,Government scheme,6,16300,No,3
+P101804,2024-07-18,2024-07-20,1,Male,Dhaka,Pediatrics,Infection,Uninsured,2,6450,No,4
+P101805,2023-09-09,2023-09-14,7,Male,Dhaka,Pediatrics,Gastrointestinal,Uninsured,5,11000,No,4
+P101806,2023-07-27,2023-07-30,50,Male,Dhaka,General Medicine,Respiratory,Private,3,13900,No,4
+P101807,2024-07-27,2024-08-04,61,Female,Rajshahi,Cardiology,Diabetes-related,Uninsured,8,98350,No,5
+P101808,2023-01-12,2023-01-19,58,Male,Dhaka,Cardiology,Hypertension-related,Uninsured,7,79100,No,4
+P101809,2024-02-28,2024-03-01,29,Male,Chattogram,General Medicine,Respiratory,Government scheme,2,9800,No,5
+P101810,2024-12-07,2024-12-11,75,Female,Dhaka,General Medicine,Gastrointestinal,Uninsured,4,19750,No,4
+P101811,2024-12-24,2025-01-02,43,Female,Dhaka,Cardiology,Cardiac,Private,9,96500,Yes,4
+P101812,2024-06-06,2024-06-09,18,Female,Barishal,Obstetrics,Pregnancy complication,Uninsured,3,21000,No,4
+P101813,2023-12-30,2024-01-01,35,Female,Mymensingh,General Medicine,Respiratory,Uninsured,2,9500,No,3
+P101814,2024-08-16,2024-08-22,22,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,6,30550,No,5
+P101815,2023-01-11,2023-01-23,82,Male,Dhaka,Orthopedics,Joint disorder,Uninsured,12,91300,No,3
+P101816,2024-08-02,2024-08-03,38,Female,Chattogram,Obstetrics,Pregnancy complication,Employer,1,6100,Yes,2
+P101817,2023-05-19,2023-05-26,47,Female,Sylhet,Orthopedics,Joint disorder,Uninsured,7,51500,No,3
+P101818,2024-06-21,2024-06-29,44,Male,Rajshahi,Orthopedics,Joint disorder,Uninsured,8,43250,No,2
+P101819,2023-09-12,2023-09-15,6,Female,Khulna,Pediatrics,Gastrointestinal,Employer,3,7700,No,3
+P101820,2024-07-02,2024-07-09,48,Female,Rajshahi,Surgery,Hernia,Uninsured,7,88950,No,3
+P101821,2024-03-16,2024-03-20,38,Female,Mymensingh,Orthopedics,Joint disorder,Employer,4,40150,No,4
+P101822,2024-11-09,2024-11-20,51,Female,Dhaka,Orthopedics,Joint disorder,Uninsured,11,88200,No,2
+P101823,2024-07-28,2024-08-03,9,Male,Dhaka,Pediatrics,Infection,Uninsured,6,41900,No,5
+P101824,2024-10-29,2024-11-03,41,Female,Chattogram,Obstetrics,Pregnancy complication,Uninsured,5,23850,No,2
+P101825,2023-04-21,2023-04-29,46,Female,Rajshahi,General Medicine,Respiratory,Uninsured,8,35750,No,4
+P101826,2023-10-04,2023-10-09,50,Male,Dhaka,Orthopedics,Joint disorder,Employer,5,55250,No,4
+P101827,2023-11-16,2023-11-22,37,Female,Rangpur,Orthopedics,Joint disorder,Employer,6,62650,No,5
+P101828,2023-01-23,2023-01-29,63,Male,Barishal,Surgery,Appendicitis,Private,6,84800,No,4
+P101829,2023-01-17,2023-01-24,39,Male,Mymensingh,Orthopedics,Joint disorder,Uninsured,7,73200,No,5
+P101830,2023-01-29,2023-02-07,69,Male,Mymensingh,Orthopedics,Joint disorder,Uninsured,9,73000,Yes,3
+P101831,2024-07-14,2024-07-23,27,Male,Rajshahi,Surgery,Hernia,Uninsured,9,163650,No,3
+P101832,2023-11-23,2023-11-29,80,Female,Rangpur,Orthopedics,Joint disorder,Uninsured,6,66150,No,4
+P101833,2024-07-02,2024-07-07,56,Male,Sylhet,General Medicine,Diabetes-related,Uninsured,5,16150,No,5
+P101834,2024-09-01,2024-09-05,21,Male,Chattogram,General Medicine,Diabetes-related,,4,17350,No,5
+P101835,2023-01-27,2023-02-06,23,Female,Khulna,General Medicine,Gastrointestinal,Uninsured,10,27150,No,4
+P101836,2024-09-10,2024-09-18,54,Female,Mymensingh,General Medicine,Gastrointestinal,,8,46800,No,4
+P101837,2023-06-14,2023-06-20,54,Male,Sylhet,Cardiology,Cardiac,Uninsured,6,57100,No,4
+P101838,2023-10-23,2023-10-27,31,Female,Barishal,Obstetrics,Childbirth,Uninsured,4,33600,No,4
+P101839,2024-12-03,2024-12-05,21,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,2,11700,No,5
+P101840,2023-08-09,2023-08-18,67,Female,Rangpur,General Medicine,Infection,Private,9,22650,No,3
+P101841,2024-11-17,2024-11-21,47,Female,Chattogram,Orthopedics,Joint disorder,Private,4,61850,No,4
+P101842,2024-01-05,2024-01-08,43,Female,Khulna,General Medicine,Respiratory,Uninsured,3,12400,No,4
+P101843,2023-01-10,2023-01-18,61,Male,Barishal,Surgery,Gastrointestinal,Employer,8,74750,No,4
+P101844,2024-08-30,2024-09-05,58,Female,Rajshahi,General Medicine,Diabetes-related,Private,6,31950,No,2
+P101845,2023-02-02,2023-02-06,11,Male,Dhaka,Pediatrics,Gastrointestinal,Uninsured,4,23300,No,4
+P101846,2024-04-09,2024-04-13,53,Male,Barishal,Cardiology,Hypertension-related,Uninsured,4,34200,No,5
+P101847,2023-12-01,2023-12-06,9,Female,Dhaka,Pediatrics,Gastrointestinal,Employer,5,17050,No,3
+P101848,2023-04-13,2023-04-18,33,Female,Dhaka,Cardiology,Hypertension-related,Uninsured,5,47750,No,4
+P101849,2024-01-11,2024-01-16,33,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,5,22700,No,5
+P101850,2023-09-22,2023-09-26,57,Male,Khulna,General Medicine,Infection,Uninsured,4,13450,No,4
+P101851,2023-03-13,2023-03-21,20,Female,Dhaka,Surgery,Gastrointestinal,Uninsured,8,149900,Yes,2
+P101852,2024-02-10,2024-02-21,62,Male,Chattogram,Orthopedics,Joint disorder,Government scheme,11,85150,No,2
+P101853,2023-02-02,2023-02-06,32,Female,Rangpur,Obstetrics,Childbirth,Government scheme,4,19450,No,4
+P101854,2024-01-28,2024-02-05,22,Female,Rajshahi,Obstetrics,Pregnancy complication,Government scheme,8,42850,No,3
+P101855,2023-06-14,2023-06-22,43,Female,Rangpur,Surgery,Hernia,Private,8,125550,No,4
+P101856,2024-08-29,2024-09-01,62,Male,Rajshahi,General Medicine,Respiratory,Private,3,7300,No,4
+P101857,2024-11-24,2024-11-30,18,Male,Dhaka,General Medicine,Infection,Uninsured,6,25600,No,5
+P101858,2024-11-11,2024-11-18,37,Male,Sylhet,General Medicine,Infection,Employer,7,51800,No,3
+P101859,2024-11-15,2024-11-20,45,Female,Chattogram,General Medicine,Infection,Uninsured,5,33250,No,4
+P101860,2023-03-15,2023-03-17,3,Female,Mymensingh,Pediatrics,Respiratory,Uninsured,2,8100,Yes,4
+P101861,2024-01-08,2024-01-17,27,Female,Dhaka,Surgery,Injury,Employer,9,150100,No,4
+P101862,2023-06-13,2023-06-19,70,Female,Rangpur,Surgery,Gastrointestinal,Employer,6,99800,No,4
+P101863,2023-03-12,2023-03-25,70,Male,Rajshahi,Orthopedics,Fracture,Uninsured,13,100800,No,1
+P101864,2023-10-14,2023-10-20,2,Female,Rangpur,Pediatrics,Gastrointestinal,Uninsured,6,26450,No,
+P101865,2023-11-10,2023-11-21,77,Female,Dhaka,Surgery,Appendicitis,Uninsured,11,206450,No,3
+P101866,2023-08-05,2023-08-13,12,Female,Khulna,Surgery,Hernia,Private,8,70000,No,5
+P101867,2023-03-25,2023-03-30,41,Female,Dhaka,General Medicine,Infection,Uninsured,5,23100,No,5
+P101868,2023-10-26,2023-11-02,63,Female,Rangpur,Orthopedics,Fracture,Uninsured,7,61300,No,4
+P101869,2023-04-24,2023-05-01,22,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,7,43100,No,4
+P101870,2023-01-30,2023-02-04,45,Female,Chattogram,Cardiology,Diabetes-related,Employer,5,45150,No,5
+P101871,2023-11-26,2023-11-29,62,Male,Khulna,Cardiology,Diabetes-related,Employer,3,28600,No,
+P101872,2023-02-18,2023-02-25,19,Female,Rajshahi,Surgery,Gastrointestinal,Employer,7,90900,No,4
+P101873,2024-12-06,2024-12-16,55,Male,Sylhet,Surgery,Injury,Government scheme,10,158700,No,5
+P101874,2024-09-04,2024-09-13,63,Female,Barishal,Surgery,Appendicitis,Uninsured,9,121650,No,3
+P101875,2024-11-06,2024-11-09,36,Female,Dhaka,Obstetrics,Childbirth,Uninsured,3,17200,No,3
+P101876,2023-03-16,2023-03-17,4,Female,Sylhet,General Medicine,Gastrointestinal,Uninsured,1,3250,No,4
+P101877,2023-12-06,2023-12-12,44,Male,Chattogram,Cardiology,Hypertension-related,Uninsured,6,48000,Yes,3
+P101878,2024-08-24,2024-09-01,65,Female,Khulna,Orthopedics,Fracture,Private,8,68300,Yes,2
+P101879,2024-02-25,2024-02-29,58,Male,Dhaka,Orthopedics,Joint disorder,Uninsured,4,26800,No,3
+P101880,2023-08-12,2023-08-17,20,Male,Chattogram,Orthopedics,Fracture,Employer,5,50650,No,4
+P101881,2024-08-30,2024-09-02,4,Female,Rangpur,Pediatrics,Gastrointestinal,Uninsured,3,11700,No,4
+P101882,2023-08-14,2023-08-25,75,Female,Mymensingh,Cardiology,Diabetes-related,Uninsured,11,131750,No,3
+P101883,2024-12-11,2024-12-15,27,Female,Mymensingh,Obstetrics,Pregnancy complication,Government scheme,4,20450,No,4
+P101884,2023-03-15,2023-03-18,46,Male,Barishal,Cardiology,Cardiac,Private,3,21950,No,4
+P101885,2024-05-30,2024-06-04,71,Female,Dhaka,Cardiology,Hypertension-related,Uninsured,5,59800,No,5
+P101886,2023-01-10,2023-01-14,28,Female,Rajshahi,General Medicine,Diabetes-related,Private,4,16550,No,3
+P101887,2024-10-29,2024-11-07,28,Male,Dhaka,General Medicine,Gastrointestinal,Private,9,34200,No,4
+P101888,2023-09-17,2023-09-21,49,Female,Barishal,Surgery,Gastrointestinal,Uninsured,4,57150,No,3
+P101889,2023-01-15,2023-01-19,82,Male,Dhaka,Cardiology,Cardiac,Uninsured,4,42450,Yes,3
+P101890,2024-09-01,2024-09-03,74,Female,Mymensingh,General Medicine,Gastrointestinal,Employer,2,5850,No,5
+P101891,2024-12-07,2024-12-08,39,Female,Dhaka,Obstetrics,Pregnancy complication,Uninsured,1,8500,No,3
+P101892,2024-11-02,2024-11-11,63,Male,Dhaka,Orthopedics,Fracture,Uninsured,9,65000,No,3
+P101893,2023-12-21,2023-12-27,51,Male,Rangpur,General Medicine,Respiratory,Uninsured,6,36700,No,3
+P101894,2023-02-14,2023-02-24,69,Female,Dhaka,Cardiology,Cardiac,Uninsured,10,64500,No,3
+P101895,2023-06-16,2023-06-21,16,Female,Dhaka,General Medicine,Respiratory,Employer,5,21650,No,4
+P101896,2023-01-23,2023-01-26,5,Male,Rajshahi,Pediatrics,Gastrointestinal,Uninsured,3,10000,Yes,5
+P101897,2023-02-02,2023-02-09,35,Female,Mymensingh,General Medicine,Gastrointestinal,Government scheme,7,17100,Yes,4
+P101898,2023-04-26,2023-05-04,54,Female,Dhaka,General Medicine,Respiratory,Government scheme,8,37700,Yes,3
+P101899,2024-02-16,2024-02-23,27,Female,Chattogram,General Medicine,Diabetes-related,Uninsured,7,17300,No,3
+P101900,2024-07-13,2024-07-17,13,Female,Dhaka,Pediatrics,Gastrointestinal,Government scheme,4,13000,No,3
+P101901,2024-03-02,2024-03-07,48,Male,Rajshahi,General Medicine,Gastrointestinal,Employer,5,26350,No,2
+P101902,2023-05-30,2023-06-04,38,Female,Chattogram,Obstetrics,Pregnancy complication,Employer,5,26300,No,5
+P101903,2024-03-15,2024-03-19,52,Female,Khulna,General Medicine,Respiratory,Private,4,12750,No,5
+P101904,2023-06-18,2023-06-23,4,Male,Rajshahi,Pediatrics,Infection,Uninsured,5,21400,No,4
+P101905,2023-12-03,2023-12-08,59,Male,Mymensingh,Cardiology,Cardiac,Uninsured,5,42300,No,4
+P101906,2024-10-10,2024-10-16,18,Male,Barishal,Cardiology,Hypertension-related,Uninsured,6,48800,No,5
+P101907,2023-04-09,2023-04-15,45,Female,Barishal,General Medicine,Respiratory,Private,6,33000,No,4
+P101908,2024-09-30,2024-10-04,34,Female,Rajshahi,Obstetrics,Pregnancy complication,Uninsured,4,17950,No,5
+P101909,2023-07-17,2023-07-30,50,Female,Chattogram,Surgery,Appendicitis,Private,13,139050,No,3
+P101910,2024-05-04,2024-05-10,39,Male,Chattogram,General Medicine,Gastrointestinal,Government scheme,6,29800,No,4
+P101911,2023-07-10,2023-07-18,74,Male,Rajshahi,General Medicine,Infection,Uninsured,8,23500,No,3
+P101912,2023-04-30,2023-05-08,48,Female,Dhaka,Surgery,Appendicitis,Employer,8,149650,Yes,4
+P101913,2023-11-25,2023-12-07,64,Male,Dhaka,Orthopedics,Joint disorder,Uninsured,12,90950,No,2
+P101914,2023-10-06,2023-10-10,62,Female,Chattogram,General Medicine,Infection,Uninsured,4,19900,No,5
+P101915,2024-01-06,2024-01-10,49,Male,Dhaka,General Medicine,Respiratory,Government scheme,4,19900,No,4
+P101916,2023-06-22,2023-06-23,1,Male,Dhaka,Pediatrics,Gastrointestinal,Uninsured,1,3350,No,5
+P101917,2024-12-15,2024-12-20,18,Female,Rajshahi,Obstetrics,Childbirth,Uninsured,5,26600,No,4
+P101918,2024-05-05,2024-05-11,7,Female,Sylhet,Pediatrics,Infection,Employer,6,20800,No,3
+P101919,2024-09-05,2024-09-11,1,Female,Dhaka,Surgery,Hernia,Employer,6,86050,No,4
+P101920,2024-07-23,2024-08-03,51,Male,Sylhet,Orthopedics,Fracture,Government scheme,11,68750,No,5
+P101921,2024-06-12,2024-06-21,68,Female,Dhaka,Cardiology,Diabetes-related,Uninsured,9,59950,No,3
+P101922,2023-04-14,2023-04-20,53,Female,Mymensingh,Orthopedics,Joint disorder,Uninsured,6,69550,No,
+P101923,2024-03-05,2024-03-15,69,Female,Rajshahi,Cardiology,Diabetes-related,Uninsured,10,74900,No,2
+P101924,2024-10-17,2024-10-22,44,Female,Rajshahi,General Medicine,Gastrointestinal,Uninsured,5,21850,No,4
+P101925,2023-03-12,2023-03-16,67,Male,Khulna,General Medicine,Gastrointestinal,Employer,4,15200,No,5
+P101926,2023-12-04,2023-12-10,53,Female,Rajshahi,Cardiology,Diabetes-related,,6,51900,Yes,3
+P101927,2023-05-15,2023-05-18,13,Female,Chattogram,Pediatrics,Gastrointestinal,Government scheme,3,15000,Yes,4
+P101928,2024-08-03,2024-08-08,52,Male,Chattogram,General Medicine,Respiratory,Uninsured,5,19600,No,4
+P101929,2024-11-10,2024-11-19,79,Male,Mymensingh,Cardiology,Diabetes-related,Uninsured,9,74100,No,5
+P101930,2023-02-07,2023-02-10,11,Female,Rangpur,Pediatrics,Infection,Uninsured,3,9800,No,5
+P101931,2024-08-07,2024-08-09,11,Female,Rajshahi,Pediatrics,Respiratory,Uninsured,2,6150,No,4
+P101932,2023-09-21,2023-09-24,26,Female,Rangpur,Obstetrics,Pregnancy complication,Uninsured,3,15200,Yes,5
+P101933,2024-12-04,2024-12-05,39,Female,Dhaka,Obstetrics,Childbirth,Employer,1,5300,No,5
+P101934,2023-01-11,2023-01-15,5,Female,Rajshahi,Pediatrics,Infection,Private,4,21200,No,3
+P101935,2023-05-20,2023-05-25,38,Male,Rajshahi,General Medicine,Infection,Private,5,23900,No,4
+P101936,2024-06-08,2024-06-17,69,Male,Chattogram,Orthopedics,Fracture,Uninsured,9,66050,No,3
+P101937,2024-07-22,2024-07-24,12,Female,Mymensingh,Pediatrics,Respiratory,Government scheme,2,8950,No,
+P101938,2023-02-27,2023-03-04,46,Female,Rangpur,General Medicine,Gastrointestinal,Private,5,13450,No,5
+P101939,2023-04-27,2023-05-04,36,Male,Rangpur,General Medicine,Infection,Uninsured,7,39500,No,4
+P101940,2023-09-04,2023-09-08,57,Male,Khulna,General Medicine,Respiratory,Private,4,22100,No,5
+P101941,2023-01-26,2023-01-28,70,Male,Chattogram,Orthopedics,Joint disorder,Employer,2,28000,No,5
+P101942,2024-07-24,2024-08-02,52,Male,Sylhet,Cardiology,Diabetes-related,Employer,9,104300,No,2
+P101943,2024-05-03,2024-05-06,48,Female,Dhaka,General Medicine,Gastrointestinal,Employer,3,13400,No,2
+P101944,2024-06-30,2024-07-06,20,Female,Rangpur,Obstetrics,Childbirth,Uninsured,6,49700,No,5
+P101945,2023-12-09,2023-12-20,65,Male,Dhaka,Surgery,Hernia,Uninsured,11,112900,No,5
+P101946,2024-04-12,2024-04-20,79,Male,Rangpur,General Medicine,Gastrointestinal,Uninsured,8,29000,No,4
+P101947,2024-02-23,2024-03-04,56,Female,Barishal,Surgery,Gastrointestinal,Uninsured,10,118100,No,4
+P101948,2024-05-21,2024-05-23,42,Female,Dhaka,General Medicine,Respiratory,Uninsured,2,11250,No,5
+P101949,2023-11-25,2023-12-03,40,Female,Dhaka,Surgery,Gastrointestinal,Uninsured,8,77500,No,5
+P101950,2024-04-20,2024-04-27,53,Male,Rajshahi,Surgery,Injury,Private,7,66050,No,4
+P101951,2024-04-16,2024-04-20,39,Female,Chattogram,General Medicine,Infection,Uninsured,4,16950,No,5
+P101952,2024-04-13,2024-04-18,35,Female,Rangpur,Obstetrics,Pregnancy complication,Private,5,35900,No,4
+P101953,2024-09-28,2024-10-04,20,Female,Dhaka,Surgery,Appendicitis,Employer,6,60400,No,4
+P101954,2023-09-13,2023-09-22,67,Female,Chattogram,Surgery,Hernia,Uninsured,9,127700,No,4
+P101955,2024-10-03,2024-10-07,19,Female,Dhaka,Surgery,Appendicitis,Uninsured,4,67600,No,3
+P101956,2023-01-21,2023-01-29,51,Male,Dhaka,Orthopedics,Joint disorder,Private,8,86400,No,3
+P101957,2023-12-21,2023-12-24,43,Female,Dhaka,General Medicine,Infection,Uninsured,3,13100,No,5
+P101958,2023-11-19,2023-11-22,24,Female,Rangpur,Obstetrics,Pregnancy complication,Uninsured,3,17600,No,3
+P101959,2024-09-25,2024-10-01,0,Female,Barishal,Pediatrics,Gastrointestinal,Employer,6,32400,No,4
+P101960,2023-02-03,2023-02-09,9,Male,Mymensingh,Pediatrics,Gastrointestinal,Uninsured,6,21100,No,4
+P101961,2023-06-08,2023-06-13,52,Female,Chattogram,Cardiology,Hypertension-related,Private,5,56950,No,4
+P101962,2023-12-09,2023-12-10,2,Female,Dhaka,Pediatrics,Gastrointestinal,Employer,1,5700,Yes,5
+P101963,2024-08-18,2024-08-24,30,Male,Dhaka,General Medicine,Diabetes-related,Uninsured,6,29550,No,4
+P101964,2023-12-05,2023-12-09,25,Female,Rajshahi,Obstetrics,Pregnancy complication,Private,4,18700,No,3
+P101965,2024-04-11,2024-04-19,75,Male,Dhaka,General Medicine,Respiratory,Uninsured,8,23500,No,4
+P101966,2023-05-11,2023-05-16,33,Female,Dhaka,Obstetrics,Childbirth,Uninsured,5,27850,No,3
+P101967,2024-11-19,2024-11-21,23,Female,Khulna,Obstetrics,Childbirth,Uninsured,2,14350,No,5
+P101968,2024-07-26,2024-07-30,43,Male,Dhaka,Orthopedics,Fracture,Private,4,35750,No,4
+P101969,2023-02-01,2023-02-09,95,Male,Rajshahi,Orthopedics,Joint disorder,Private,8,111100,No,3
+P101970,2024-05-29,2024-06-08,66,Female,Khulna,Cardiology,Diabetes-related,Employer,10,100350,No,4
+P101971,2023-04-05,2023-04-15,19,Male,Barishal,Surgery,Hernia,Private,10,110550,No,3
+P101972,2024-02-13,2024-02-17,26,Female,Chattogram,Obstetrics,Pregnancy complication,Uninsured,4,18100,No,4
+P101973,2024-06-01,2024-06-04,58,Male,Barishal,Cardiology,Hypertension-related,Government scheme,3,36250,No,4
+P101974,2024-11-06,2024-11-11,58,Female,Chattogram,General Medicine,Gastrointestinal,Uninsured,5,19950,No,3
+P101975,2023-02-21,2023-02-26,78,Female,Dhaka,General Medicine,Infection,Government scheme,5,13700,No,3
+P101976,2023-07-29,2023-08-10,63,Female,Chattogram,Orthopedics,Fracture,Uninsured,12,96550,No,5
+P101977,2024-05-18,2024-05-25,31,Male,Dhaka,Surgery,Gastrointestinal,Government scheme,7,65500,No,4
+P101978,2023-07-11,2023-07-14,21,Female,Rajshahi,Obstetrics,Childbirth,Employer,3,16200,No,4
+P101979,2024-06-04,2024-06-08,57,Female,Sylhet,General Medicine,Diabetes-related,Uninsured,4,16000,No,3
+P101980,2023-05-14,2023-05-22,28,Female,Sylhet,Surgery,Gastrointestinal,Uninsured,8,76550,No,4
+P101981,2023-04-30,2023-05-12,43,Female,Dhaka,Cardiology,Hypertension-related,Uninsured,12,95600,No,3
+P101982,2024-02-02,2024-02-08,6,Female,Dhaka,Surgery,Gastrointestinal,Uninsured,6,59800,Yes,3
+P101983,2024-05-18,2024-05-23,10,Female,Dhaka,General Medicine,Infection,Uninsured,5,16700,No,4
+P101984,2023-05-30,2023-06-04,13,Male,Mymensingh,Pediatrics,Infection,,5,13600,No,4
+P101985,2024-09-29,2024-10-06,18,Male,Chattogram,Surgery,Hernia,Uninsured,7,74450,No,3
+P101986,2024-09-26,2024-09-29,48,Female,Chattogram,General Medicine,Respiratory,Uninsured,3,9600,No,3
+P101987,2023-03-01,2023-03-05,1,Female,Dhaka,Pediatrics,Infection,Government scheme,4,16200,No,4
+P101988,2023-08-11,2023-08-19,18,Female,Sylhet,Surgery,Appendicitis,Private,8,100950,No,3
+P101989,2024-02-10,2024-02-14,1,Female,Rajshahi,General Medicine,Respiratory,Uninsured,4,21550,No,3
+P101990,2023-12-25,2024-01-01,21,Male,Dhaka,General Medicine,Diabetes-related,Employer,7,44850,No,4
+P101991,2023-07-06,2023-07-10,3,Male,Rajshahi,Pediatrics,Respiratory,Employer,4,16600,Yes,5
+P101992,2024-01-22,2024-01-28,49,Female,Barishal,Cardiology,Hypertension-related,Employer,6,60400,Yes,5
+P101993,2024-12-03,2024-12-11,72,Female,Rajshahi,General Medicine,Infection,Uninsured,8,38500,No,5
+P101994,2023-08-13,2023-08-21,49,Male,Mymensingh,Orthopedics,Fracture,Uninsured,8,71900,No,3
+P101995,2023-06-09,2023-06-10,31,Female,Rangpur,Obstetrics,Pregnancy complication,Uninsured,1,6100,No,5
+P101996,2024-06-23,2024-06-26,59,Female,Rajshahi,General Medicine,Infection,Employer,3,11900,No,4
+P101997,2024-02-21,2024-02-26,57,Female,Mymensingh,Cardiology,Hypertension-related,Employer,5,34850,No,5
+P101998,2024-05-20,2024-05-26,38,Female,Rangpur,Obstetrics,Pregnancy complication,Government scheme,6,44400,No,4
+P101999,2024-04-16,2024-04-24,46,Male,Chattogram,Orthopedics,Fracture,Uninsured,8,63500,No,
+P101860,2023-03-15,2023-03-17,3,Female,Mymensingh,Pediatrics,Respiratory,Uninsured,2,8100,Yes,4
+P100353,2023-12-07,2023-12-14,3,Male,Barishal,Pediatrics,Respiratory,Government scheme,7,18400,Yes,4
+P101333,2023-02-18,2023-02-25,70,Female,Rajshahi,Surgery,Appendicitis,Uninsured,7,87800,No,5
+P100905,2023-07-15,2023-07-17,7,Female,Khulna,Pediatrics,Respiratory,Uninsured,2,8450,Yes,4
+P101289,2023-03-21,2023-03-30,47,Male,Dhaka,Orthopedics,Fracture,Government scheme,9,63450,No,2
+P101273,2023-05-09,2023-05-14,10,Male,Rajshahi,Pediatrics,Infection,Uninsured,5,22800,No,3
+P100938,2023-10-21,2023-10-26,46,Male,Dhaka,Surgery,Gastrointestinal,Government scheme,5,64200,No,5
+P101731,2023-06-09,2023-06-10,65,Male,Rangpur,General Medicine,Infection,Employer,1,6450,No,3
+P100065,2024-06-09,2024-06-15,39,Male,Dhaka,Orthopedics,Fracture,Employer,6,52300,No,5
+P101323,2024-05-13,2024-05-18,18,Female,Sylhet,Obstetrics,Pregnancy complication,Private,5,22200,No,4

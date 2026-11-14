@@ -14,8 +14,9 @@ A dataset description should include its title, source, number of rows and colum
 ## Dataset Catalog
 | Dataset | Source / attribution | License | Rows x columns | Used in | Status |
 |---|---|---|---|---|---|
-| Drug addiction in Bangladesh – Reasons | Mostafa Mohiuddin Jalal Protik | To be verified | 1,426 x 26 (as reported; verify after loading) | [Drug Addiction in Bangladesh](../Projects/drug-addiction-bangladesh/) | Not committed; add a permitted copy locally |
-| Public healthcare dataset (Kaggle) | To be added | To be verified | To be filled | [Healthcare Dashboard](../Projects/healthcare-dashboard/) | Not yet added |
+| Drug addiction in Bangladesh – Reasons (original) | Mostafa Mohiuddin Jalal Protik (Kaggle) | To be verified | 1,426 x 26 (as reported; verify after loading) | [Drug Addiction in Bangladesh](../Projects/drug-addiction-bangladesh/) | Original not recovered or committed |
+| Synthetic drug-addiction practice data | Simulated (seed 20261112) | Own work, simulated | 1,426 x 26 | [Drug Addiction in Bangladesh](../Projects/drug-addiction-bangladesh/) | Committed; not real data |
+| [Synthetic healthcare admissions](synthetic-healthcare/) | Simulated (seed 42) | Own work, simulated | 2,010 x 13 | [Healthcare Dashboard](../Projects/healthcare-dashboard/) | Committed; not real data |
 
 Update this table whenever a dataset is added, and confirm its license before sharing any copy.
 
